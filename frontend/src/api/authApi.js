@@ -1,6 +1,6 @@
 import axios from 'axios'
-
-const API_BASE_URL = 'http://localhost:8000';
+const base_url = import.meta.env.VITE_BASE_URL
+const API_BASE_URL = `http://${base_url}`;
 
 export async function signupAxios(context) {
   try {
