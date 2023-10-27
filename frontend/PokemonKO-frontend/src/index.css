@@ -1,0 +1,503 @@
+@font-face {
+    font-family: 'Pokemon GB';
+    src: url('./fonts/pokemon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('./fonts/Pokemon Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'firered';
+  src: url('./fonts/firered.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Essentiarum';
+    src: url('./fonts/Essentiarum Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('./fonts/Baloo2-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pokemon-type-icon {
+    font-family: 'Essentiarum', sans-serif; /* Use the custom font */
+    font-size: 40px; /* Set the desired font size */
+}
+
+.pokeball {
+  font-family: 'Essentiarum', sans-serif; /* Use the custom font */
+  font-size: 20px; /* Set the desired font size */
+}
+
+.pokeball-attack {
+  font-family: 'Essentiarum', sans-serif; /* Use the custom font */
+  font-size: 80px; /* Set the desired font size */
+}
+
+.app-text {
+    font-family: 'Baloo 2', sans-serif; 
+    color: #cacfcd
+}
+
+.item-button-text {
+  font-family: 'Baloo 2', sans-serif; 
+  color: #cacfcd;
+  font-size: 1.2rem;
+}
+
+.pokemon-type-input {
+  font-family: 'Baloo 2', sans-serif; 
+  color: #cacfcd;
+  font-size: 1.1rem;
+}
+
+#custom-popover {
+  background-color: #cacfcd;  /* Change to the desired color */
+  border-radius: 15px;     /* Adjust the border radius */
+  /* Add other custom styles as needed */
+}
+
+
+#centered-container {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.icon-background {
+  color: #DDDBCB
+}
+/* 
+div:hover > .bar {
+  visibility: visible !important;
+} */
+
+.grass {
+    color: #4caf50; /* Green */
+  }
+  
+.fire {
+    color: #ff5722; /* Red */
+  }
+  
+.water {
+    color: #009FFD; /* Blue */
+  }
+
+.electric {
+    color: #ffeb3b; /* Yellow */
+  }
+  
+.psychic {
+    color: #7D5BA6; /* Pink */
+  }
+  
+.dark {
+    color: #424242; /* Dark Gray */
+  }
+.fighting {
+    color: #ff5722; /* Deep Orange */
+  }
+.steel {
+    color: #607d8b; /* Steel Gray */
+  }
+  
+.dragon {
+    color: #F2AF29 /* Purple */
+  }
+  
+.fairy {
+    color: #ff4081; /* Light Pink */
+  }
+  
+.normal {
+    color: #9e9e9e; /* Light Gray */
+  }
+  
+.flying {
+    color: #03a9f4; /* Sky Blue */
+  }
+  
+.poison {
+    color: #DDD92A; /* Dark Purple */
+  }
+  
+.ground {
+    color: #795548; /* Brown */
+  }
+  
+.rock {
+    color: #716A5C; /* Light Green */
+  }
+  
+.bug {
+    color: #4caf50; /* Green */
+  }
+  
+.ghost {
+    color: #607d8b; /* Steel Gray */
+  }
+  
+.ice {
+    color: #03a9f4; /* Sky Blue */
+  }
+
+  #sign-in {
+    font-family:'Baloo 2';
+    color:'#cacfcd';
+    font-size:4.5rem;
+  }
+
+  .sign-in-log-in {
+    font-family:'Baloo 2';
+    color:'#cacfcd';
+    font-size:1.5rem;
+  }
+
+#logout {
+    margin-left: auto;
+    height:38px;
+  }
+
+
+
+  .battle-background {
+    background-color: #ffffff; /* White background */
+  }
+
+  .gameboy-dialogue-container {
+    position: absolute;
+  bottom: 20px; /* Adjust as needed for desired distance from the bottom */
+  left: 0px; /* Adjust as needed for desired distance from the left */
+    width: 70%; /* Adjust the desired width */
+    height: 200px; /* Adjust the desired height */
+    margin-bottom: 28px; /* Add margin bottom */; /* Add margin left */
+  }
+  
+  .gameboy-dialogue-box {
+    width: 100%;
+    height:100%;
+    background-color: #cacfcd; /* Off-white color */
+    border: 2px solid #000; /* Black border */
+    border-radius: 3px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid white;
+    border-width: 6px;
+  box-shadow: 0 4px 0 4px black,
+              inset 0 6px 0 6px black,
+              0 0 0 6px black,
+              inset 0 0 0 8px black;
+  }
+
+  .gameboy-menu-container {
+    position: absolute;
+  bottom: 20px; /* Adjust as needed for desired distance from the bottom */
+  left: 75%; /* Adjust as needed for desired distance from the left */
+    width: 400px; /* Adjust the desired width */
+    height: 200px; /* Adjust the desired height */
+    margin-bottom: 28px; /* Add margin bottom */; /* Add margin left */
+    
+   
+  }
+  
+  .gameboy-menu-box {
+    width: 100%;
+    height:100%;
+    background-color: #cacfcd; /* Off-white color */
+    border: 2px solid #000; /* Black border */
+    border-radius: 3px;
+    padding:35px 55px 25px 55px;
+    margin: 20px;
+    border: 2px solid white;
+    border-width: 6px;
+  box-shadow: 0 4px 0 4px black,
+              inset 0 6px 0 6px black,
+              0 0 0 6px black,
+              inset 0 0 0 8px black;
+  }
+
+.gameboy-moves-container {
+    position:absolute;
+    bottom:241px;
+    left:6px;
+    height:535px;
+    width:475px;
+    background-color: #cacfcd;
+    border: 2px solid #000;
+    border-radius: 3px;
+    margin: 20px;
+    border: 2px solid white;
+    border-width: 6px;
+    box-shadow: 0 4px 0 4px black,
+              inset 0 6px 0 6px black,
+              0 0 0 6px black,
+              inset 0 0 0 8px black;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:6px;
+  }
+
+  .gameboy-move-container {
+    width: 100%; /* Adjust the desired width */
+    height: 108px; /* Adjust the desired height *//* Add margin bottom */; /* Add margin left */
+  }
+
+  .gameboy-move-box {
+    width: 100%;
+    height:100%;
+    background-color: #cacfcd; /* Off-white color */
+    border: 2px solid #000; /* Black border */
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 16px;
+    border: 2px solid white;
+    border-width: 6px;
+  box-shadow: 0 4px 0 4px black,
+              inset 0 6px 0 6px black,
+              0 0 0 6px black,
+              inset 0 0 0 8px black;
+  }
+  
+  .move-content {
+    display:flex;
+    align-items:center;
+    font-family: 'Pokemon GB', sans-serif; /* Use the custom font */
+    font-size: 1.6rem;
+  }
+
+
+  .get-enemy-container {
+    position: absolute;
+  bottom: 260px; /* Adjust as needed for desired distance from the bottom */
+  left: 525px; /* Adjust as needed for desired distance from the left */
+    width: 19%; /* Adjust the desired width */
+    height: 125px; /* Adjust the desired height */
+    margin-bottom: 28px; /* Add margin bottom */; /* Add margin left */
+   
+  }
+
+  .get-enemy-content {
+    display:flex;
+    align-items:center;
+    font-family: 'Pokemon GB', sans-serif; /* Use the custom font */
+    font-size: 2.6rem;
+  }
+
+  .reward-box-container {
+    position: absolute;
+  bottom: 620px; /* Adjust as needed for desired distance from the bottom */
+  left: 700px; /* Adjust as needed for desired distance from the left */
+    width: 40%; /* Adjust the desired width */
+    height: 200px; /* Adjust the desired height */
+  }
+
+  .reward-box-content {
+    display:flex;
+    align-items:center;
+    font-family: 'Pokemon GB', sans-serif; /* Use the custom font */
+    font-size: 1.2rem;
+  }
+  .top-left {
+    position: absolute;
+    top: 7px;
+    left: 9px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 6px;
+    right: -29px;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: -36px;
+    left: 9px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: -35px;
+    right: -31px;
+  }
+  
+
+  .top-left-menu {
+    position: absolute;
+    top: -14px;
+    left: -14px;
+  }
+  
+  .top-right-menu {
+    position: absolute;
+    top: -14px;
+    right: -14px;
+  }
+  
+  .bottom-left-menu {
+    position: absolute;
+    bottom: -22px;
+    left: -14px;
+  }
+  
+  .bottom-right-menu {
+    position: absolute;
+    bottom: -22px;
+    right: -14px;
+  }
+  .dialogue-content {
+    width: calc(100% - 40px); /* Adjust the width as needed */
+    height: calc(100% - 40px); /* Adjust the height as needed */
+    word-break: break-word; /* Allow text to wrap */
+    font-family: 'Pokemon GB', sans-serif; /* Use the custom font */
+  font-size: 1.7rem;
+  margin-top: 14px;
+  padding-left: 20px; 
+  margin-left: 10px;
+  line-height: 2.8rem;
+  }
+  
+  .menu-content {
+    width: calc(100%); /* Adjust the width as needed */
+    height: calc(100%); /* Adjust the height as needed */
+    word-break: break-word; /* Allow text to wrap */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 14px;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust as needed for vertical spacing */
+  }
+  .horizontal-bar {
+    width: 650px; /* Adjust the width as needed */
+    height: 12px; /* Adjust the height as needed */
+    background-color: #000; /* Adjust the color as needed */
+  }
+  
+  .vertical-bar {
+    width: 10px; /* Adjust the width as needed */
+    height: 125px; /* Adjust the height as needed */
+    background-color: #000; /* Adjust the color as needed */
+  }
+
+  .player-bar {
+    position: absolute;
+    right: 22px;
+    bottom: 267px;
+    display: flex;
+    align-items:flex-end
+  }
+
+
+  .player-health-bar {
+    position:absolute;
+    right: 80px;
+    bottom:345px;
+    display:flex;
+  }
+  
+  .player-xp-bar {
+    position:absolute;
+    right: 80px;
+    bottom: 300px;
+    display:flex;
+  }
+
+  .player-name {
+    position: absolute;
+    right: 417px;
+    bottom: 440px;
+  }
+  .player-level {
+    position:absolute;
+    right: 417px;
+    bottom:390px;
+  }
+
+  .enemy-bar {
+    position: absolute;
+    display:flex;
+    top: 195px;
+    left: 20px;
+    flex-direction: column-reverse;
+  }
+  .enemy-health-bar {
+    position: absolute;
+    left: 61px;
+    top: 275px;
+    display:flex;
+  }
+  .enemy-level {
+    position:absolute;
+    left:145px;
+    top:235px
+  }
+
+  .enemy-name {
+    position: absolute;
+    left:61px;
+    top:190px;
+  }
+
+  .enemy-image {
+    position:absolute;
+    right: 230px;
+    top:75px;
+    height:420px;
+    width:260px
+  }
+
+  .select-image {
+    position:absolute;
+    left: 465px;
+    bottom:300px;
+    height:420px;
+    width:260px
+  }
+
+  .MuiFilledInput-root {
+    background-color: #2f1a4a !important; /* Dark purple background */
+    color: #cacfcd !important; /* Light grey text color */
+    border: 2px solid #cacfcd !important; /* Border color */
+    height:50px;
+    width: 240px;
+  }
+
+  #items-controlled-open-select.MuiSelect-select.MuiSelect-standard.MuiInputBase-input.MuiInput-input {
+    background-color: #2f1a4a !important;
+    color: #cacfcd !important; /* Light grey text color */
+    border: 2px solid #cacfcd !important; /* Border color */
+    height:30px;
+    width: 140px;
+    text-align: center;
+    padding-left:10px;
+  }
+
+  #shop-controlled-open-select.MuiSelect-select.MuiSelect-standard.MuiInputBase-input.MuiInput-input {
+    background-color: #2f1a4a !important;
+    color: #cacfcd !important; /* Light grey text color */
+    border: 2px solid #cacfcd !important; /* Border color */
+    height:30px;
+    width: 140px;
+    text-align: center;
+    padding-left:10px;
+  }
+
