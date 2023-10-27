@@ -1,0 +1,136 @@
+[
+    {"name": "HP Potion", "value": 25, "stat_boost": 50, "item_class": "health", "item_type": "normal", "quantity": 10},
+    {"name": "Super HP Potion", "value": 400, "stat_boost": 800, "item_class": "health", "item_type": "normal", "quantity": 10},
+    {"name": "Warm Home Cooked Meal", "value": 200, "stat_boost": 600, "item_class": "health", "item_type": "normal", "quantity": 10},
+    {"name": "Ember Essence", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "fire", "quantity": 10},
+
+{"name": "Blazing Ember", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "fire", "quantity": 10},
+
+{"name": "Inferno Elixir", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "fire", "quantity": 10},
+
+{"name": "Flame Guard", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "fire", "quantity": 10},
+
+{"name": "Refreshing Mist", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "water", "quantity": 10},
+
+{"name": "Aqua Crystal", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "water", "quantity": 10},
+
+{"name": "Tidal Surge", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "water", "quantity": 10},
+
+{"name": "Aqua Shield", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "water", "quantity": 10},
+
+{"name": "Photosynthesis Potion", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "grass", "quantity": 10},
+
+{"name": "Verdant Bloom", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "grass", "quantity": 10},
+
+{"name": "Thorny Vines", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "grass", "quantity": 10},
+
+{"name": "Leafy Barrier", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "grass", "quantity": 10},
+
+{"name": "Electroshock Serum", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "electric", "quantity": 10},
+
+{"name": "Thunderbolt Charger", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "electric", "quantity": 10},
+
+{"name": "Voltage Amplifier", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "electric", "quantity": 10},
+
+{"name": "Shock Absorber", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "electric", "quantity": 10},
+
+{"name": "Earthquake Tonic", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "ground", "quantity": 10},
+
+{"name": "Terra Infusion", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "ground", "quantity": 10},
+
+{"name": "Rocky Rampart", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "ground", "quantity": 10},
+
+{"name": "Earthen Barrier", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "ground", "quantity": 10},
+
+{"name": "Metal Alloy Infusion", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "steel", "quantity": 10},
+
+{"name": "Ironclad Plate", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "steel", "quantity": 10},
+
+{"name": "Steel Surge", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "steel", "quantity": 10},
+
+{"name": "Adamantium Shield", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "steel", "quantity": 10},
+
+{"name": "Psychic Resonance Tincture", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "psychic", "quantity": 10},
+
+{"name": "Mindsoothe Elixir", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "psychic", "quantity": 10},
+
+{"name": "Psionic Focus", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "psychic", "quantity": 10},
+
+{"name": "Mental Ward", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "psychic", "quantity": 10},
+
+{"name": "Chitin Carapace Salve", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "bug", "quantity": 10},
+
+{"name": "Insectile Nectar", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "bug", "quantity": 10},
+
+{"name": "Swarm Surge", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "bug", "quantity": 10},
+
+{"name": "Bug Repellent Barrier", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "bug", "quantity": 10},
+
+{"name": "Fae Essence Elixir", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "fairy", "quantity": 10},
+
+{"name": "Enchanted Blossom", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "fairy", "quantity": 10},
+
+{"name": "Pixie Dust Gust", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "fairy", "quantity": 10},
+
+{"name": "Moonlit Veil", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "fairy", "quantity": 10},
+
+{"name": "Soaring Wind Tonic", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "flying", "quantity": 10},
+
+{"name": "Aerial Draft Elixir", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "flying", "quantity": 10},
+
+{"name": "Skyward Strike", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "flying", "quantity": 10},
+
+{"name": "Feathered Gale Guard", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "flying", "quantity": 10},
+
+{"name": "Ghostly Haze", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "ghost", "quantity": 10},
+
+{"name": "Spectral Essence Elixir", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "ghost", "quantity": 10},
+
+{"name": "Haunting Wail", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "ghost", "quantity": 10},
+
+{"name": "Ethereal Cloak", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "ghost", "quantity": 10},
+
+{"name": "Venombane Elixir", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "poison", "quantity": 10},
+
+{"name": "Toxic Venom Vial", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "poison", "quantity": 10},
+
+{"name": "Venomous Strike", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "poison", "quantity": 10},
+
+{"name": "Poison Veil", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "poison", "quantity": 10},
+
+{"name": "Combatant's Elixir", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "fighting", "quantity": 10},
+
+{"name": "Brawler's Brew", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "fighting", "quantity": 10},
+
+{"name": "Pugilist's Potion", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "fighting", "quantity": 10},
+
+{"name": "Martial Draught", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "fighting", "quantity": 10},
+
+{"name": "Earthward Elixir", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "rock", "quantity": 10},
+
+{"name": "Stoneshield Tonic", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "rock", "quantity": 10},
+
+{"name": "Bedrock Brew", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "rock", "quantity": 10},
+
+{"name": "Granite Guard", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "rock", "quantity": 10},
+
+{"name": "Glacial Draught", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "ice", "quantity": 10},
+
+{"name": "Frostbound Elixir", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "ice", "quantity": 10},
+
+{"name": "Polar Respite", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "ice", "quantity": 10},
+
+{"name": "Icicle Infusion", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "ice", "quantity": 10},
+
+{"name": "Wyrmward Potion", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "dragon", "quantity": 10},
+
+{"name": "Dragonfire Elixir", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "dragon", "quantity": 10},
+
+{"name": "Drakon's Draught", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "dragon", "quantity": 10},
+
+{"name": "Serpent's Serum", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "dragon", "quantity": 10},
+    {"name": "Chocolate Cheesecake", "value": 1500, "stat_boost": 3000, "item_class": "health", "item_type": "normal", "quantity": 40},
+    {"name": "Protein Shake", "value": 2000, "stat_boost": 75, "item_class": "maxhealth", "item_type": "normal", "quantity": 40},
+    {"name": "Knuckle Sandwich", "value": 450, "stat_boost": 4, "item_class": "damage", "item_type": "normal", "quantity": 40},
+    {"name": "Honorable Cookie", "value": 350, "stat_boost": 3, "item_class": "defense", "item_type": "normal", "quantity": 40}
+]
