@@ -1,6 +1,6 @@
 import axios from 'axios'
 const base_url = import.meta.env.VITE_BASE_URL
-const API_BASE_URL = `http://${base_url}`;
+const API_BASE_URL = `http://${base_url}/api`;
 
 export async function signupAxios(context) {
   try {
@@ -53,7 +53,7 @@ export async function getTrainerPokemon(id=null) {
 
 export async function getGamePokemon(){
   try {
-    const response = await axios.get(`${API_BASE_URL}/api/pokemon`, {
+    const response = await axios.get(`${API_BASE_URL}/pokemon`, {
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Token ${localStorage.getItem("token")}`,
