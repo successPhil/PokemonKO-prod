@@ -54,9 +54,7 @@ This should ensure that when the script runs, your docker images are pulled with
 
 
 # Acknowledgements
-The Pokemon franchise for inspiring this unique take on the Pokemon world.\n
-The developers of the PokeAPI\n
-Contributors and developers at https://www.pokemonaaah.net/artsyfartsy/fonts/ for the fan influenced fonts\n
-Contributors to open-source libraries and frameworks used in this project.
-
-
+- The Pokemon franchise for inspiring this unique take on the Pokemon world.
+- The developers of the PokeAPI
+- Contributors and developers at [pokemonaaah.net](https://www.pokemonaaah.net/artsyfartsy/fonts/) for the fan influenced fonts
+- Contributors to open-source libraries and frameworks used in this project.
