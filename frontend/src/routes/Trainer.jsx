@@ -71,8 +71,10 @@ export default function Trainer(){
 
     const chooseEnemy = (pokemon) => {
         const chance = randomNumber()
+        console.log(chance)
 
-        if (chance > 70){
+        if (chance > 40){
+            console.log(chance, 'IN CONDITIONAL')
             replenishShop()
         }
         const enemyStr = `A wild ${capitalizeFirst(pokemon.name)} has appeared!`
@@ -161,17 +163,18 @@ export default function Trainer(){
         bonusStr = "It's not very effective..."
     }
 
+    const attack_msg = `${capitalizeFirst(selectPokemon.name)} used ${capitalizeFirst(move.name)} on ${capitalizeFirst(enemyPokemon.name)} dealing ${damage} damage! ${bonusStr}`
+
     if (enemyPokemon.health - parseInt(damage) <= 0){
         const money = (selectPokemon.level * selectPokemon.power) + (enemyPokemon.level +  enemyPokemon.power)
         const experience = enemyPokemon.level * selectPokemon.power
         const victory_msg = `${capitalizeFirst(selectPokemon.name)} has defeated ${capitalizeFirst(enemyPokemon.name)} in battle! ${capitalizeFirst(enemyPokemon.name)} has been added to your inventory of Pokemon.`
-        const rewardMessage = `${capitalizeFirst(selectPokemon.name)} has gained ${experience} exp from battle! You have gained ${money} KO coins!!`
-        updateBattle(selectPokemon, 'win', money, experience, victory_msg)
-        setVictoryMsg(victory_msg)
+        const rewardMessage = `${victory_msg} ${capitalizeFirst(selectPokemon.name)} has gained ${experience} exp from battle! You have gained ${money} KO coins!!`
+        updateBattle(selectPokemon, 'win', money, experience, attack_msg)
+        setVictoryMsg(attack_msg)
         setRewardDialogue(rewardMessage)
         animateSelectedAttack(move)
     } else {
-        const attack_msg = `${capitalizeFirst(selectPokemon.name)} used ${capitalizeFirst(move.name)} on ${capitalizeFirst(enemyPokemon.name)} dealing ${damage} damage! ${bonusStr}`
         const after_attack = enemyPokemon
         after_attack.health -= damage
         setEnemyPokemon(after_attack)

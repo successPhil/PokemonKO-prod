@@ -17,6 +17,17 @@ export default function TrainerShopCard({item} ) {
     const [open, setOpen] = useState(false);
     const navigate = useNavigate()
 
+    const quantityOptions = [];
+    //need to make function later
+    for (let i = 1; i <= item.quantity; i++) {
+    quantityOptions.push(
+        <MenuItem value={i} key={`amountItem${item.id}${i}`}>
+        <span className='item-button-text'>{i}</span>
+        </MenuItem>
+    );
+    }
+
+
     useEffect(()=>{
         if (shouldRedirect){
             navigate("/items")
@@ -70,9 +81,10 @@ export default function TrainerShopCard({item} ) {
                 onChange={handleChange}
                 variant='standard'
                 >
-{[...Array(item.quantity).keys()].map(i => (
+                    {quantityOptions}
+{/* {[...Array(item.quantity).keys()].map(i => (
         <MenuItem value={i + 1} key={`amountItem${i+1}${i + 1}`}><span className='item-button-text'>{i + 1}</span></MenuItem>
-    ))}
+    ))} */}
                 </Select>
                 </FormControl>
                 <Button variant='contained' color='primary' onClick={updateShopItems}><span className='item-button-text'>Buy Item</span></Button>

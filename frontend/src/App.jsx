@@ -35,7 +35,7 @@ function App() {
   const [trainerItems, setTrainerItems] = useState([]);
   const [trainerShop, setTrainerShop] = useState([]);
 
-  console.log('WE SHOULD BE SEEING 11 FOR THE VERSION IF WE HAVE IMAGE 11')
+  console.log('Checking that shop and item logic changes work before deleting old logic')
 
   const getItems = async () => {
   const items = await getTrainerItems()

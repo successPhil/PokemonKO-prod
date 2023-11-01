@@ -18,6 +18,16 @@ export default function TrainerItemsCard({ item }) {
     const [ itemsUsed, setItemsUsed ] = useState(1)
     const navigate = useNavigate()
 
+    const quantityOptions = [];
+    for (let i = 1; i <= item.quantity; i++) {
+    quantityOptions.push(
+        <MenuItem value={i} key={`amountItem${item.id}${i}`}>
+        <span className='item-button-text'>{i}</span>
+        </MenuItem>
+    );
+    }
+
+
     useEffect(()=>{
         if (shouldRedirectBattle){
             navigate("/battle")
@@ -125,9 +135,10 @@ export default function TrainerItemsCard({ item }) {
                 onChange={handleChange}
                 variant='standard'
                 >
-{[...Array(item.quantity).keys()].map(i => (
+                {quantityOptions}
+{/* {[...Array(item.quantity).keys()].map(i => (
         <MenuItem value={i + 1} key={`amountItem${item.id}${i + 1}`}><span className='item-button-text'>{i + 1}</span></MenuItem>
-    ))}
+    ))} */}
                 </Select>
                 </FormControl>
                 {selectPokemon && <Button variant='contained' color='primary' onClick={updateTrainerItems}><span className='item-button-text'>Use Item</span></Button>}

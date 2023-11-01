@@ -299,10 +299,10 @@ div:hover > .bar {
 
   .reward-box-container {
     position: absolute;
-  bottom: 620px; /* Adjust as needed for desired distance from the bottom */
+  bottom: 530px; /* Adjust as needed for desired distance from the bottom */
   left: 700px; /* Adjust as needed for desired distance from the left */
     width: 40%; /* Adjust the desired width */
-    height: 200px; /* Adjust the desired height */
+    height: 305px; /* Adjust the desired height */
   }
 
   .reward-box-content {
