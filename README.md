@@ -42,7 +42,7 @@ After you have forked the or cloned the repository follow these steps and update
 To run this in production, you need to change the DOCKERHUB_UNAME to your dockerhub username.
 You then need to provide the EC2 address, and the version of the images you are building for the application.
 Example: ./build-and-push-images.sh 123.456.00.1 1
-where 123.456.00.1 is our imaginary EC2 container addresss, and 1 is the version of the image we are building because we have never built one
+where 123.456.00.1 is our imaginary EC2 container address, and 1 is the version of the image we are building because we have never built one
 
 2. Inside the EC2 instance
 Inside your EC2 instance, you will need to run the run-compose-prod.sh script.

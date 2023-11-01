@@ -32,10 +32,10 @@ function App() {
   const [ trainerDialogue, setTrainerDialogue] = useState("")
   const [ rewardDialogue, setRewardDialogue ] = useState("")
   const [ victoryMsg, setVictoryMsg ] = useState("")
-
   const [trainerItems, setTrainerItems] = useState([]);
-  const [itemsUsed, setItemsUsed ] = useState(1)
   const [trainerShop, setTrainerShop] = useState([]);
+
+  console.log('WE SHOULD BE SEEING 11 FOR THE VERSION IF WE HAVE IMAGE 11')
 
   const getItems = async () => {
   const items = await getTrainerItems()

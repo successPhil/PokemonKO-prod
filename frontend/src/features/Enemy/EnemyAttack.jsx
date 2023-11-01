@@ -18,8 +18,8 @@ export default function EnemyAttack() {
         transition={{ duration: 0.4 }}
         >
             <div>
-        <span className={`pokeball-attack ${animateColor}`}>Z</span>
-        <span className={`pokeball-attack ${pokeType}`} >u</span>
+        <span className={`pokeball-attack ${pokeType}`}>Z</span>
+        <span className={`pokeball-attack ${animateColor}`} >u</span>
       </div>
         </motion.div>
     )

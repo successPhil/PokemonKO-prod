@@ -43,9 +43,6 @@ export default function Shop(){
         getUserShop()
     }, [])
 
-    console.log(trainerShop, 'TRAINER SHOP')
-    console.log(filteredList, 'FILTERED LIST, TRAINER SHOP')
-
     return (
         <>
         {trainer && trainerShop ? (

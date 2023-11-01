@@ -42,6 +42,16 @@ export default function TrainerItemsCard({ item }) {
         const updatedItem = trainerItems.find(item => item.id === item.id);
     
         if (updatedItem && selectPokemon) {
+
+            let bonus = 1
+            let types = selectPokemon.types.split(", ")
+            console.log('Item Type:', item.type);
+            console.log('Pokemon Types:', selectPokemon.types);
+
+            if (types.includes(item.item_type)){
+                bonus = 2
+            }
+            console.log(bonus, 'THIS IS BONUS AFTER IF')
             // Update the quantity
             updatedItem.quantity -= itemsUsed;
             // Create a new array with the updated item
@@ -54,7 +64,7 @@ export default function TrainerItemsCard({ item }) {
             updateItems(item.id, itemsUsed);
             console.log(item.item_class)
             if (item.item_class === 'health') {
-                const healingAmount = item.stat_boost * itemsUsed
+                const healingAmount = item.stat_boost * itemsUsed * bonus
                 const missingHealth = selectPokemon.max_health - selectPokemon.health
                 const usedHealingAmount = healingAmount > missingHealth ? missingHealth : healingAmount
                 const newHealth = selectPokemon.health + healingAmount
@@ -66,7 +76,7 @@ export default function TrainerItemsCard({ item }) {
             }
             if (item.item_class === 'maxhealth'){
                 console.log('IN ITEM CLASS CONDITIONAL MAX HEALTH')
-                const maxHealthToAdd = item.stat_boost * itemsUsed
+                const maxHealthToAdd = item.stat_boost * itemsUsed * bonus
                 const newMaxHealth = selectPokemon.max_health + maxHealthToAdd
                 console.log(newMaxHealth)
                 const itemMsg = `${capitalizeFirst(selectPokemon.name)} has gained ${maxHealthToAdd} max health from using ${itemsUsed} ${item.name}${itemsUsed > 1 ? "s" : ""}`
@@ -75,7 +85,7 @@ export default function TrainerItemsCard({ item }) {
             }
             if (item.item_class === 'damage'){
                 console.log('IN ITEM CLASS CONDITIONAL DAMAGE')
-                const powerToAdd = item.stat_boost * itemsUsed
+                const powerToAdd = item.stat_boost * itemsUsed * bonus
                 const newPower = selectPokemon.power + powerToAdd
                 const itemMsg = `${capitalizeFirst(selectPokemon.name)} has gained ${powerToAdd} power! from using ${itemsUsed} ${item.name}${itemsUsed > 1 ? "s" : ""}`
                 setTrainerDialogue(itemMsg)
@@ -83,7 +93,8 @@ export default function TrainerItemsCard({ item }) {
             }
             if (item.item_class === 'defense'){
                 console.log('IN ITEM CLASS CONDITIONAL Defense')
-                const defenseToAdd = item.stat_boost * itemsUsed
+                console.log(bonus, 'BONUS')
+                const defenseToAdd = item.stat_boost * itemsUsed * bonus
                 const newDefense = selectPokemon.defense + defenseToAdd
                 const itemMsg = `${capitalizeFirst(selectPokemon.name)} has gained ${defenseToAdd} defense! from using ${itemsUsed} ${item.name}${itemsUsed > 1 ? "s" : ""}`
                 setTrainerDialogue(itemMsg)

@@ -70,13 +70,12 @@ export default function Trainer(){
     }
 
     const chooseEnemy = (pokemon) => {
-        console.log(randomNumber())
         const chance = randomNumber()
 
         if (chance > 70){
             replenishShop()
         }
-        const enemyStr = `A wild ${pokemon.name} has appeared!`
+        const enemyStr = `A wild ${capitalizeFirst(pokemon.name)} has appeared!`
         setEnemyDialogue(enemyStr)
         setEnemyPokemon(pokemon)
         endEnemyTurn()
@@ -114,8 +113,7 @@ export default function Trainer(){
 
             }
         }
-        // console.log(pokemonBonus, 'this is the poke bonus')
-        // console.log(moveBonus, 'this is the move bonus')
+
         return {pokemonBonus, moveBonus}
     }
 
@@ -132,20 +130,14 @@ export default function Trainer(){
         }
     }
 
-    console.log(trainerTurn)
   
     const toggleMenu = (prev) => {setOpenMoves(!prev)}
-
-    const testAttack = (enemyPokemon, selectPokemon) => {
-        enemyAttack(enemyPokemon, selectPokemon)
-    }
 
     const selectRandomMove = (moves) => {
         const randomIndex = Math.floor(Math.random() * moves.length);
         return moves[randomIndex];
       }
 
-    
 
     const playerAttack = async (selectPokemon, move, enemyPokemon) => {
     const randomMultiplier = Math.floor(Math.random() * 5) + 2; // Generates a random integer between 2 and 6
@@ -161,7 +153,6 @@ export default function Trainer(){
     } else {
         damage = baseDamage - baseDefense
     }
-    // console.log(damage, 'CALCULATED DAMAGE')
     let bonusStr = ""
     if (bonus > 1){
         bonusStr = "It's super effective!!!"
