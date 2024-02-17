@@ -16,6 +16,9 @@ class Trainer(models.Model):
     shop = models.OneToOneField(Shop, on_delete=models.CASCADE, default=None, null=True)
     enemy_pokemon = models.ManyToManyField(Pokemon, related_name='enemy_pokemon', blank=True, default=None)
 
+    def __str__(self):
+        return f'Trainer: {self.user.username}'
+
 #Setting up initial shop for Trainer
     def set_initial_shop(self):
         if self.shop is None:
