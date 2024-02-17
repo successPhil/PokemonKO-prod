@@ -16,6 +16,9 @@ class Pokemon(models.Model):
     totalXP = models.IntegerField(default=1125)
     level = models.IntegerField(default=3)
 
+    def __str__(self):
+        return f'{self.name}'
+
     # Add more fields as needed
 
     def decrease_health(self, amount):

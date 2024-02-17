@@ -1,19 +1,23 @@
 import requests
 import random
+from rest_framework.permissions import AllowAny
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from .models import Pokemon, Move
 from .serializers import PokemonSerializer
 
+
+
 class PokemonAPIView(APIView):
+    permission_classes = [AllowAny] # We want this unprotected so there is no dependency on user to generate game pokemon
     def get(self, request):
         try:
             if not Pokemon.objects.exists():
-                initial_data = self.fetch_initial_pokemon_data()
-                names = [pokemon["name"] for pokemon in initial_data["pokemon_species"]]
-                all_moves = [move_data["name"] for move_data in initial_data["moves"]]
-                details, all_types = self.fetch_pokemon_details(names)
+                initial_data = self.fetch_initial_pokemon_data() #Lists all of the pokemon and moves so we can extract pokemon name and move name
+                names = [pokemon["name"] for pokemon in initial_data["pokemon_species"]] #Results in list of pokemon names
+                all_moves = [move_data["name"] for move_data in initial_data["moves"]] #Results in list of move names
+                details, all_types = self.fetch_pokemon_details(names) #Returns Pokemon: name, types, front and back img, list of types
                 processed_data = self.process_pokemon_data(details, all_moves, all_types)
             processed_data = self.retrieve_processed_data()
 
@@ -30,33 +34,37 @@ class PokemonAPIView(APIView):
         else:
             raise Exception("Failed to fetch pokemon data")
 
-    def fetch_pokemon_details(self, names):
-        details = []
-        all_types = set()
+    def fetch_pokemon_details(self, names): #Takes in list of pokemon names
+        details = [] #List of pokemon objects with name, type, front and back img
+        all_types = set() #Make a set, to safely add all types and be left with unique list of types
         for name in names:
             # Make a separate API request for each Pokémon name
-            url = f"https://pokeapi.co/api/v2/pokemon/{name}"  # Replace with the correct URL
+            url = f"https://pokeapi.co/api/v2/pokemon/{name}"  
             response = requests.get(url)
             if response.status_code == 200:
                 pokemon_data = response.json()
                 # Extract relevant data and create a dictionary
                 pokemon_details = {
-                    "name": pokemon_data["name"],
-                    "type": [type_data["type"]["name"] for type_data in pokemon_data["types"]],
-                    "front_image_url": pokemon_data["sprites"]["front_default"],
-                    "back_image_url": pokemon_data["sprites"]["back_default"],
+                    "name": pokemon_data["name"], #Name of current pokemon
+                    "type": [type_data["type"]["name"] for type_data in pokemon_data["types"]], #List of types for the current pokemon
+                    "front_image_url": pokemon_data["sprites"]["front_default"], #Url for front img
+                    "back_image_url": pokemon_data["sprites"]["back_default"], #Url for back img
                 }
                 details.append(pokemon_details)
-                all_types.update(pokemon_details["type"])
+                all_types.update(pokemon_details["type"]) #Add types to list to set of types
             else:
                 raise Exception(f"Failed to fetch data for Pokémon: {name}")
-        return details, list(all_types)
+        return details, list(all_types) #Returning a list of pokemon: name, type, front and back img, converting set of types to list
 
     def process_pokemon_data(self, details, all_moves, all_types):
+        #details: List of Pokemon Objects: name, types, front and back image
+        #all_moves: List of move names
+        #all_types: List of all types
+        #We update objects to have random moves
         processed_data = []
         for detail in details:
             name = detail["name"]
-            type_str = ", ".join(detail["type"])
+            type_str = ", ".join(detail["type"]) #Handle multiple types
             front_image_url = detail["front_image_url"]
             back_image_url = detail["back_image_url"]
             self.create_pokemon_with_moves(name=name, types=type_str, front_image_url=front_image_url, back_image_url=back_image_url, all_moves=all_moves, all_types=all_types)

@@ -47,6 +47,11 @@ function App() {
     setTrainerPokemon(trainerPokes)
   }
 
+  const getGamePokes = async () => {
+    const gamePokes = await getGamePokemon()
+    console.log(gamePokes)
+  }
+
   const getUserTrainer = async () => {
     const userTrainer = await getTrainer()
     setTrainer(userTrainer)
@@ -70,15 +75,17 @@ function App() {
   };
 
   useEffect(() => {
+    getGamePokes()
     const token = localStorage.getItem('token');
+   
     if (token) {
       setUserToken(token);
       fetchData();
       getItems()
-      getTrainerPokes()
       getUserTrainer()
       getUserShop()
-      getGamePokemon()
+      getTrainerPokes()
+      
     }
   }, []);
 
