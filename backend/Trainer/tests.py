@@ -3,11 +3,15 @@ from Trainer.models import Trainer
 from pokemon.models import Pokemon
 from moves.models import Move
 
+
 from rest_framework.test import APITestCase
 
 class SignupViewTest(APITestCase):
+   
+        
     def setUp(self):
-        url = '/login/signup'  #url for signup view
+        url = '/api/login/signup'  #url for signup view
+       
         data = {
             "username": "testuser1",
             "password": "testpassword"
@@ -33,26 +37,27 @@ class SignupViewTest(APITestCase):
         Move.objects.create(name='leaf punch', type='grass', damage=4 )
         Move.objects.create(name='rock kick', type='normal', damage=4 )
 
+    #Checking User and Trainer Objects are properly created
     def test_signup_view(self):
         self.assertEqual(User.objects.count(), 1)
         self.assertEqual(Trainer.objects.count(), 1)
-
+    #Checking State of Trainer when made, shop should exist, trainers should only have 1 item when first made
     def test_trainer_creation(self):
         self.assertEqual(User.objects.count(), 1) #Check User is created
         self.assertEqual(Trainer.objects.count(), 1) #Check Trainer is created
         # Check if the Trainer has the correct initial shop and items
         self.assertIsNotNone(self.trainer.shop) #Shop exists
         self.assertEqual(self.trainer.items.count(), 1) #Initial items exist
-
+    #Test that our method to increment money works
     def test_make_money(self):
         self.trainer.make_money(1000)
         final_money = self.trainer.money
         self.assertEqual(final_money-self.initial_money, 1000)
-
+    # Checking queries mainly for continued testing
     def test_list_items(self):
         trainer_items = self.trainer.items.all()
         self.assertEqual(len(trainer_items), self.trainer.items.count())
-
+    #Test buying an existing item, with default qty
     def test_buy_existing_item_default_qty(self):
         initial_store_qty = self.default_item.quantity
         initial_trainer_qty = self.trainer.items.get(name='HP Potion').quantity
@@ -64,7 +69,7 @@ class SignupViewTest(APITestCase):
         self.assertEqual(self.initial_money-final_money, self.default_item.value) #Check trainer money
         self.assertEqual(final_store_qty + 1, initial_store_qty) #Check store qty
         self.assertEqual(final_trainer_qty - 1, initial_trainer_qty) #Check trainer qty
-    
+    #Test buying an existing item, with a valid qty
     def test_buy_existing_item_valid_qty(self):
         initial_store_qty = self.default_item.quantity
         initial_trainer_qty = self.trainer.items.get(name='HP Potion').quantity
@@ -75,7 +80,7 @@ class SignupViewTest(APITestCase):
         self.assertEqual(self.initial_money-final_money, self.default_item.value * 4)
         self.assertEqual(final_store_qty + 4, initial_store_qty)
         self.assertEqual(final_trainer_qty - 4, initial_trainer_qty)
-
+    # Test buying item with invalid qty
     def test_buy_existing_item_invalid_qty(self):
         initial_store_qty = self.default_item.quantity
         initial_trainer_qty = self.trainer.items.get(name='HP Potion').quantity
@@ -86,7 +91,7 @@ class SignupViewTest(APITestCase):
         self.assertEqual(self.initial_money, final_money)
         self.assertEqual(initial_store_qty, final_store_qty)
         self.assertEqual(initial_trainer_qty, final_trainer_qty)
-
+    # Buy new item with default quantity
     def test_buy_new_item_default_qty(self):
         initial_store_qty = self.store_item.quantity
         initial_trainer_qty = 0
@@ -97,7 +102,7 @@ class SignupViewTest(APITestCase):
         self.assertEqual(self.initial_money-final_money, self.store_item.value)
         self.assertEqual(final_store_qty + 1, initial_store_qty)
         self.assertEqual(final_trainer_qty - 1, initial_trainer_qty)
-
+    # Buy new item with valid qty
     def test_buy_new_item_valid_qty(self):
         initial_store_qty = self.store_item.quantity
         initial_trainer_qty = 0
@@ -108,7 +113,7 @@ class SignupViewTest(APITestCase):
         self.assertEqual(self.initial_money-final_money, self.store_item.value * 2)
         self.assertEqual(final_store_qty + 2, initial_store_qty)
         self.assertEqual(final_trainer_qty - 2, initial_trainer_qty)
-
+    # Buy new item with invalid quantity
     def test_buy_new_item_invalid_qty(self):
         initial_store_qty = self.store_item.quantity
         initial_trainer_qty = 0
@@ -119,7 +124,7 @@ class SignupViewTest(APITestCase):
         self.assertEqual(self.initial_money, final_money)
         self.assertEqual(final_store_qty, initial_store_qty)
         self.assertEqual(final_trainer_qty, initial_trainer_qty)
-
+    #Sell item default quantity
     def test_sell_item_default_qty(self):
         initial_trainer_qty = self.trainer_item.quantity    
         initial_store_qty = self.trainer.shop.items.get(name='HP Potion').quantity
@@ -130,7 +135,7 @@ class SignupViewTest(APITestCase):
         self.assertEqual(final_money-self.initial_money, self.trainer_item.value)
         self.assertEqual(final_trainer_qty + 1, initial_trainer_qty)
         self.assertEqual(final_store_qty - 1, initial_store_qty)
-
+    #Sell item valid quantity
     def test_sell_item_valid_qty(self):
         initial_trainer_qty = self.trainer_item.quantity    
         initial_store_qty = self.trainer.shop.items.get(name='HP Potion').quantity
@@ -141,7 +146,7 @@ class SignupViewTest(APITestCase):
         self.assertEqual(final_money-self.initial_money, self.trainer_item.value * 3)
         self.assertEqual(final_trainer_qty + 3, initial_trainer_qty)
         self.assertEqual(final_store_qty - 3, initial_store_qty)
-
+    #Sell item invalid quantity
     def test_sell_item_invalid_qty(self):
         initial_trainer_qty = self.trainer_item.quantity    
         initial_store_qty = self.trainer.shop.items.get(name='HP Potion').quantity
@@ -152,7 +157,7 @@ class SignupViewTest(APITestCase):
         self.assertEqual(final_money, self.initial_money)
         self.assertEqual(final_trainer_qty, initial_trainer_qty)
         self.assertEqual(final_store_qty, initial_store_qty)
-
+    #Use item on pokemon default quantity
     def test_use_item_health_default_qty(self):
         self.trainer.first_pokemon()
 
@@ -166,7 +171,7 @@ class SignupViewTest(APITestCase):
         item_final_qty = self.trainer_item.quantity
         self.assertEqual(pokemon_initial_health, pokemon_final_health)
         self.assertEqual(item_final_qty + 1, self.initial_item_qty)
-
+    #Use more than 1 item on pokemon
     def test_use_item_health_multiple_qty(self):
         self.trainer.first_pokemon()
 
@@ -180,7 +185,8 @@ class SignupViewTest(APITestCase):
         item_final_qty = self.trainer_item.quantity
         self.assertEqual(pokemon_initial_health, pokemon_final_health)
         self.assertEqual(item_final_qty + 2, self.initial_item_qty)
-
+    #Check item bonus applied to pokemon
+    #This test checks and uses many different methods. Use tests to help narrow down where issues occur if failure is found
     def test_use_item_bonus_default_health(self):
         poison = Pokemon.objects.create(name='bulbasaur',types='grass, poison', front_image_url='something.jpeg', back_image_url='somethingelse.jpeg')
         self.trainer.add_pokemon(poison)
@@ -235,7 +241,8 @@ class SignupViewTest(APITestCase):
         final_health = trainer_poke.health
         self.assertEqual(final_health - 3000, initial_health) #Check we don't get a bonus for electric on grass, poison
 
-
+    #Check item bonus applied to pokemon when more than 1 item is used
+    #This test checks and uses many different methods. Use tests to help narrow down where issues occur if failure is found
     def test_use_item_bonus_multiple_health(self):
         ghost = Pokemon.objects.create(name='gengar',types='ghost, poison', front_image_url='something.jpeg', back_image_url='somethingelse.jpeg')
         self.trainer.add_pokemon(ghost)
@@ -290,6 +297,8 @@ class SignupViewTest(APITestCase):
         final_health = trainer_poke.health
         self.assertEqual(final_health - 9000, initial_health) #Check we don't get a bonus for fairy on ghost, poison
 
+    #Check item max_health bonus applied to pokemon with default qty
+    #This test checks and uses many different methods. Use tests to help narrow down where issues occur if failure is found
     def test_use_item_bonus_default_maxhealth(self):
         dragon = Pokemon.objects.create(name='dragonite',types='dragon, flying', front_image_url='something.jpeg', back_image_url='somethingelse.jpeg')
         self.trainer.add_pokemon(dragon)
@@ -343,7 +352,8 @@ class SignupViewTest(APITestCase):
         self.trainer.use_item(trainer_item, trainer_poke)
         final_maxhealth = trainer_poke.max_health
         self.assertEqual(final_maxhealth - 75, initial_max_health) #Check bonus properly applied
-
+    #Check item max_health bonus applied to pokemon with more than 1 item used
+    #This test checks and uses many different methods. Use tests to help narrow down where issues occur if failure is found
     def test_use_item_bonus_multiple_maxhealth(self):
         flying = Pokemon.objects.create(name='pidgey',types='normal, flying', front_image_url='something.jpeg', back_image_url='somethingelse.jpeg')
         self.trainer.add_pokemon(flying)
@@ -397,7 +407,8 @@ class SignupViewTest(APITestCase):
         self.trainer.use_item(trainer_item, trainer_poke, 10)
         final_maxhealth = trainer_poke.max_health
         self.assertEqual(final_maxhealth - 1500, initial_max_health) #Check bonus properly applied
-
+    #Check item damage bonus applied to pokemon
+    #This test checks and uses many different methods. Use tests to help narrow down where issues occur if failure is found
     def test_use_item_bonus_damage(self):
         pokemon = Pokemon.objects.create(name='magnemite',types='electric, steel', front_image_url='something.jpeg', back_image_url='somethingelse.jpeg')
         self.trainer.add_pokemon(pokemon)
@@ -454,7 +465,8 @@ class SignupViewTest(APITestCase):
         self.trainer.use_item(trainer_item, trainer_poke, 3)
         self.assertEqual(trainer_poke.power, initial_power + 24)
         self.assertEqual(trainer_item.quantity, 2)
-
+    #Check item defense bonus applied to pokemon
+    #This test checks and uses many different methods. Use tests to help narrow down where issues occur if failure is found
     def test_use_item_defense(self):
         
         self.trainer.make_money(4000)
@@ -485,11 +497,11 @@ class SignupViewTest(APITestCase):
         self.trainer.use_item(trainer_item, trainer_poke, 6)
         self.assertEqual(trainer_poke.defense, initial_defense + 36)
 
-
+    #Testing adding a pokemon to trainer
     def test_add_pokemon(self):
-        self.trainer.add_pokemon(self.pokemon)
+        self.trainer.add_pokemon(self.pokemon) #self.pokemon is defined in setUp, currently a Charmander Pokemon
         self.assertEqual(self.trainer.pokemon.count() - 1, self.initial_pokemon_count)
-
+    #Adding multiple pokemon
     def test_add_multiple_pokemon(self):
         pokemon = Pokemon.objects.create(name='charmander',types='fire', front_image_url='something.jpeg', back_image_url='somethingelse.jpeg')
         self.trainer.add_pokemon(pokemon)
@@ -498,7 +510,7 @@ class SignupViewTest(APITestCase):
         pokemon = Pokemon.objects.create(name='squirtle',types='water', front_image_url='something.jpeg', back_image_url='somethingelse.jpeg')
         self.trainer.add_pokemon(pokemon)
         self.assertEqual(self.trainer.pokemon.count() -3, self.initial_pokemon_count)
-
+    #Removing multiple pokemon
     def test_add_remove_multiple_pokemon(self):
         pokemon = Pokemon.objects.create(name='charmander',types='fire', front_image_url='something.jpeg', back_image_url='somethingelse.jpeg')
         self.trainer.add_pokemon(pokemon)
@@ -542,7 +554,7 @@ class SignupViewTest(APITestCase):
     
 
 
-
+    #Test that calculate trainer power method correctly updates trainer_power
     def test_calculate_trainer_power(self):
         self.trainer.first_pokemon()
         self.trainer.calculate_trainer_power()
@@ -561,7 +573,7 @@ class SignupViewTest(APITestCase):
         self.trainer.add_pokemon(pokemon)
         self.trainer.calculate_trainer_power()
         self.assertLess(self.trainer.trainer_power, 27)
-
+    #Tests get and add enemy pokemon
     def test_add_enemy_pokemon(self):
         Pokemon.objects.create(name='gengar',types='ghost, poison', front_image_url='something.jpeg', back_image_url='somethingelse.jpeg', level=30)
         Pokemon.objects.create(name='articuno',types='ice, flying', front_image_url='something.jpeg', back_image_url='somethingelse.jpeg', level=50)
@@ -585,7 +597,7 @@ class SignupViewTest(APITestCase):
         self.trainer.add_enemy_pokemon()
         self.assertEqual(self.trainer.pokemon.count(), 4)
         self.assertFalse(self.trainer.enemy_pokemon.exists())
-
+    #Behavior when enemy pokemon is chosen as a pokemon the trainer has already captured
     def test_duplicate_enemy_pokemon(self):
         self.trainer.first_pokemon()
         self.trainer.get_enemy_pokemon()
@@ -614,7 +626,10 @@ class SignupViewTest(APITestCase):
         self.assertEqual(self.trainer.pokemon.count(), 23)
         final_trainer_power = self.trainer.trainer_power
        
-        # all_trainer_pokes = self.trainer.pokemon.all()
+        all_trainer_pokes = self.trainer.pokemon.all()
+
+        #Loop and use print statements to verify id is unique. Moves do not change for the pokemon however
+        
         # for pokemon in all_trainer_pokes:
         #     print(pokemon.name, pokemon.level, pokemon.experience, pokemon.totalXP, pokemon.id)
         #     print(pokemon.health, pokemon.max_health, pokemon.power, pokemon.defense)
