@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PokeCards features render without crashing 1`] = `<MovesCard />`;
+
+exports[`PokeCards features render without crashing 2`] = `<PopoverPopupState />`;
+
+exports[`PokeCards features render without crashing 3`] = `<PokeCard />`;

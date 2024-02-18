@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Player feature components render without crashing 1`] = `<GetEnemyButton />`;
+
+exports[`Player feature components render without crashing 2`] = `<MovesList />`;
+
+exports[`Player feature components render without crashing 3`] = `<MovesListItem />`;
+
+exports[`Player feature components render without crashing 4`] = `<PlayerAttack />`;
+
+exports[`Player feature components render without crashing 5`] = `<PlayerBar />`;
+
+exports[`Player feature components render without crashing 6`] = `<PlayerData />`;
+
+exports[`Player feature components render without crashing 7`] = `<SelectImage />`;
