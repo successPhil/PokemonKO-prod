@@ -11,10 +11,12 @@ import { capitalizeFirst } from '../features/Enemy/EnemyData';
 export default function TrainerPokes(){
 
     const token = localStorage.getItem('token')
-    const { trainerPokemon, setTrainerPokemon, selectPokemon, setSelectPokemon, setEnemyDialogue } = useContext(TrainerContext);
+    const { trainerPokemon, setTrainerPokemon, selectPokemon, setSelectPokemon, setEnemyDialogue, trainer } = useContext(TrainerContext);
     const [ filteredList, setFilteredList ] = useState("")
     const [ filteredMap , setFilteredMap ] = useState("")
     
+    console.log(trainer, 'checking context in pokemon page')
+    console.log(trainerPokemon, 'checking trainer pokemon in context')
     const [open, setOpen] = useState(false);
 
     const handleChange = (event) => {

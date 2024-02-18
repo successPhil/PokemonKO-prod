@@ -182,7 +182,7 @@ class Trainer(models.Model):
             level_diff -= 1
         pokemon.save()
 
-    
+    # Look at logic here later! 02/18
     def get_enemy_pokemon(self):
         if not self.enemy_pokemon.exists():
             trainer_power = self.trainer_power

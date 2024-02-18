@@ -5,7 +5,7 @@ from pokemon.models import Pokemon
 
 class test_pokemon(APITestCase):
     def setUp(self):
-        url = '/login/signup'  #url for signup view
+        url = '/api/login/signup'  #url for signup view
         data = {
             "username": "testuser3",
             "password": "testpassword3"
@@ -14,7 +14,7 @@ class test_pokemon(APITestCase):
         response = self.client.post(url, data, format='json')
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
 
-        response = self.client.post('/login/get-token', data, format='json')
+        response = self.client.post('/api/login/get-token', data, format='json')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertIn('token', response.data)
         self.token = self.client.credentials(HTTP_AUTHORIZATION='Token ' + response.data['token'])
@@ -103,21 +103,22 @@ class test_pokemon(APITestCase):
         self.pokemon.level_up()
         self.assertEqual(self.pokemon.level, self.initial_level +1)
     
+    #Maybe we need to do some logic here, total xp - exp should be able to be added go gain_experience
     def test_gain_experience(self):
-        self.pokemon.gain_experience(60)
+        self.pokemon.gain_experience(1125) #Exp required to gain 1 level
         self.assertEqual(self.pokemon.level, self.initial_level + 1)
         self.assertEqual(self.pokemon.experience, 0)
-        self.assertGreater(self.pokemon.totalXP, 60)
+        self.assertGreater(self.pokemon.totalXP, 1125)
 
     def test_gain_experience_overlevel(self):
-        self.pokemon.gain_experience(69)
+        self.pokemon.gain_experience(1130)
         self.assertEqual(self.pokemon.level, self.initial_level + 1)
-        self.assertEqual(self.pokemon.experience, 9)
-        self.assertGreater(self.pokemon.totalXP, 60)
-
+        self.assertEqual(self.pokemon.experience, 5)
+        self.assertGreater(self.pokemon.totalXP, 1125)
+    # Behavior of a very large experience gain
     def test_gain_experience_largeamount(self):
         self.pokemon.gain_experience(2600000)
-        self.assertEqual(self.pokemon.level, self.initial_level + 97)
+        self.assertEqual(self.pokemon.level, self.initial_level + 84)
 
 
 
