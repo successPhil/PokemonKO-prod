@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Enemy attack, data, and image renders without crashing 1`] = `<EnemyAttack />`;
+
+exports[`Enemy attack, data, and image renders without crashing 2`] = `<EnemyData />`;
+
+exports[`Enemy attack, data, and image renders without crashing 3`] = `<EnemyImage />`;

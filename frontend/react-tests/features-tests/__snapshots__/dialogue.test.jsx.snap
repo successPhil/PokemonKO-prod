@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Game Dialogue renders without crashing 1`] = `<GameDialogue />`;
+
+exports[`Game Dialogue renders without crashing 2`] = `<RewardBox />`;

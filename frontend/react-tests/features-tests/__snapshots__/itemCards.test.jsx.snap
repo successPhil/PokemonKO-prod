@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Trainer Item and Shop Cards render without crashing 1`] = `<TrainerItemsCard />`;
+
+exports[`Trainer Item and Shop Cards render without crashing 2`] = `<TrainerShopCard />`;
