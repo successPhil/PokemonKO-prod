@@ -7,7 +7,7 @@ gunicorn==21.2.0
 idna==3.4
 packaging==23.1
 psycopg==3.1.10
-psycopg-binary==3.1.10
+psycopg-binary==3.1.18
 pytz==2023.3.post1
 requests==2.31.0
 sqlparse==0.4.4
