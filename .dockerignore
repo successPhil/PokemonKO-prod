@@ -5,3 +5,7 @@ venv
 frontend/node_modules
 node_modules
 frontend/.env
+dist
+frontend/dist
+apolloserver/node_modules
+apolloserver/dist

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Login from "./routes/Login"
 import Trainer from './routes/Trainer'
+import Pokedex from "./routes/Pokedex"
 import ResponsiveAppBar from "./features/AppBar/AppBar"
 import TrainerPokes from "./routes/TrainerPokes"
 import Shop from "./routes/Shop"
@@ -161,6 +162,7 @@ function App() {
           <Route path="battle" element={<Trainer /> } /> 
           <Route path="shop" element={<Shop />} />
           <Route path="items" element={<Items />} />
+          <Route path="pokedex" element={<Pokedex />} />
         </Routes>
       </Router>
       </ThemeProvider>

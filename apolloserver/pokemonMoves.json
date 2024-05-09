@@ -1,0 +1,3626 @@
+[
+    {
+        "type": "grass",
+        "name": "constrict",
+        "damage": 2,
+        "id": 1
+    },
+    {
+        "type": "poison",
+        "name": "confuse-ray",
+        "damage": 2,
+        "id": 2
+    },
+    {
+        "type": "grass",
+        "name": "body-slam",
+        "damage": 10,
+        "id": 3
+    },
+    {
+        "type": "poison",
+        "name": "stomp",
+        "damage": 3,
+        "id": 4
+    },
+    {
+        "type": "fire",
+        "name": "drill-peck",
+        "damage": 7,
+        "id": 5
+    },
+    {
+        "type": "fire",
+        "name": "screech",
+        "damage": 9,
+        "id": 6
+    },
+    {
+        "type": "fire",
+        "name": "withdraw",
+        "damage": 9,
+        "id": 7
+    },
+    {
+        "type": "fire",
+        "name": "peck",
+        "damage": 5,
+        "id": 8
+    },
+    {
+        "type": "water",
+        "name": "pay-day",
+        "damage": 5,
+        "id": 9
+    },
+    {
+        "type": "water",
+        "name": "swift",
+        "damage": 2,
+        "id": 10
+    },
+    {
+        "type": "water",
+        "name": "rock-throw",
+        "damage": 10,
+        "id": 11
+    },
+    {
+        "type": "water",
+        "name": "hypnosis",
+        "damage": 4,
+        "id": 12
+    },
+    {
+        "type": "bug",
+        "name": "hyper-fang",
+        "damage": 6,
+        "id": 13
+    },
+    {
+        "type": "bug",
+        "name": "smog",
+        "damage": 7,
+        "id": 14
+    },
+    {
+        "type": "bug",
+        "name": "growl",
+        "damage": 1,
+        "id": 15
+    },
+    {
+        "type": "bug",
+        "name": "bubble-beam",
+        "damage": 10,
+        "id": 16
+    },
+    {
+        "type": "bug",
+        "name": "submission",
+        "damage": 8,
+        "id": 17
+    },
+    {
+        "type": "poison",
+        "name": "soft-boiled",
+        "damage": 3,
+        "id": 18
+    },
+    {
+        "type": "bug",
+        "name": "growl",
+        "damage": 7,
+        "id": 19
+    },
+    {
+        "type": "poison",
+        "name": "self-destruct",
+        "damage": 5,
+        "id": 20
+    },
+    {
+        "type": "normal",
+        "name": "lovely-kiss",
+        "damage": 2,
+        "id": 21
+    },
+    {
+        "type": "flying",
+        "name": "double-edge",
+        "damage": 2,
+        "id": 22
+    },
+    {
+        "type": "normal",
+        "name": "fissure",
+        "damage": 2,
+        "id": 23
+    },
+    {
+        "type": "flying",
+        "name": "fury-swipes",
+        "damage": 1,
+        "id": 24
+    },
+    {
+        "type": "normal",
+        "name": "blizzard",
+        "damage": 7,
+        "id": 25
+    },
+    {
+        "type": "normal",
+        "name": "fury-attack",
+        "damage": 10,
+        "id": 26
+    },
+    {
+        "type": "normal",
+        "name": "fissure",
+        "damage": 8,
+        "id": 27
+    },
+    {
+        "type": "normal",
+        "name": "razor-leaf",
+        "damage": 3,
+        "id": 28
+    },
+    {
+        "type": "normal",
+        "name": "bite",
+        "damage": 7,
+        "id": 29
+    },
+    {
+        "type": "flying",
+        "name": "bite",
+        "damage": 9,
+        "id": 30
+    },
+    {
+        "type": "normal",
+        "name": "smokescreen",
+        "damage": 8,
+        "id": 31
+    },
+    {
+        "type": "flying",
+        "name": "aurora-beam",
+        "damage": 4,
+        "id": 32
+    },
+    {
+        "type": "poison",
+        "name": "super-fang",
+        "damage": 3,
+        "id": 33
+    },
+    {
+        "type": "poison",
+        "name": "super-fang",
+        "damage": 6,
+        "id": 34
+    },
+    {
+        "type": "poison",
+        "name": "thunder",
+        "damage": 1,
+        "id": 35
+    },
+    {
+        "type": "poison",
+        "name": "psywave",
+        "damage": 10,
+        "id": 36
+    },
+    {
+        "type": "ground",
+        "name": "sonic-boom",
+        "damage": 3,
+        "id": 37
+    },
+    {
+        "type": "ground",
+        "name": "rest",
+        "damage": 10,
+        "id": 38
+    },
+    {
+        "type": "ground",
+        "name": "horn-attack",
+        "damage": 8,
+        "id": 39
+    },
+    {
+        "type": "ground",
+        "name": "scratch",
+        "damage": 3,
+        "id": 40
+    },
+    {
+        "type": "poison",
+        "name": "crabhammer",
+        "damage": 5,
+        "id": 41
+    },
+    {
+        "type": "poison",
+        "name": "petal-dance",
+        "damage": 10,
+        "id": 42
+    },
+    {
+        "type": "poison",
+        "name": "mist",
+        "damage": 6,
+        "id": 43
+    },
+    {
+        "type": "poison",
+        "name": "sonic-boom",
+        "damage": 6,
+        "id": 44
+    },
+    {
+        "type": "poison",
+        "name": "mega-drain",
+        "damage": 7,
+        "id": 45
+    },
+    {
+        "type": "poison",
+        "name": "egg-bomb",
+        "damage": 6,
+        "id": 46
+    },
+    {
+        "type": "poison",
+        "name": "take-down",
+        "damage": 9,
+        "id": 47
+    },
+    {
+        "type": "poison",
+        "name": "thunder-shock",
+        "damage": 1,
+        "id": 48
+    },
+    {
+        "type": "fire",
+        "name": "light-screen",
+        "damage": 9,
+        "id": 49
+    },
+    {
+        "type": "fire",
+        "name": "rolling-kick",
+        "damage": 10,
+        "id": 50
+    },
+    {
+        "type": "fire",
+        "name": "rock-throw",
+        "damage": 2,
+        "id": 51
+    },
+    {
+        "type": "fire",
+        "name": "solar-beam",
+        "damage": 4,
+        "id": 52
+    },
+    {
+        "type": "poison",
+        "name": "barrier",
+        "damage": 10,
+        "id": 53
+    },
+    {
+        "type": "flying",
+        "name": "fire-spin",
+        "damage": 3,
+        "id": 54
+    },
+    {
+        "type": "poison",
+        "name": "spore",
+        "damage": 5,
+        "id": 55
+    },
+    {
+        "type": "flying",
+        "name": "submission",
+        "damage": 4,
+        "id": 56
+    },
+    {
+        "type": "grass",
+        "name": "barrier",
+        "damage": 9,
+        "id": 57
+    },
+    {
+        "type": "poison",
+        "name": "flash",
+        "damage": 6,
+        "id": 58
+    },
+    {
+        "type": "grass",
+        "name": "mimic",
+        "damage": 7,
+        "id": 59
+    },
+    {
+        "type": "poison",
+        "name": "flamethrower",
+        "damage": 5,
+        "id": 60
+    },
+    {
+        "type": "bug",
+        "name": "tri-attack",
+        "damage": 9,
+        "id": 61
+    },
+    {
+        "type": "grass",
+        "name": "withdraw",
+        "damage": 9,
+        "id": 62
+    },
+    {
+        "type": "bug",
+        "name": "leech-life",
+        "damage": 6,
+        "id": 63
+    },
+    {
+        "type": "grass",
+        "name": "sky-attack",
+        "damage": 1,
+        "id": 64
+    },
+    {
+        "type": "bug",
+        "name": "double-kick",
+        "damage": 2,
+        "id": 65
+    },
+    {
+        "type": "poison",
+        "name": "psybeam",
+        "damage": 7,
+        "id": 66
+    },
+    {
+        "type": "bug",
+        "name": "confuse-ray",
+        "damage": 9,
+        "id": 67
+    },
+    {
+        "type": "poison",
+        "name": "thunderbolt",
+        "damage": 6,
+        "id": 68
+    },
+    {
+        "type": "ground",
+        "name": "jump-kick",
+        "damage": 4,
+        "id": 69
+    },
+    {
+        "type": "ground",
+        "name": "struggle",
+        "damage": 8,
+        "id": 70
+    },
+    {
+        "type": "ground",
+        "name": "fury-swipes",
+        "damage": 10,
+        "id": 71
+    },
+    {
+        "type": "ground",
+        "name": "dizzy-punch",
+        "damage": 4,
+        "id": 72
+    },
+    {
+        "type": "normal",
+        "name": "spore",
+        "damage": 5,
+        "id": 73
+    },
+    {
+        "type": "normal",
+        "name": "vine-whip",
+        "damage": 7,
+        "id": 74
+    },
+    {
+        "type": "normal",
+        "name": "fire-spin",
+        "damage": 6,
+        "id": 75
+    },
+    {
+        "type": "normal",
+        "name": "sky-attack",
+        "damage": 10,
+        "id": 76
+    },
+    {
+        "type": "water",
+        "name": "confusion",
+        "damage": 9,
+        "id": 77
+    },
+    {
+        "type": "water",
+        "name": "amnesia",
+        "damage": 4,
+        "id": 78
+    },
+    {
+        "type": "water",
+        "name": "roar",
+        "damage": 1,
+        "id": 79
+    },
+    {
+        "type": "water",
+        "name": "cut",
+        "damage": 5,
+        "id": 80
+    },
+    {
+        "type": "fighting",
+        "name": "night-shade",
+        "damage": 8,
+        "id": 81
+    },
+    {
+        "type": "fighting",
+        "name": "horn-attack",
+        "damage": 2,
+        "id": 82
+    },
+    {
+        "type": "fighting",
+        "name": "spike-cannon",
+        "damage": 3,
+        "id": 83
+    },
+    {
+        "type": "fighting",
+        "name": "smog",
+        "damage": 1,
+        "id": 84
+    },
+    {
+        "type": "fire",
+        "name": "barrier",
+        "damage": 7,
+        "id": 85
+    },
+    {
+        "type": "fire",
+        "name": "pound",
+        "damage": 2,
+        "id": 86
+    },
+    {
+        "type": "fire",
+        "name": "fury-attack",
+        "damage": 3,
+        "id": 87
+    },
+    {
+        "type": "fire",
+        "name": "constrict",
+        "damage": 2,
+        "id": 88
+    },
+    {
+        "type": "water",
+        "name": "recover",
+        "damage": 6,
+        "id": 89
+    },
+    {
+        "type": "water",
+        "name": "fissure",
+        "damage": 10,
+        "id": 90
+    },
+    {
+        "type": "water",
+        "name": "sky-attack",
+        "damage": 2,
+        "id": 91
+    },
+    {
+        "type": "water",
+        "name": "struggle",
+        "damage": 8,
+        "id": 92
+    },
+    {
+        "type": "psychic",
+        "name": "growth",
+        "damage": 1,
+        "id": 93
+    },
+    {
+        "type": "psychic",
+        "name": "barrage",
+        "damage": 2,
+        "id": 94
+    },
+    {
+        "type": "psychic",
+        "name": "dizzy-punch",
+        "damage": 10,
+        "id": 95
+    },
+    {
+        "type": "psychic",
+        "name": "horn-drill",
+        "damage": 6,
+        "id": 96
+    },
+    {
+        "type": "fighting",
+        "name": "rock-slide",
+        "damage": 10,
+        "id": 97
+    },
+    {
+        "type": "fighting",
+        "name": "poison-powder",
+        "damage": 7,
+        "id": 98
+    },
+    {
+        "type": "fighting",
+        "name": "dig",
+        "damage": 2,
+        "id": 99
+    },
+    {
+        "type": "fighting",
+        "name": "reflect",
+        "damage": 1,
+        "id": 100
+    },
+    {
+        "type": "grass",
+        "name": "reflect",
+        "damage": 8,
+        "id": 101
+    },
+    {
+        "type": "poison",
+        "name": "dizzy-punch",
+        "damage": 10,
+        "id": 102
+    },
+    {
+        "type": "grass",
+        "name": "leech-seed",
+        "damage": 9,
+        "id": 103
+    },
+    {
+        "type": "poison",
+        "name": "gust",
+        "damage": 6,
+        "id": 104
+    },
+    {
+        "type": "water",
+        "name": "horn-drill",
+        "damage": 7,
+        "id": 105
+    },
+    {
+        "type": "poison",
+        "name": "seismic-toss",
+        "damage": 1,
+        "id": 106
+    },
+    {
+        "type": "water",
+        "name": "double-slap",
+        "damage": 4,
+        "id": 107
+    },
+    {
+        "type": "poison",
+        "name": "bind",
+        "damage": 3,
+        "id": 108
+    },
+    {
+        "type": "rock",
+        "name": "recover",
+        "damage": 10,
+        "id": 109
+    },
+    {
+        "type": "ground",
+        "name": "string-shot",
+        "damage": 10,
+        "id": 110
+    },
+    {
+        "type": "rock",
+        "name": "crabhammer",
+        "damage": 3,
+        "id": 111
+    },
+    {
+        "type": "ground",
+        "name": "cut",
+        "damage": 2,
+        "id": 112
+    },
+    {
+        "type": "grass",
+        "name": "slam",
+        "damage": 3,
+        "id": 113
+    },
+    {
+        "type": "poison",
+        "name": "slam",
+        "damage": 2,
+        "id": 114
+    },
+    {
+        "type": "grass",
+        "name": "high-jump-kick",
+        "damage": 9,
+        "id": 115
+    },
+    {
+        "type": "poison",
+        "name": "withdraw",
+        "damage": 4,
+        "id": 116
+    },
+    {
+        "type": "fire",
+        "name": "pound",
+        "damage": 7,
+        "id": 117
+    },
+    {
+        "type": "fire",
+        "name": "poison-powder",
+        "damage": 2,
+        "id": 118
+    },
+    {
+        "type": "fire",
+        "name": "flash",
+        "damage": 10,
+        "id": 119
+    },
+    {
+        "type": "fire",
+        "name": "leer",
+        "damage": 7,
+        "id": 120
+    },
+    {
+        "type": "fire",
+        "name": "bubble-beam",
+        "damage": 6,
+        "id": 121
+    },
+    {
+        "type": "flying",
+        "name": "agility",
+        "damage": 10,
+        "id": 122
+    },
+    {
+        "type": "fire",
+        "name": "guillotine",
+        "damage": 7,
+        "id": 123
+    },
+    {
+        "type": "flying",
+        "name": "aurora-beam",
+        "damage": 8,
+        "id": 124
+    },
+    {
+        "type": "water",
+        "name": "vice-grip",
+        "damage": 10,
+        "id": 125
+    },
+    {
+        "type": "water",
+        "name": "fire-spin",
+        "damage": 5,
+        "id": 126
+    },
+    {
+        "type": "water",
+        "name": "scratch",
+        "damage": 4,
+        "id": 127
+    },
+    {
+        "type": "water",
+        "name": "petal-dance",
+        "damage": 1,
+        "id": 128
+    },
+    {
+        "type": "water",
+        "name": "conversion",
+        "damage": 6,
+        "id": 129
+    },
+    {
+        "type": "water",
+        "name": "scratch",
+        "damage": 8,
+        "id": 130
+    },
+    {
+        "type": "water",
+        "name": "mirror-move",
+        "damage": 8,
+        "id": 131
+    },
+    {
+        "type": "water",
+        "name": "mega-punch",
+        "damage": 6,
+        "id": 132
+    },
+    {
+        "type": "bug",
+        "name": "sand-attack",
+        "damage": 5,
+        "id": 133
+    },
+    {
+        "type": "bug",
+        "name": "slash",
+        "damage": 10,
+        "id": 134
+    },
+    {
+        "type": "bug",
+        "name": "rage",
+        "damage": 6,
+        "id": 135
+    },
+    {
+        "type": "bug",
+        "name": "constrict",
+        "damage": 2,
+        "id": 136
+    },
+    {
+        "type": "bug",
+        "name": "double-team",
+        "damage": 2,
+        "id": 137
+    },
+    {
+        "type": "flying",
+        "name": "flamethrower",
+        "damage": 2,
+        "id": 138
+    },
+    {
+        "type": "bug",
+        "name": "waterfall",
+        "damage": 9,
+        "id": 139
+    },
+    {
+        "type": "flying",
+        "name": "substitute",
+        "damage": 8,
+        "id": 140
+    },
+    {
+        "type": "bug",
+        "name": "bone-club",
+        "damage": 4,
+        "id": 141
+    },
+    {
+        "type": "poison",
+        "name": "fire-blast",
+        "damage": 4,
+        "id": 142
+    },
+    {
+        "type": "bug",
+        "name": "hyper-beam",
+        "damage": 5,
+        "id": 143
+    },
+    {
+        "type": "poison",
+        "name": "dizzy-punch",
+        "damage": 8,
+        "id": 144
+    },
+    {
+        "type": "bug",
+        "name": "sing",
+        "damage": 8,
+        "id": 145
+    },
+    {
+        "type": "poison",
+        "name": "high-jump-kick",
+        "damage": 3,
+        "id": 146
+    },
+    {
+        "type": "bug",
+        "name": "fury-attack",
+        "damage": 6,
+        "id": 147
+    },
+    {
+        "type": "poison",
+        "name": "self-destruct",
+        "damage": 2,
+        "id": 148
+    },
+    {
+        "type": "normal",
+        "name": "bite",
+        "damage": 6,
+        "id": 149
+    },
+    {
+        "type": "flying",
+        "name": "jump-kick",
+        "damage": 3,
+        "id": 150
+    },
+    {
+        "type": "normal",
+        "name": "transform",
+        "damage": 3,
+        "id": 151
+    },
+    {
+        "type": "flying",
+        "name": "metronome",
+        "damage": 5,
+        "id": 152
+    },
+    {
+        "type": "normal",
+        "name": "leech-seed",
+        "damage": 4,
+        "id": 153
+    },
+    {
+        "type": "flying",
+        "name": "dragon-rage",
+        "damage": 8,
+        "id": 154
+    },
+    {
+        "type": "normal",
+        "name": "rock-throw",
+        "damage": 7,
+        "id": 155
+    },
+    {
+        "type": "flying",
+        "name": "amnesia",
+        "damage": 8,
+        "id": 156
+    },
+    {
+        "type": "normal",
+        "name": "super-fang",
+        "damage": 10,
+        "id": 157
+    },
+    {
+        "type": "normal",
+        "name": "lovely-kiss",
+        "damage": 4,
+        "id": 158
+    },
+    {
+        "type": "normal",
+        "name": "harden",
+        "damage": 2,
+        "id": 159
+    },
+    {
+        "type": "normal",
+        "name": "rock-throw",
+        "damage": 8,
+        "id": 160
+    },
+    {
+        "type": "normal",
+        "name": "high-jump-kick",
+        "damage": 5,
+        "id": 161
+    },
+    {
+        "type": "flying",
+        "name": "take-down",
+        "damage": 6,
+        "id": 162
+    },
+    {
+        "type": "normal",
+        "name": "spike-cannon",
+        "damage": 8,
+        "id": 163
+    },
+    {
+        "type": "flying",
+        "name": "leech-seed",
+        "damage": 5,
+        "id": 164
+    },
+    {
+        "type": "poison",
+        "name": "conversion",
+        "damage": 8,
+        "id": 165
+    },
+    {
+        "type": "poison",
+        "name": "poison-sting",
+        "damage": 6,
+        "id": 166
+    },
+    {
+        "type": "poison",
+        "name": "harden",
+        "damage": 10,
+        "id": 167
+    },
+    {
+        "type": "poison",
+        "name": "haze",
+        "damage": 3,
+        "id": 168
+    },
+    {
+        "type": "electric",
+        "name": "barrage",
+        "damage": 8,
+        "id": 169
+    },
+    {
+        "type": "electric",
+        "name": "sky-attack",
+        "damage": 4,
+        "id": 170
+    },
+    {
+        "type": "electric",
+        "name": "submission",
+        "damage": 8,
+        "id": 171
+    },
+    {
+        "type": "electric",
+        "name": "double-edge",
+        "damage": 4,
+        "id": 172
+    },
+    {
+        "type": "electric",
+        "name": "egg-bomb",
+        "damage": 5,
+        "id": 173
+    },
+    {
+        "type": "electric",
+        "name": "withdraw",
+        "damage": 1,
+        "id": 174
+    },
+    {
+        "type": "electric",
+        "name": "struggle",
+        "damage": 2,
+        "id": 175
+    },
+    {
+        "type": "electric",
+        "name": "bone-club",
+        "damage": 4,
+        "id": 176
+    },
+    {
+        "type": "ground",
+        "name": "mirror-move",
+        "damage": 9,
+        "id": 177
+    },
+    {
+        "type": "ground",
+        "name": "sing",
+        "damage": 1,
+        "id": 178
+    },
+    {
+        "type": "ground",
+        "name": "earthquake",
+        "damage": 4,
+        "id": 179
+    },
+    {
+        "type": "ground",
+        "name": "thunder-wave",
+        "damage": 2,
+        "id": 180
+    },
+    {
+        "type": "poison",
+        "name": "supersonic",
+        "damage": 3,
+        "id": 181
+    },
+    {
+        "type": "poison",
+        "name": "whirlwind",
+        "damage": 3,
+        "id": 182
+    },
+    {
+        "type": "poison",
+        "name": "thunder-punch",
+        "damage": 7,
+        "id": 183
+    },
+    {
+        "type": "poison",
+        "name": "minimize",
+        "damage": 10,
+        "id": 184
+    },
+    {
+        "type": "poison",
+        "name": "stun-spore",
+        "damage": 10,
+        "id": 185
+    },
+    {
+        "type": "ground",
+        "name": "mega-kick",
+        "damage": 9,
+        "id": 186
+    },
+    {
+        "type": "poison",
+        "name": "double-edge",
+        "damage": 10,
+        "id": 187
+    },
+    {
+        "type": "ground",
+        "name": "kinesis",
+        "damage": 2,
+        "id": 188
+    },
+    {
+        "type": "poison",
+        "name": "confusion",
+        "damage": 9,
+        "id": 189
+    },
+    {
+        "type": "poison",
+        "name": "wrap",
+        "damage": 5,
+        "id": 190
+    },
+    {
+        "type": "poison",
+        "name": "tackle",
+        "damage": 10,
+        "id": 191
+    },
+    {
+        "type": "poison",
+        "name": "ice-beam",
+        "damage": 5,
+        "id": 192
+    },
+    {
+        "type": "poison",
+        "name": "slam",
+        "damage": 9,
+        "id": 193
+    },
+    {
+        "type": "ground",
+        "name": "sonic-boom",
+        "damage": 10,
+        "id": 194
+    },
+    {
+        "type": "poison",
+        "name": "psybeam",
+        "damage": 6,
+        "id": 195
+    },
+    {
+        "type": "ground",
+        "name": "solar-beam",
+        "damage": 7,
+        "id": 196
+    },
+    {
+        "type": "fairy",
+        "name": "sludge",
+        "damage": 3,
+        "id": 197
+    },
+    {
+        "type": "fairy",
+        "name": "drill-peck",
+        "damage": 6,
+        "id": 198
+    },
+    {
+        "type": "fairy",
+        "name": "amnesia",
+        "damage": 7,
+        "id": 199
+    },
+    {
+        "type": "fairy",
+        "name": "cut",
+        "damage": 4,
+        "id": 200
+    },
+    {
+        "type": "fairy",
+        "name": "psychic",
+        "damage": 4,
+        "id": 201
+    },
+    {
+        "type": "fairy",
+        "name": "smokescreen",
+        "damage": 9,
+        "id": 202
+    },
+    {
+        "type": "fairy",
+        "name": "psybeam",
+        "damage": 5,
+        "id": 203
+    },
+    {
+        "type": "fairy",
+        "name": "recover",
+        "damage": 7,
+        "id": 204
+    },
+    {
+        "type": "fire",
+        "name": "vice-grip",
+        "damage": 1,
+        "id": 205
+    },
+    {
+        "type": "fire",
+        "name": "tri-attack",
+        "damage": 10,
+        "id": 206
+    },
+    {
+        "type": "fire",
+        "name": "tackle",
+        "damage": 4,
+        "id": 207
+    },
+    {
+        "type": "fire",
+        "name": "bubble-beam",
+        "damage": 4,
+        "id": 208
+    },
+    {
+        "type": "normal",
+        "name": "hyper-fang",
+        "damage": 5,
+        "id": 209
+    },
+    {
+        "type": "fairy",
+        "name": "drill-peck",
+        "damage": 4,
+        "id": 210
+    },
+    {
+        "type": "normal",
+        "name": "agility",
+        "damage": 7,
+        "id": 211
+    },
+    {
+        "type": "fairy",
+        "name": "strength",
+        "damage": 1,
+        "id": 212
+    },
+    {
+        "type": "normal",
+        "name": "petal-dance",
+        "damage": 1,
+        "id": 213
+    },
+    {
+        "type": "fairy",
+        "name": "mega-drain",
+        "damage": 10,
+        "id": 214
+    },
+    {
+        "type": "normal",
+        "name": "bide",
+        "damage": 3,
+        "id": 215
+    },
+    {
+        "type": "fairy",
+        "name": "bubble",
+        "damage": 5,
+        "id": 216
+    },
+    {
+        "type": "poison",
+        "name": "swords-dance",
+        "damage": 3,
+        "id": 217
+    },
+    {
+        "type": "flying",
+        "name": "transform",
+        "damage": 1,
+        "id": 218
+    },
+    {
+        "type": "poison",
+        "name": "self-destruct",
+        "damage": 10,
+        "id": 219
+    },
+    {
+        "type": "flying",
+        "name": "vice-grip",
+        "damage": 5,
+        "id": 220
+    },
+    {
+        "type": "grass",
+        "name": "high-jump-kick",
+        "damage": 3,
+        "id": 221
+    },
+    {
+        "type": "poison",
+        "name": "swift",
+        "damage": 2,
+        "id": 222
+    },
+    {
+        "type": "grass",
+        "name": "meditate",
+        "damage": 3,
+        "id": 223
+    },
+    {
+        "type": "poison",
+        "name": "lick",
+        "damage": 4,
+        "id": 224
+    },
+    {
+        "type": "grass",
+        "name": "string-shot",
+        "damage": 8,
+        "id": 225
+    },
+    {
+        "type": "poison",
+        "name": "struggle",
+        "damage": 3,
+        "id": 226
+    },
+    {
+        "type": "grass",
+        "name": "psybeam",
+        "damage": 6,
+        "id": 227
+    },
+    {
+        "type": "poison",
+        "name": "poison-sting",
+        "damage": 7,
+        "id": 228
+    },
+    {
+        "type": "bug",
+        "name": "focus-energy",
+        "damage": 3,
+        "id": 229
+    },
+    {
+        "type": "grass",
+        "name": "soft-boiled",
+        "damage": 7,
+        "id": 230
+    },
+    {
+        "type": "bug",
+        "name": "quick-attack",
+        "damage": 7,
+        "id": 231
+    },
+    {
+        "type": "grass",
+        "name": "scratch",
+        "damage": 7,
+        "id": 232
+    },
+    {
+        "type": "bug",
+        "name": "dizzy-punch",
+        "damage": 3,
+        "id": 233
+    },
+    {
+        "type": "poison",
+        "name": "leer",
+        "damage": 1,
+        "id": 234
+    },
+    {
+        "type": "bug",
+        "name": "crabhammer",
+        "damage": 10,
+        "id": 235
+    },
+    {
+        "type": "poison",
+        "name": "submission",
+        "damage": 10,
+        "id": 236
+    },
+    {
+        "type": "ground",
+        "name": "thunder-shock",
+        "damage": 7,
+        "id": 237
+    },
+    {
+        "type": "ground",
+        "name": "bubble",
+        "damage": 7,
+        "id": 238
+    },
+    {
+        "type": "ground",
+        "name": "crabhammer",
+        "damage": 8,
+        "id": 239
+    },
+    {
+        "type": "ground",
+        "name": "poison-sting",
+        "damage": 10,
+        "id": 240
+    },
+    {
+        "type": "normal",
+        "name": "stomp",
+        "damage": 8,
+        "id": 241
+    },
+    {
+        "type": "normal",
+        "name": "fissure",
+        "damage": 2,
+        "id": 242
+    },
+    {
+        "type": "normal",
+        "name": "roar",
+        "damage": 10,
+        "id": 243
+    },
+    {
+        "type": "normal",
+        "name": "bite",
+        "damage": 3,
+        "id": 244
+    },
+    {
+        "type": "water",
+        "name": "bubble",
+        "damage": 5,
+        "id": 245
+    },
+    {
+        "type": "water",
+        "name": "confusion",
+        "damage": 8,
+        "id": 246
+    },
+    {
+        "type": "water",
+        "name": "fury-attack",
+        "damage": 8,
+        "id": 247
+    },
+    {
+        "type": "water",
+        "name": "flash",
+        "damage": 6,
+        "id": 248
+    },
+    {
+        "type": "fighting",
+        "name": "reflect",
+        "damage": 3,
+        "id": 249
+    },
+    {
+        "type": "fighting",
+        "name": "strength",
+        "damage": 9,
+        "id": 250
+    },
+    {
+        "type": "fighting",
+        "name": "double-team",
+        "damage": 5,
+        "id": 251
+    },
+    {
+        "type": "fighting",
+        "name": "leer",
+        "damage": 8,
+        "id": 252
+    },
+    {
+        "type": "fire",
+        "name": "leer",
+        "damage": 3,
+        "id": 253
+    },
+    {
+        "type": "fire",
+        "name": "mega-kick",
+        "damage": 6,
+        "id": 254
+    },
+    {
+        "type": "fire",
+        "name": "leer",
+        "damage": 2,
+        "id": 255
+    },
+    {
+        "type": "fire",
+        "name": "thunderbolt",
+        "damage": 9,
+        "id": 256
+    },
+    {
+        "type": "water",
+        "name": "thunder-wave",
+        "damage": 10,
+        "id": 257
+    },
+    {
+        "type": "water",
+        "name": "quick-attack",
+        "damage": 2,
+        "id": 258
+    },
+    {
+        "type": "water",
+        "name": "bubble-beam",
+        "damage": 4,
+        "id": 259
+    },
+    {
+        "type": "water",
+        "name": "stomp",
+        "damage": 5,
+        "id": 260
+    },
+    {
+        "type": "water",
+        "name": "super-fang",
+        "damage": 8,
+        "id": 261
+    },
+    {
+        "type": "fighting",
+        "name": "smog",
+        "damage": 9,
+        "id": 262
+    },
+    {
+        "type": "water",
+        "name": "sand-attack",
+        "damage": 8,
+        "id": 263
+    },
+    {
+        "type": "fighting",
+        "name": "growth",
+        "damage": 9,
+        "id": 264
+    },
+    {
+        "type": "psychic",
+        "name": "pay-day",
+        "damage": 1,
+        "id": 265
+    },
+    {
+        "type": "psychic",
+        "name": "earthquake",
+        "damage": 6,
+        "id": 266
+    },
+    {
+        "type": "psychic",
+        "name": "glare",
+        "damage": 10,
+        "id": 267
+    },
+    {
+        "type": "psychic",
+        "name": "karate-chop",
+        "damage": 4,
+        "id": 268
+    },
+    {
+        "type": "psychic",
+        "name": "sonic-boom",
+        "damage": 3,
+        "id": 269
+    },
+    {
+        "type": "psychic",
+        "name": "ember",
+        "damage": 10,
+        "id": 270
+    },
+    {
+        "type": "psychic",
+        "name": "cut",
+        "damage": 10,
+        "id": 271
+    },
+    {
+        "type": "psychic",
+        "name": "mega-punch",
+        "damage": 3,
+        "id": 272
+    },
+    {
+        "type": "fighting",
+        "name": "poison-powder",
+        "damage": 2,
+        "id": 273
+    },
+    {
+        "type": "fighting",
+        "name": "screech",
+        "damage": 4,
+        "id": 274
+    },
+    {
+        "type": "fighting",
+        "name": "transform",
+        "damage": 10,
+        "id": 275
+    },
+    {
+        "type": "fighting",
+        "name": "self-destruct",
+        "damage": 4,
+        "id": 276
+    },
+    {
+        "type": "fighting",
+        "name": "supersonic",
+        "damage": 4,
+        "id": 277
+    },
+    {
+        "type": "fighting",
+        "name": "skull-bash",
+        "damage": 10,
+        "id": 278
+    },
+    {
+        "type": "fighting",
+        "name": "horn-drill",
+        "damage": 5,
+        "id": 279
+    },
+    {
+        "type": "fighting",
+        "name": "screech",
+        "damage": 6,
+        "id": 280
+    },
+    {
+        "type": "grass",
+        "name": "psybeam",
+        "damage": 5,
+        "id": 281
+    },
+    {
+        "type": "poison",
+        "name": "sludge",
+        "damage": 7,
+        "id": 282
+    },
+    {
+        "type": "grass",
+        "name": "counter",
+        "damage": 10,
+        "id": 283
+    },
+    {
+        "type": "poison",
+        "name": "growl",
+        "damage": 7,
+        "id": 284
+    },
+    {
+        "type": "grass",
+        "name": "self-destruct",
+        "damage": 3,
+        "id": 285
+    },
+    {
+        "type": "poison",
+        "name": "ice-punch",
+        "damage": 3,
+        "id": 286
+    },
+    {
+        "type": "grass",
+        "name": "string-shot",
+        "damage": 2,
+        "id": 287
+    },
+    {
+        "type": "poison",
+        "name": "double-kick",
+        "damage": 1,
+        "id": 288
+    },
+    {
+        "type": "water",
+        "name": "gust",
+        "damage": 10,
+        "id": 289
+    },
+    {
+        "type": "poison",
+        "name": "psychic",
+        "damage": 7,
+        "id": 290
+    },
+    {
+        "type": "water",
+        "name": "mist",
+        "damage": 10,
+        "id": 291
+    },
+    {
+        "type": "poison",
+        "name": "rest",
+        "damage": 9,
+        "id": 292
+    },
+    {
+        "type": "rock",
+        "name": "horn-attack",
+        "damage": 4,
+        "id": 293
+    },
+    {
+        "type": "ground",
+        "name": "psychic",
+        "damage": 8,
+        "id": 294
+    },
+    {
+        "type": "rock",
+        "name": "mirror-move",
+        "damage": 5,
+        "id": 295
+    },
+    {
+        "type": "ground",
+        "name": "sonic-boom",
+        "damage": 4,
+        "id": 296
+    },
+    {
+        "type": "fire",
+        "name": "rock-throw",
+        "damage": 4,
+        "id": 297
+    },
+    {
+        "type": "fire",
+        "name": "dragon-rage",
+        "damage": 6,
+        "id": 298
+    },
+    {
+        "type": "fire",
+        "name": "quick-attack",
+        "damage": 7,
+        "id": 299
+    },
+    {
+        "type": "fire",
+        "name": "vice-grip",
+        "damage": 6,
+        "id": 300
+    },
+    {
+        "type": "water",
+        "name": "comet-punch",
+        "damage": 10,
+        "id": 301
+    },
+    {
+        "type": "psychic",
+        "name": "barrier",
+        "damage": 3,
+        "id": 302
+    },
+    {
+        "type": "water",
+        "name": "razor-wind",
+        "damage": 7,
+        "id": 303
+    },
+    {
+        "type": "psychic",
+        "name": "tri-attack",
+        "damage": 9,
+        "id": 304
+    },
+    {
+        "type": "electric",
+        "name": "leech-seed",
+        "damage": 4,
+        "id": 305
+    },
+    {
+        "type": "steel",
+        "name": "dig",
+        "damage": 7,
+        "id": 306
+    },
+    {
+        "type": "electric",
+        "name": "rolling-kick",
+        "damage": 5,
+        "id": 307
+    },
+    {
+        "type": "steel",
+        "name": "haze",
+        "damage": 2,
+        "id": 308
+    },
+    {
+        "type": "normal",
+        "name": "glare",
+        "damage": 8,
+        "id": 309
+    },
+    {
+        "type": "flying",
+        "name": "jump-kick",
+        "damage": 2,
+        "id": 310
+    },
+    {
+        "type": "normal",
+        "name": "roar",
+        "damage": 8,
+        "id": 311
+    },
+    {
+        "type": "flying",
+        "name": "dizzy-punch",
+        "damage": 2,
+        "id": 312
+    },
+    {
+        "type": "normal",
+        "name": "stomp",
+        "damage": 9,
+        "id": 313
+    },
+    {
+        "type": "flying",
+        "name": "screech",
+        "damage": 6,
+        "id": 314
+    },
+    {
+        "type": "normal",
+        "name": "waterfall",
+        "damage": 5,
+        "id": 315
+    },
+    {
+        "type": "flying",
+        "name": "flash",
+        "damage": 8,
+        "id": 316
+    },
+    {
+        "type": "water",
+        "name": "bite",
+        "damage": 7,
+        "id": 317
+    },
+    {
+        "type": "water",
+        "name": "wrap",
+        "damage": 9,
+        "id": 318
+    },
+    {
+        "type": "water",
+        "name": "night-shade",
+        "damage": 8,
+        "id": 319
+    },
+    {
+        "type": "water",
+        "name": "body-slam",
+        "damage": 10,
+        "id": 320
+    },
+    {
+        "type": "poison",
+        "name": "harden",
+        "damage": 9,
+        "id": 321
+    },
+    {
+        "type": "poison",
+        "name": "stomp",
+        "damage": 4,
+        "id": 322
+    },
+    {
+        "type": "poison",
+        "name": "pound",
+        "damage": 7,
+        "id": 323
+    },
+    {
+        "type": "poison",
+        "name": "metronome",
+        "damage": 6,
+        "id": 324
+    },
+    {
+        "type": "water",
+        "name": "self-destruct",
+        "damage": 7,
+        "id": 325
+    },
+    {
+        "type": "water",
+        "name": "minimize",
+        "damage": 5,
+        "id": 326
+    },
+    {
+        "type": "water",
+        "name": "leer",
+        "damage": 1,
+        "id": 327
+    },
+    {
+        "type": "water",
+        "name": "struggle",
+        "damage": 2,
+        "id": 328
+    },
+    {
+        "type": "ghost",
+        "name": "flamethrower",
+        "damage": 7,
+        "id": 329
+    },
+    {
+        "type": "poison",
+        "name": "vice-grip",
+        "damage": 6,
+        "id": 330
+    },
+    {
+        "type": "ghost",
+        "name": "guillotine",
+        "damage": 7,
+        "id": 331
+    },
+    {
+        "type": "poison",
+        "name": "razor-leaf",
+        "damage": 3,
+        "id": 332
+    },
+    {
+        "type": "rock",
+        "name": "sharpen",
+        "damage": 4,
+        "id": 333
+    },
+    {
+        "type": "ground",
+        "name": "substitute",
+        "damage": 8,
+        "id": 334
+    },
+    {
+        "type": "rock",
+        "name": "lick",
+        "damage": 9,
+        "id": 335
+    },
+    {
+        "type": "ground",
+        "name": "string-shot",
+        "damage": 3,
+        "id": 336
+    },
+    {
+        "type": "psychic",
+        "name": "withdraw",
+        "damage": 9,
+        "id": 337
+    },
+    {
+        "type": "psychic",
+        "name": "teleport",
+        "damage": 5,
+        "id": 338
+    },
+    {
+        "type": "psychic",
+        "name": "spike-cannon",
+        "damage": 2,
+        "id": 339
+    },
+    {
+        "type": "psychic",
+        "name": "slash",
+        "damage": 6,
+        "id": 340
+    },
+    {
+        "type": "water",
+        "name": "splash",
+        "damage": 1,
+        "id": 341
+    },
+    {
+        "type": "water",
+        "name": "barrier",
+        "damage": 4,
+        "id": 342
+    },
+    {
+        "type": "water",
+        "name": "flamethrower",
+        "damage": 2,
+        "id": 343
+    },
+    {
+        "type": "water",
+        "name": "rock-slide",
+        "damage": 4,
+        "id": 344
+    },
+    {
+        "type": "electric",
+        "name": "self-destruct",
+        "damage": 6,
+        "id": 345
+    },
+    {
+        "type": "electric",
+        "name": "dragon-rage",
+        "damage": 10,
+        "id": 346
+    },
+    {
+        "type": "electric",
+        "name": "absorb",
+        "damage": 4,
+        "id": 347
+    },
+    {
+        "type": "electric",
+        "name": "gust",
+        "damage": 8,
+        "id": 348
+    },
+    {
+        "type": "grass",
+        "name": "pound",
+        "damage": 6,
+        "id": 349
+    },
+    {
+        "type": "psychic",
+        "name": "clamp",
+        "damage": 8,
+        "id": 350
+    },
+    {
+        "type": "grass",
+        "name": "sleep-powder",
+        "damage": 1,
+        "id": 351
+    },
+    {
+        "type": "psychic",
+        "name": "water-gun",
+        "damage": 4,
+        "id": 352
+    },
+    {
+        "type": "ground",
+        "name": "dig",
+        "damage": 6,
+        "id": 353
+    },
+    {
+        "type": "ground",
+        "name": "drill-peck",
+        "damage": 8,
+        "id": 354
+    },
+    {
+        "type": "ground",
+        "name": "self-destruct",
+        "damage": 6,
+        "id": 355
+    },
+    {
+        "type": "ground",
+        "name": "explosion",
+        "damage": 6,
+        "id": 356
+    },
+    {
+        "type": "normal",
+        "name": "struggle",
+        "damage": 5,
+        "id": 357
+    },
+    {
+        "type": "normal",
+        "name": "hypnosis",
+        "damage": 4,
+        "id": 358
+    },
+    {
+        "type": "normal",
+        "name": "explosion",
+        "damage": 8,
+        "id": 359
+    },
+    {
+        "type": "normal",
+        "name": "fissure",
+        "damage": 2,
+        "id": 360
+    },
+    {
+        "type": "poison",
+        "name": "ice-punch",
+        "damage": 7,
+        "id": 361
+    },
+    {
+        "type": "poison",
+        "name": "bubble",
+        "damage": 5,
+        "id": 362
+    },
+    {
+        "type": "poison",
+        "name": "razor-wind",
+        "damage": 9,
+        "id": 363
+    },
+    {
+        "type": "poison",
+        "name": "screech",
+        "damage": 10,
+        "id": 364
+    },
+    {
+        "type": "ground",
+        "name": "hyper-fang",
+        "damage": 5,
+        "id": 365
+    },
+    {
+        "type": "rock",
+        "name": "poison-gas",
+        "damage": 10,
+        "id": 366
+    },
+    {
+        "type": "ground",
+        "name": "bite",
+        "damage": 3,
+        "id": 367
+    },
+    {
+        "type": "rock",
+        "name": "tri-attack",
+        "damage": 4,
+        "id": 368
+    },
+    {
+        "type": "grass",
+        "name": "psychic",
+        "damage": 3,
+        "id": 369
+    },
+    {
+        "type": "grass",
+        "name": "earthquake",
+        "damage": 7,
+        "id": 370
+    },
+    {
+        "type": "grass",
+        "name": "pay-day",
+        "damage": 7,
+        "id": 371
+    },
+    {
+        "type": "grass",
+        "name": "wrap",
+        "damage": 5,
+        "id": 372
+    },
+    {
+        "type": "normal",
+        "name": "flamethrower",
+        "damage": 2,
+        "id": 373
+    },
+    {
+        "type": "normal",
+        "name": "dizzy-punch",
+        "damage": 9,
+        "id": 374
+    },
+    {
+        "type": "normal",
+        "name": "meditate",
+        "damage": 7,
+        "id": 375
+    },
+    {
+        "type": "normal",
+        "name": "hyper-beam",
+        "damage": 2,
+        "id": 376
+    },
+    {
+        "type": "water",
+        "name": "thunder-punch",
+        "damage": 9,
+        "id": 377
+    },
+    {
+        "type": "water",
+        "name": "thunder-punch",
+        "damage": 7,
+        "id": 378
+    },
+    {
+        "type": "water",
+        "name": "dragon-rage",
+        "damage": 6,
+        "id": 379
+    },
+    {
+        "type": "water",
+        "name": "mirror-move",
+        "damage": 4,
+        "id": 380
+    },
+    {
+        "type": "water",
+        "name": "scratch",
+        "damage": 7,
+        "id": 381
+    },
+    {
+        "type": "water",
+        "name": "tri-attack",
+        "damage": 10,
+        "id": 382
+    },
+    {
+        "type": "water",
+        "name": "swift",
+        "damage": 2,
+        "id": 383
+    },
+    {
+        "type": "water",
+        "name": "bonemerang",
+        "damage": 2,
+        "id": 384
+    },
+    {
+        "type": "water",
+        "name": "crabhammer",
+        "damage": 6,
+        "id": 385
+    },
+    {
+        "type": "water",
+        "name": "fissure",
+        "damage": 2,
+        "id": 386
+    },
+    {
+        "type": "water",
+        "name": "wrap",
+        "damage": 10,
+        "id": 387
+    },
+    {
+        "type": "water",
+        "name": "clamp",
+        "damage": 4,
+        "id": 388
+    },
+    {
+        "type": "bug",
+        "name": "sky-attack",
+        "damage": 2,
+        "id": 389
+    },
+    {
+        "type": "flying",
+        "name": "ember",
+        "damage": 6,
+        "id": 390
+    },
+    {
+        "type": "bug",
+        "name": "focus-energy",
+        "damage": 6,
+        "id": 391
+    },
+    {
+        "type": "flying",
+        "name": "gust",
+        "damage": 9,
+        "id": 392
+    },
+    {
+        "type": "bug",
+        "name": "hyper-beam",
+        "damage": 7,
+        "id": 393
+    },
+    {
+        "type": "bug",
+        "name": "bite",
+        "damage": 7,
+        "id": 394
+    },
+    {
+        "type": "bug",
+        "name": "bubble-beam",
+        "damage": 8,
+        "id": 395
+    },
+    {
+        "type": "bug",
+        "name": "tackle",
+        "damage": 8,
+        "id": 396
+    },
+    {
+        "type": "normal",
+        "name": "smokescreen",
+        "damage": 3,
+        "id": 397
+    },
+    {
+        "type": "normal",
+        "name": "mega-punch",
+        "damage": 4,
+        "id": 398
+    },
+    {
+        "type": "normal",
+        "name": "whirlwind",
+        "damage": 3,
+        "id": 399
+    },
+    {
+        "type": "normal",
+        "name": "submission",
+        "damage": 2,
+        "id": 400
+    },
+    {
+        "type": "water",
+        "name": "withdraw",
+        "damage": 3,
+        "id": 401
+    },
+    {
+        "type": "water",
+        "name": "sing",
+        "damage": 5,
+        "id": 402
+    },
+    {
+        "type": "water",
+        "name": "bonemerang",
+        "damage": 7,
+        "id": 403
+    },
+    {
+        "type": "water",
+        "name": "poison-powder",
+        "damage": 2,
+        "id": 404
+    },
+    {
+        "type": "water",
+        "name": "rock-slide",
+        "damage": 6,
+        "id": 405
+    },
+    {
+        "type": "ice",
+        "name": "fissure",
+        "damage": 8,
+        "id": 406
+    },
+    {
+        "type": "water",
+        "name": "supersonic",
+        "damage": 9,
+        "id": 407
+    },
+    {
+        "type": "ice",
+        "name": "spore",
+        "damage": 10,
+        "id": 408
+    },
+    {
+        "type": "normal",
+        "name": "stomp",
+        "damage": 9,
+        "id": 409
+    },
+    {
+        "type": "normal",
+        "name": "sing",
+        "damage": 2,
+        "id": 410
+    },
+    {
+        "type": "normal",
+        "name": "roar",
+        "damage": 7,
+        "id": 411
+    },
+    {
+        "type": "normal",
+        "name": "ember",
+        "damage": 2,
+        "id": 412
+    },
+    {
+        "type": "normal",
+        "name": "clamp",
+        "damage": 2,
+        "id": 413
+    },
+    {
+        "type": "normal",
+        "name": "mimic",
+        "damage": 9,
+        "id": 414
+    },
+    {
+        "type": "normal",
+        "name": "splash",
+        "damage": 6,
+        "id": 415
+    },
+    {
+        "type": "normal",
+        "name": "flash",
+        "damage": 7,
+        "id": 416
+    },
+    {
+        "type": "normal",
+        "name": "bubble-beam",
+        "damage": 4,
+        "id": 417
+    },
+    {
+        "type": "normal",
+        "name": "poison-gas",
+        "damage": 2,
+        "id": 418
+    },
+    {
+        "type": "normal",
+        "name": "submission",
+        "damage": 8,
+        "id": 419
+    },
+    {
+        "type": "normal",
+        "name": "hydro-pump",
+        "damage": 5,
+        "id": 420
+    },
+    {
+        "type": "rock",
+        "name": "waterfall",
+        "damage": 7,
+        "id": 421
+    },
+    {
+        "type": "water",
+        "name": "wing-attack",
+        "damage": 6,
+        "id": 422
+    },
+    {
+        "type": "rock",
+        "name": "leech-seed",
+        "damage": 5,
+        "id": 423
+    },
+    {
+        "type": "water",
+        "name": "spore",
+        "damage": 4,
+        "id": 424
+    },
+    {
+        "type": "rock",
+        "name": "sharpen",
+        "damage": 7,
+        "id": 425
+    },
+    {
+        "type": "water",
+        "name": "comet-punch",
+        "damage": 8,
+        "id": 426
+    },
+    {
+        "type": "rock",
+        "name": "bonemerang",
+        "damage": 4,
+        "id": 427
+    },
+    {
+        "type": "water",
+        "name": "barrier",
+        "damage": 6,
+        "id": 428
+    },
+    {
+        "type": "rock",
+        "name": "supersonic",
+        "damage": 6,
+        "id": 429
+    },
+    {
+        "type": "flying",
+        "name": "roar",
+        "damage": 8,
+        "id": 430
+    },
+    {
+        "type": "rock",
+        "name": "poison-powder",
+        "damage": 10,
+        "id": 431
+    },
+    {
+        "type": "flying",
+        "name": "vine-whip",
+        "damage": 7,
+        "id": 432
+    },
+    {
+        "type": "ice",
+        "name": "conversion",
+        "damage": 7,
+        "id": 433
+    },
+    {
+        "type": "flying",
+        "name": "counter",
+        "damage": 5,
+        "id": 434
+    },
+    {
+        "type": "ice",
+        "name": "agility",
+        "damage": 7,
+        "id": 435
+    },
+    {
+        "type": "flying",
+        "name": "fury-swipes",
+        "damage": 6,
+        "id": 436
+    },
+    {
+        "type": "electric",
+        "name": "supersonic",
+        "damage": 1,
+        "id": 437
+    },
+    {
+        "type": "flying",
+        "name": "vice-grip",
+        "damage": 10,
+        "id": 438
+    },
+    {
+        "type": "electric",
+        "name": "scratch",
+        "damage": 4,
+        "id": 439
+    },
+    {
+        "type": "flying",
+        "name": "spore",
+        "damage": 2,
+        "id": 440
+    },
+    {
+        "type": "fire",
+        "name": "acid",
+        "damage": 3,
+        "id": 441
+    },
+    {
+        "type": "flying",
+        "name": "pound",
+        "damage": 7,
+        "id": 442
+    },
+    {
+        "type": "fire",
+        "name": "lovely-kiss",
+        "damage": 10,
+        "id": 443
+    },
+    {
+        "type": "flying",
+        "name": "sand-attack",
+        "damage": 7,
+        "id": 444
+    },
+    {
+        "type": "dragon",
+        "name": "rage",
+        "damage": 7,
+        "id": 445
+    },
+    {
+        "type": "dragon",
+        "name": "super-fang",
+        "damage": 7,
+        "id": 446
+    },
+    {
+        "type": "dragon",
+        "name": "meditate",
+        "damage": 8,
+        "id": 447
+    },
+    {
+        "type": "dragon",
+        "name": "agility",
+        "damage": 10,
+        "id": 448
+    },
+    {
+        "type": "psychic",
+        "name": "sleep-powder",
+        "damage": 1,
+        "id": 449
+    },
+    {
+        "type": "psychic",
+        "name": "gust",
+        "damage": 10,
+        "id": 450
+    },
+    {
+        "type": "psychic",
+        "name": "fire-blast",
+        "damage": 1,
+        "id": 451
+    },
+    {
+        "type": "psychic",
+        "name": "ice-beam",
+        "damage": 2,
+        "id": 452
+    },
+    {
+        "type": "fire",
+        "name": "minimize",
+        "damage": 7,
+        "id": 453
+    },
+    {
+        "type": "fire",
+        "name": "acid-armor",
+        "damage": 6,
+        "id": 454
+    },
+    {
+        "type": "fire",
+        "name": "headbutt",
+        "damage": 1,
+        "id": 455
+    },
+    {
+        "type": "fire",
+        "name": "headbutt",
+        "damage": 6,
+        "id": 456
+    },
+    {
+        "type": "water",
+        "name": "bubble-beam",
+        "damage": 3,
+        "id": 457
+    },
+    {
+        "type": "psychic",
+        "name": "dream-eater",
+        "damage": 8,
+        "id": 458
+    },
+    {
+        "type": "water",
+        "name": "dragon-rage",
+        "damage": 6,
+        "id": 459
+    },
+    {
+        "type": "psychic",
+        "name": "seismic-toss",
+        "damage": 5,
+        "id": 460
+    },
+    {
+        "type": "electric",
+        "name": "high-jump-kick",
+        "damage": 2,
+        "id": 461
+    },
+    {
+        "type": "steel",
+        "name": "thunder-shock",
+        "damage": 7,
+        "id": 462
+    },
+    {
+        "type": "electric",
+        "name": "poison-sting",
+        "damage": 6,
+        "id": 463
+    },
+    {
+        "type": "steel",
+        "name": "constrict",
+        "damage": 8,
+        "id": 464
+    },
+    {
+        "type": "normal",
+        "name": "high-jump-kick",
+        "damage": 3,
+        "id": 465
+    },
+    {
+        "type": "flying",
+        "name": "splash",
+        "damage": 3,
+        "id": 466
+    },
+    {
+        "type": "normal",
+        "name": "rest",
+        "damage": 3,
+        "id": 467
+    },
+    {
+        "type": "flying",
+        "name": "leech-seed",
+        "damage": 6,
+        "id": 468
+    },
+    {
+        "type": "water",
+        "name": "vine-whip",
+        "damage": 4,
+        "id": 469
+    },
+    {
+        "type": "ice",
+        "name": "stun-spore",
+        "damage": 4,
+        "id": 470
+    },
+    {
+        "type": "water",
+        "name": "sonic-boom",
+        "damage": 4,
+        "id": 471
+    },
+    {
+        "type": "ice",
+        "name": "fury-swipes",
+        "damage": 6,
+        "id": 472
+    },
+    {
+        "type": "poison",
+        "name": "vine-whip",
+        "damage": 4,
+        "id": 473
+    },
+    {
+        "type": "poison",
+        "name": "lick",
+        "damage": 1,
+        "id": 474
+    },
+    {
+        "type": "poison",
+        "name": "spike-cannon",
+        "damage": 3,
+        "id": 475
+    },
+    {
+        "type": "poison",
+        "name": "substitute",
+        "damage": 8,
+        "id": 476
+    },
+    {
+        "type": "water",
+        "name": "fury-swipes",
+        "damage": 6,
+        "id": 477
+    },
+    {
+        "type": "ice",
+        "name": "whirlwind",
+        "damage": 2,
+        "id": 478
+    },
+    {
+        "type": "water",
+        "name": "glare",
+        "damage": 2,
+        "id": 479
+    },
+    {
+        "type": "ice",
+        "name": "teleport",
+        "damage": 1,
+        "id": 480
+    },
+    {
+        "type": "ghost",
+        "name": "explosion",
+        "damage": 3,
+        "id": 481
+    },
+    {
+        "type": "poison",
+        "name": "splash",
+        "damage": 3,
+        "id": 482
+    },
+    {
+        "type": "ghost",
+        "name": "thunder-wave",
+        "damage": 2,
+        "id": 483
+    },
+    {
+        "type": "poison",
+        "name": "guillotine",
+        "damage": 2,
+        "id": 484
+    },
+    {
+        "type": "ghost",
+        "name": "bide",
+        "damage": 6,
+        "id": 485
+    },
+    {
+        "type": "poison",
+        "name": "tail-whip",
+        "damage": 7,
+        "id": 486
+    },
+    {
+        "type": "ghost",
+        "name": "mist",
+        "damage": 5,
+        "id": 487
+    },
+    {
+        "type": "poison",
+        "name": "lick",
+        "damage": 3,
+        "id": 488
+    },
+    {
+        "type": "psychic",
+        "name": "string-shot",
+        "damage": 9,
+        "id": 489
+    },
+    {
+        "type": "psychic",
+        "name": "blizzard",
+        "damage": 6,
+        "id": 490
+    },
+    {
+        "type": "psychic",
+        "name": "bite",
+        "damage": 7,
+        "id": 491
+    },
+    {
+        "type": "psychic",
+        "name": "smokescreen",
+        "damage": 2,
+        "id": 492
+    },
+    {
+        "type": "water",
+        "name": "psybeam",
+        "damage": 4,
+        "id": 493
+    },
+    {
+        "type": "water",
+        "name": "slash",
+        "damage": 4,
+        "id": 494
+    },
+    {
+        "type": "water",
+        "name": "fly",
+        "damage": 2,
+        "id": 495
+    },
+    {
+        "type": "water",
+        "name": "vice-grip",
+        "damage": 8,
+        "id": 496
+    },
+    {
+        "type": "electric",
+        "name": "bubble-beam",
+        "damage": 1,
+        "id": 497
+    },
+    {
+        "type": "electric",
+        "name": "ice-beam",
+        "damage": 7,
+        "id": 498
+    },
+    {
+        "type": "electric",
+        "name": "karate-chop",
+        "damage": 5,
+        "id": 499
+    },
+    {
+        "type": "electric",
+        "name": "smog",
+        "damage": 2,
+        "id": 500
+    },
+    {
+        "type": "grass",
+        "name": "bone-club",
+        "damage": 1,
+        "id": 501
+    },
+    {
+        "type": "psychic",
+        "name": "thunder-wave",
+        "damage": 6,
+        "id": 502
+    },
+    {
+        "type": "grass",
+        "name": "growth",
+        "damage": 10,
+        "id": 503
+    },
+    {
+        "type": "psychic",
+        "name": "aurora-beam",
+        "damage": 1,
+        "id": 504
+    },
+    {
+        "type": "ground",
+        "name": "acid-armor",
+        "damage": 6,
+        "id": 505
+    },
+    {
+        "type": "ground",
+        "name": "smokescreen",
+        "damage": 9,
+        "id": 506
+    },
+    {
+        "type": "ground",
+        "name": "barrier",
+        "damage": 7,
+        "id": 507
+    },
+    {
+        "type": "ground",
+        "name": "fissure",
+        "damage": 2,
+        "id": 508
+    },
+    {
+        "type": "fighting",
+        "name": "splash",
+        "damage": 5,
+        "id": 509
+    },
+    {
+        "type": "fighting",
+        "name": "thunder-shock",
+        "damage": 4,
+        "id": 510
+    },
+    {
+        "type": "fighting",
+        "name": "cut",
+        "damage": 9,
+        "id": 511
+    },
+    {
+        "type": "fighting",
+        "name": "petal-dance",
+        "damage": 9,
+        "id": 512
+    },
+    {
+        "type": "fighting",
+        "name": "headbutt",
+        "damage": 10,
+        "id": 513
+    },
+    {
+        "type": "fighting",
+        "name": "spike-cannon",
+        "damage": 4,
+        "id": 514
+    },
+    {
+        "type": "fighting",
+        "name": "toxic",
+        "damage": 6,
+        "id": 515
+    },
+    {
+        "type": "fighting",
+        "name": "flamethrower",
+        "damage": 10,
+        "id": 516
+    },
+    {
+        "type": "poison",
+        "name": "bide",
+        "damage": 5,
+        "id": 517
+    },
+    {
+        "type": "poison",
+        "name": "teleport",
+        "damage": 6,
+        "id": 518
+    },
+    {
+        "type": "poison",
+        "name": "supersonic",
+        "damage": 4,
+        "id": 519
+    },
+    {
+        "type": "poison",
+        "name": "fissure",
+        "damage": 2,
+        "id": 520
+    },
+    {
+        "type": "ground",
+        "name": "growth",
+        "damage": 6,
+        "id": 521
+    },
+    {
+        "type": "rock",
+        "name": "teleport",
+        "damage": 2,
+        "id": 522
+    },
+    {
+        "type": "ground",
+        "name": "thrash",
+        "damage": 2,
+        "id": 523
+    },
+    {
+        "type": "rock",
+        "name": "string-shot",
+        "damage": 4,
+        "id": 524
+    },
+    {
+        "type": "normal",
+        "name": "wrap",
+        "damage": 2,
+        "id": 525
+    },
+    {
+        "type": "normal",
+        "name": "hypnosis",
+        "damage": 8,
+        "id": 526
+    },
+    {
+        "type": "normal",
+        "name": "bite",
+        "damage": 5,
+        "id": 527
+    },
+    {
+        "type": "normal",
+        "name": "stomp",
+        "damage": 7,
+        "id": 528
+    },
+    {
+        "type": "water",
+        "name": "drill-peck",
+        "damage": 8,
+        "id": 529
+    },
+    {
+        "type": "water",
+        "name": "slam",
+        "damage": 10,
+        "id": 530
+    },
+    {
+        "type": "water",
+        "name": "bite",
+        "damage": 2,
+        "id": 531
+    },
+    {
+        "type": "water",
+        "name": "smokescreen",
+        "damage": 2,
+        "id": 532
+    },
+    {
+        "type": "water",
+        "name": "smog",
+        "damage": 6,
+        "id": 533
+    },
+    {
+        "type": "water",
+        "name": "sludge",
+        "damage": 5,
+        "id": 534
+    },
+    {
+        "type": "water",
+        "name": "dizzy-punch",
+        "damage": 1,
+        "id": 535
+    },
+    {
+        "type": "water",
+        "name": "spore",
+        "damage": 1,
+        "id": 536
+    },
+    {
+        "type": "water",
+        "name": "sleep-powder",
+        "damage": 2,
+        "id": 537
+    },
+    {
+        "type": "psychic",
+        "name": "supersonic",
+        "damage": 4,
+        "id": 538
+    },
+    {
+        "type": "water",
+        "name": "screech",
+        "damage": 6,
+        "id": 539
+    },
+    {
+        "type": "psychic",
+        "name": "high-jump-kick",
+        "damage": 5,
+        "id": 540
+    },
+    {
+        "type": "psychic",
+        "name": "harden",
+        "damage": 9,
+        "id": 541
+    },
+    {
+        "type": "fairy",
+        "name": "high-jump-kick",
+        "damage": 3,
+        "id": 542
+    },
+    {
+        "type": "psychic",
+        "name": "lovely-kiss",
+        "damage": 7,
+        "id": 543
+    },
+    {
+        "type": "fairy",
+        "name": "mimic",
+        "damage": 8,
+        "id": 544
+    },
+    {
+        "type": "ice",
+        "name": "take-down",
+        "damage": 4,
+        "id": 545
+    },
+    {
+        "type": "psychic",
+        "name": "ice-punch",
+        "damage": 7,
+        "id": 546
+    },
+    {
+        "type": "ice",
+        "name": "growl",
+        "damage": 4,
+        "id": 547
+    },
+    {
+        "type": "psychic",
+        "name": "night-shade",
+        "damage": 8,
+        "id": 548
+    },
+    {
+        "type": "electric",
+        "name": "high-jump-kick",
+        "damage": 10,
+        "id": 549
+    },
+    {
+        "type": "electric",
+        "name": "take-down",
+        "damage": 7,
+        "id": 550
+    },
+    {
+        "type": "electric",
+        "name": "confuse-ray",
+        "damage": 8,
+        "id": 551
+    },
+    {
+        "type": "electric",
+        "name": "take-down",
+        "damage": 6,
+        "id": 552
+    },
+    {
+        "type": "fire",
+        "name": "splash",
+        "damage": 1,
+        "id": 553
+    },
+    {
+        "type": "fire",
+        "name": "slam",
+        "damage": 6,
+        "id": 554
+    },
+    {
+        "type": "fire",
+        "name": "fire-blast",
+        "damage": 5,
+        "id": 555
+    },
+    {
+        "type": "fire",
+        "name": "light-screen",
+        "damage": 2,
+        "id": 556
+    },
+    {
+        "type": "water",
+        "name": "spore",
+        "damage": 10,
+        "id": 557
+    },
+    {
+        "type": "flying",
+        "name": "leech-seed",
+        "damage": 3,
+        "id": 558
+    },
+    {
+        "type": "water",
+        "name": "fire-spin",
+        "damage": 2,
+        "id": 559
+    },
+    {
+        "type": "flying",
+        "name": "hyper-fang",
+        "damage": 3,
+        "id": 560
+    },
+    {
+        "type": "water",
+        "name": "lick",
+        "damage": 8,
+        "id": 561
+    },
+    {
+        "type": "water",
+        "name": "super-fang",
+        "damage": 5,
+        "id": 562
+    },
+    {
+        "type": "water",
+        "name": "rolling-kick",
+        "damage": 10,
+        "id": 563
+    },
+    {
+        "type": "water",
+        "name": "drill-peck",
+        "damage": 4,
+        "id": 564
+    },
+    {
+        "type": "electric",
+        "name": "fire-punch",
+        "damage": 4,
+        "id": 565
+    },
+    {
+        "type": "electric",
+        "name": "fire-blast",
+        "damage": 7,
+        "id": 566
+    },
+    {
+        "type": "electric",
+        "name": "super-fang",
+        "damage": 5,
+        "id": 567
+    },
+    {
+        "type": "electric",
+        "name": "growth",
+        "damage": 1,
+        "id": 568
+    },
+    {
+        "type": "fire",
+        "name": "scratch",
+        "damage": 3,
+        "id": 569
+    },
+    {
+        "type": "fire",
+        "name": "mimic",
+        "damage": 6,
+        "id": 570
+    },
+    {
+        "type": "fire",
+        "name": "fury-swipes",
+        "damage": 2,
+        "id": 571
+    },
+    {
+        "type": "fire",
+        "name": "submission",
+        "damage": 8,
+        "id": 572
+    },
+    {
+        "type": "rock",
+        "name": "water-gun",
+        "damage": 4,
+        "id": 573
+    },
+    {
+        "type": "water",
+        "name": "cut",
+        "damage": 5,
+        "id": 574
+    },
+    {
+        "type": "rock",
+        "name": "peck",
+        "damage": 9,
+        "id": 575
+    },
+    {
+        "type": "water",
+        "name": "conversion",
+        "damage": 5,
+        "id": 576
+    },
+    {
+        "type": "rock",
+        "name": "confuse-ray",
+        "damage": 5,
+        "id": 577
+    },
+    {
+        "type": "water",
+        "name": "thunder-wave",
+        "damage": 6,
+        "id": 578
+    },
+    {
+        "type": "rock",
+        "name": "waterfall",
+        "damage": 2,
+        "id": 579
+    },
+    {
+        "type": "water",
+        "name": "slash",
+        "damage": 10,
+        "id": 580
+    },
+    {
+        "type": "normal",
+        "name": "twineedle",
+        "damage": 4,
+        "id": 581
+    },
+    {
+        "type": "normal",
+        "name": "double-team",
+        "damage": 1,
+        "id": 582
+    },
+    {
+        "type": "normal",
+        "name": "bubble",
+        "damage": 5,
+        "id": 583
+    },
+    {
+        "type": "normal",
+        "name": "lick",
+        "damage": 9,
+        "id": 584
+    },
+    {
+        "type": "dragon",
+        "name": "thunder",
+        "damage": 9,
+        "id": 585
+    },
+    {
+        "type": "dragon",
+        "name": "ember",
+        "damage": 8,
+        "id": 586
+    },
+    {
+        "type": "dragon",
+        "name": "high-jump-kick",
+        "damage": 5,
+        "id": 587
+    },
+    {
+        "type": "dragon",
+        "name": "mega-punch",
+        "damage": 5,
+        "id": 588
+    },
+    {
+        "type": "dragon",
+        "name": "confusion",
+        "damage": 3,
+        "id": 589
+    },
+    {
+        "type": "flying",
+        "name": "psychic",
+        "damage": 1,
+        "id": 590
+    },
+    {
+        "type": "dragon",
+        "name": "horn-attack",
+        "damage": 10,
+        "id": 591
+    },
+    {
+        "type": "flying",
+        "name": "jump-kick",
+        "damage": 2,
+        "id": 592
+    },
+    {
+        "type": "psychic",
+        "name": "spike-cannon",
+        "damage": 6,
+        "id": 593
+    },
+    {
+        "type": "psychic",
+        "name": "sludge",
+        "damage": 9,
+        "id": 594
+    },
+    {
+        "type": "psychic",
+        "name": "dragon-rage",
+        "damage": 5,
+        "id": 595
+    },
+    {
+        "type": "psychic",
+        "name": "focus-energy",
+        "damage": 6,
+        "id": 596
+    },
+    {
+        "type": "grass",
+        "name": "karate-chop",
+        "damage": 8,
+        "id": 597
+    },
+    {
+        "type": "poison",
+        "name": "rock-slide",
+        "damage": 10,
+        "id": 598
+    },
+    {
+        "type": "grass",
+        "name": "string-shot",
+        "damage": 7,
+        "id": 599
+    },
+    {
+        "type": "poison",
+        "name": "night-shade",
+        "damage": 10,
+        "id": 600
+    },
+    {
+        "type": "rock",
+        "name": "ice-beam",
+        "damage": 8,
+        "id": 601
+    },
+    {
+        "type": "ground",
+        "name": "crabhammer",
+        "damage": 7,
+        "id": 602
+    },
+    {
+        "type": "rock",
+        "name": "bind",
+        "damage": 10,
+        "id": 603
+    },
+    {
+        "type": "ground",
+        "name": "earthquake",
+        "damage": 9,
+        "id": 604
+    }
+]
