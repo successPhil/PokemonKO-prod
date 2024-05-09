@@ -3,13 +3,12 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import CardBaloo from '../../styles/CardBaloo';
 import React from 'react';
-import { useContext } from 'react';
-import TrainerContext from '../../contexts/TrainerContext';
+import { typeToClassname } from '../../constants/typeToClassname';
+import { typeToIcon } from '../../constants/typeToIcon';
 
 
 export default function MovesCard({move}) {
 
-    const { typeToClassname, typeToIcon } = useContext(TrainerContext);
     const typeClassName = typeToClassname[move.type];
     const icon = typeToIcon[move.type];
     const iconClassName = 'pokemon-type-icon'

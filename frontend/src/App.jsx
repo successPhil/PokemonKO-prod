@@ -12,7 +12,6 @@ import { ThemeProvider } from "@emotion/react"
 import { CssBaseline } from "@mui/material"
 import { getTrainerItems, getTrainerPokemon, getTrainer, getTrainerShop, getGamePokemon } from "./api/authApi"
 
-
 function App() {
   const [formData, setFormData] = useState({ username: '', password: '' });
   const [userToken, setUserToken] = useState(null)
@@ -35,7 +34,7 @@ function App() {
   const [trainerItems, setTrainerItems] = useState([]);
   const [trainerShop, setTrainerShop] = useState([]);
 
-  console.log('Checking that shop and item logic changes work before deleting old logic')
+
 
   const getItems = async () => {
   const items = await getTrainerItems()
@@ -49,7 +48,6 @@ function App() {
 
   const getGamePokes = async () => {
     const gamePokes = await getGamePokemon()
-    console.log(gamePokes)
   }
 
   const getUserTrainer = async () => {
@@ -63,24 +61,12 @@ function App() {
   }
   
 
-  const fetchData = async () => {
-    try {
-      const token = localStorage.getItem('token');
-      if (token) {
-        setUserToken(token);
-      }
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  };
-
   useEffect(() => {
     getGamePokes()
     const token = localStorage.getItem('token');
    
     if (token) {
       setUserToken(token);
-      fetchData();
       getItems()
       getUserTrainer()
       getUserShop()
@@ -89,164 +75,6 @@ function App() {
     }
   }, []);
 
-  
-  const typeToClassname = {
-    grass: 'grass',
-    fire: 'fire',
-    water: 'water',
-    electric: 'electric',
-    psychic: 'psychic',
-    dark: 'dark',
-    steel: 'steel',
-    dragon: 'dragon',
-    fairy: 'fairy',
-    normal: 'normal',
-    flying: 'flying',
-    poison: 'poison',
-    ground: 'ground',
-    rock: 'rock',
-    bug: 'bug',
-    ghost: 'ghost',
-    ice: 'ice',
-    fighting: 'fighting'
-  };
-
-  // Type to icon map
-  const typeToIcon = {
-    grass: 'g',
-    fire: 'r',
-    water: 'w',
-    electric: 'l',
-    psychic: 'p',
-    dark: 'd',
-    steel: 'm',
-    dragon: 'n',
-    fairy: 'y',
-    normal: 'c',
-    flying: 'v',
-    poison: 'o',
-    ground: 'a',
-    rock: 'k',
-    bug: 'b',
-    ghost: 'h',
-    ice: 'i',
-    fighting: 'f'
-  };
-
-  const typeMultipliers = {
-    grass: {
-      doubleDamageFrom: ["flying", "poison", "bug", "fire", "ice"],
-      doubleDamageTo: ["ground", "rock", "water"],
-      halfDamageFrom: ["ground", "water", "grass", "electric"],
-      halfDamageTo: ["flying", "poison", "bug", "steel", "fire", "grass", "dragon"],
-    },
-    fire: {
-      doubleDamageFrom: ["ground", "rock", "water"],
-      doubleDamageTo: ["bug", "steel", "grass", "ice"],
-      halfDamageFrom: ["bug", "steel", "fire", "grass", "ice", "fairy"],
-      halfDamageTo: ["rock", "fire", "water", "dragon"],
-    },
-    water: {
-      doubleDamageFrom: ["grass", "electric"],
-      doubleDamageTo: ["ground", "rock", "fire"],
-      halfDamageFrom: ["steel", "water", "fire", "ice"],
-      halfDamageTo: ["water", "grass", "dragon"]
-    },
-    electric: {
-      doubleDamageFrom: ["ground"],
-      doubleDamageTo: ["flying", "water"],
-      halfDamageFrom: ["flying", "steel", "electric"],
-      halfDamageTo: ["grass", "electric", "dragon"]
-    },
-    psychic: {
-      doubleDamageFrom: ["bug", "ghost", "dark"],
-      doubleDamageTo: ["fighting", "poison"],
-      halfDamageFrom: ["fighting", "psychic"],
-      halfDamageTo: ["steel", "psychic"]
-    },
-    dark: {
-      doubleDamageFrom: ["fighting", "bug", "fairy"],
-      doubleDamageTo: ["ghost", "psychic"],
-      halfDamageFrom: ["ghost", "dark"],
-      halfDamageTo:["fighting", "dark", "fairy"]
-    },
-    steel: {
-      doubleDamageFrom: ["fighting", "ground", "fire"],
-      doubleDamageTo: ["rock", "ice", "fairy"],
-      halfDamageFrom: ["normal", "flying", "rock","bug", "steel", "grass", "psychic", "ice", "dragon", "fairy" ],
-      halfDamageTo: ["steel", "water", "fire", "electric"]
-    },
-    dragon: {
-      doubleDamageFrom: ["ice", "dragon", "fairy"],
-      doubleDamageTo: ["dragon"],
-      halfDamageFrom: ["fire", "water", "grass", "electric"],
-      halfDamageTo: ["steel"]
-    },
-    fairy: {
-      doubleDamageFrom: ["poison", "steel"],
-      doubleDamageTo: ["fighting", "dragon", "dark"],
-      halfDamageFrom: ["fighting", "bug", "dark"],
-      halfDamageTo: ["poison", "steel", "fire"]
-    },
-    normal: {
-      doubleDamageFrom: ["fighting"],
-      doubleDamageTo: [],
-      halfDamageFrom: [],
-      halfDamageTo: ["rock", "steel"]
-    },
-    flying: {
-      doubleDamageFrom: ["rock", "electric", "ice"],
-      doubleDamageTo: ["fighting", "bug", "grass"],
-      halfDamageFrom: ["fighting", "bug", "grass"],
-      halfDamageTo: ["rock", "steel", "electric"]
-    },
-    poison: {
-      doubleDamageFrom: ["ground", "psychic"],
-      doubleDamageTo: ["grass", "fairy"],
-      halfDamageFrom: ["fighting", "poison", "bug", "grass", "fairy"],
-      halfDamageTo: ["poison", "ground", "rock", "ghost" ],
-    },
-    ground: {
-      doubleDamageFrom: ["water", "grass", "ice"],
-      doubleDamageTo: ["poison", "rock", "steel", "fire", "electric"],
-      halfDamageFrom: ["poison", "rock"],
-      halfDamageTo: ["bug", "grass"]
-    },
-    rock: {
-      doubleDamageFrom: ["fighting", "water", "grass", "steel", "ground"],
-      doubleDamageTo: ["flying", "bug", "fire", "ice"],
-      halfDamageFrom: ["normal", "flying", "poison", "fire"],
-      halfDamageTo: ["fighting", "ground", "steel"]
-    },
-    bug: {
-      doubleDamageFrom: ["flying", "rock", "fire"],
-      doubleDamageTo: ["grass", "psychic", "dark"],
-      halfDamageFrom: ["fighting", "ground", "grass"],
-      halfDamageTo: ["fighting", "flying", "poison", "ghost", "steel", "fire", "fairy" ]
-    },
-    ghost: {
-      doubleDamageFrom: ["ghost", "dark"],
-      doubleDamageTo: ["ghost", "psychic"],
-      halfDamageFrom: ["poison", "bug"],
-      halfDamageTo: ["dark"]
-    },
-    ice: {
-      doubleDamageFrom: ["fighting", "rock", "steel", "fire"],
-      doubleDamageTo: ["flying", "ground", "grass", "dragon"],
-      halfDamageFrom: ["ice"],
-      halfDamageTo: ["steel", "fire", "water", "ice"]
-    },
-    fighting: {
-      doubleDamageFrom: ["flying", "psychic", "fairy"],
-      doubleDamageTo: ["normal", "rock", "steel", "ice", "dark"],
-      halfDamageFrom: ["rock", "bug", "dark"],
-      halfDamageTo: ["flying", "poison", "bug", "psychic", "fairy"]
-    }
-
-    // ... other types
-  };
-
-  
   const handleToken = (token) => {
     setFormData({ username: '', password: '' })
     localStorage.setItem("token", token)
@@ -283,7 +111,7 @@ function App() {
 
   const endTrainerTurn = () => setTrainerTurn(false)
   const endEnemyTurn = () => setTrainerTurn(true)
-  // console.log(selectPokemon)
+
 
   return (
     <>
@@ -310,9 +138,6 @@ function App() {
       setTrainerItems,
       trainerPokemon,
       setTrainerPokemon,
-      typeToClassname, 
-      typeToIcon,
-      typeMultipliers, 
       selectPokemon,
       setSelectPokemon,
       enemyPokemon,

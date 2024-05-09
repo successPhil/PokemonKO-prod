@@ -1,8 +1,8 @@
 export SECRET_KEY=abc123
 export DEBUG=True
-export POSTGRES_DB=poke_db
-export POSTGRES_USER=postgres
-export POSTGRES_PASSWORD=postgres
+export DB_NAME=poke_db
+export DB_USER=postgres
+export DB_PASS=postgres
 
 
 COMPOSE_DOCKER_CLI_BUILD=0 DOCKER_BUILDKIT=0 docker compose -f docker-compose.dev.yml up -d --build

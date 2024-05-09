@@ -14,8 +14,11 @@ import { getTrainerPokemon } from '../../api/authApi';
 import { capitalizeFirst } from '../Enemy/EnemyData';
 
 
+import { typeToClassname } from '../../constants/typeToClassname';
+import { typeToIcon } from '../../constants/typeToIcon';
 export default function PokeCard({pokemon}) {
-  const { selectPokemon, setSelectPokemon, typeToClassname, typeToIcon, setEnemyDialogue} = useContext(TrainerContext)
+  const { selectPokemon, setSelectPokemon, setEnemyDialogue} = useContext(TrainerContext)
+  
   
 
   const choosePokemon = (pokemon) => {
