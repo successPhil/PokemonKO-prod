@@ -19,3 +19,5 @@ docker-compose -f docker-compose.prod.yml up -d
 sleep 10 
 docker exec pokemonko-prod-api-1 python /src/manage.py makemigrations 
 docker exec pokemonko-prod-api-1 python /src/manage.py migrate
+docker exec pokemonko-prod-api-1 python /src/manage.py loaddata pokemon_data
+docker exec pokemonko-prod-api-1 python /src/manage.py loaddata moves_data

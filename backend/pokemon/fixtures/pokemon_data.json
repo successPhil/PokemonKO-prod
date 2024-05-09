@@ -1,0 +1,1512 @@
+[
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 1,
+        "fields": {
+            "name": "bulbasaur",
+            "types": "grass-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 2,
+        "fields": {
+            "name": "charmander",
+            "types": "fire",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 3,
+        "fields": {
+            "name": "squirtle",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/7.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 4,
+        "fields": {
+            "name": "caterpie",
+            "types": "bug",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 5,
+        "fields": {
+            "name": "weedle",
+            "types": "bug-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/13.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 6,
+        "fields": {
+            "name": "pidgey",
+            "types": "normal-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/16.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 7,
+        "fields": {
+            "name": "rattata",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/19.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 8,
+        "fields": {
+            "name": "spearow",
+            "types": "normal-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/21.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 9,
+        "fields": {
+            "name": "ekans",
+            "types": "poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/23.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 10,
+        "fields": {
+            "name": "sandshrew",
+            "types": "ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/27.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 11,
+        "fields": {
+            "name": "nidoran-f",
+            "types": "poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/29.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 12,
+        "fields": {
+            "name": "nidoran-m",
+            "types": "poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/32.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 13,
+        "fields": {
+            "name": "vulpix",
+            "types": "fire",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/37.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 14,
+        "fields": {
+            "name": "zubat",
+            "types": "poison-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/41.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 15,
+        "fields": {
+            "name": "oddish",
+            "types": "grass-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/43.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 16,
+        "fields": {
+            "name": "paras",
+            "types": "bug-grass",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/46.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 17,
+        "fields": {
+            "name": "venonat",
+            "types": "bug-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/48.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 18,
+        "fields": {
+            "name": "diglett",
+            "types": "ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/50.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 19,
+        "fields": {
+            "name": "meowth",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/52.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 20,
+        "fields": {
+            "name": "psyduck",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/54.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 21,
+        "fields": {
+            "name": "mankey",
+            "types": "fighting",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/56.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 22,
+        "fields": {
+            "name": "growlithe",
+            "types": "fire",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/58.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 23,
+        "fields": {
+            "name": "poliwag",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/60.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 24,
+        "fields": {
+            "name": "abra",
+            "types": "psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/63.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 25,
+        "fields": {
+            "name": "machop",
+            "types": "fighting",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/66.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 26,
+        "fields": {
+            "name": "bellsprout",
+            "types": "grass-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/69.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 27,
+        "fields": {
+            "name": "tentacool",
+            "types": "water-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/72.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 28,
+        "fields": {
+            "name": "geodude",
+            "types": "rock-ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/74.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 29,
+        "fields": {
+            "name": "venusaur",
+            "types": "grass-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/3.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 30,
+        "fields": {
+            "name": "charmeleon",
+            "types": "fire",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/5.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 31,
+        "fields": {
+            "name": "charizard",
+            "types": "fire-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 32,
+        "fields": {
+            "name": "wartortle",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/8.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 33,
+        "fields": {
+            "name": "blastoise",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/9.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 34,
+        "fields": {
+            "name": "metapod",
+            "types": "bug",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/11.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 35,
+        "fields": {
+            "name": "butterfree",
+            "types": "bug-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 36,
+        "fields": {
+            "name": "kakuna",
+            "types": "bug-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/14.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 37,
+        "fields": {
+            "name": "beedrill",
+            "types": "bug-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/15.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 38,
+        "fields": {
+            "name": "pidgeotto",
+            "types": "normal-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/17.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 39,
+        "fields": {
+            "name": "pidgeot",
+            "types": "normal-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/18.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 40,
+        "fields": {
+            "name": "raticate",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/20.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 41,
+        "fields": {
+            "name": "fearow",
+            "types": "normal-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/22.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 42,
+        "fields": {
+            "name": "arbok",
+            "types": "poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/24.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 43,
+        "fields": {
+            "name": "pikachu",
+            "types": "electric",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 44,
+        "fields": {
+            "name": "raichu",
+            "types": "electric",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/26.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 45,
+        "fields": {
+            "name": "sandslash",
+            "types": "ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/28.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 46,
+        "fields": {
+            "name": "nidorina",
+            "types": "poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/30.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 47,
+        "fields": {
+            "name": "nidoqueen",
+            "types": "poison-ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/31.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 48,
+        "fields": {
+            "name": "nidorino",
+            "types": "poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/33.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 49,
+        "fields": {
+            "name": "nidoking",
+            "types": "poison-ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/34.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 50,
+        "fields": {
+            "name": "clefairy",
+            "types": "fairy",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/35.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 51,
+        "fields": {
+            "name": "clefable",
+            "types": "fairy",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/36.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 52,
+        "fields": {
+            "name": "ninetales",
+            "types": "fire",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/38.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 53,
+        "fields": {
+            "name": "jigglypuff",
+            "types": "normal-fairy",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/39.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 54,
+        "fields": {
+            "name": "wigglytuff",
+            "types": "normal-fairy",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/40.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 55,
+        "fields": {
+            "name": "golbat",
+            "types": "poison-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/42.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 56,
+        "fields": {
+            "name": "gloom",
+            "types": "grass-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/44.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 57,
+        "fields": {
+            "name": "vileplume",
+            "types": "grass-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/45.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 58,
+        "fields": {
+            "name": "parasect",
+            "types": "bug-grass",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/47.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 59,
+        "fields": {
+            "name": "venomoth",
+            "types": "bug-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/49.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 60,
+        "fields": {
+            "name": "dugtrio",
+            "types": "ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/51.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 61,
+        "fields": {
+            "name": "persian",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/53.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 62,
+        "fields": {
+            "name": "golduck",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/55.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 63,
+        "fields": {
+            "name": "primeape",
+            "types": "fighting",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/57.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 64,
+        "fields": {
+            "name": "arcanine",
+            "types": "fire",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/59.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 65,
+        "fields": {
+            "name": "poliwhirl",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/61.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 66,
+        "fields": {
+            "name": "poliwrath",
+            "types": "water-fighting",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/62.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 67,
+        "fields": {
+            "name": "kadabra",
+            "types": "psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/64.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 68,
+        "fields": {
+            "name": "alakazam",
+            "types": "psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/65.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 69,
+        "fields": {
+            "name": "machoke",
+            "types": "fighting",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/67.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 70,
+        "fields": {
+            "name": "machamp",
+            "types": "fighting",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/68.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 71,
+        "fields": {
+            "name": "weepinbell",
+            "types": "grass-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/70.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 72,
+        "fields": {
+            "name": "victreebel",
+            "types": "grass-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/71.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 73,
+        "fields": {
+            "name": "tentacruel",
+            "types": "water-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/73.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 74,
+        "fields": {
+            "name": "graveler",
+            "types": "rock-ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/75.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 75,
+        "fields": {
+            "name": "ponyta",
+            "types": "fire",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/77.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 76,
+        "fields": {
+            "name": "slowpoke",
+            "types": "water-psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/79.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 77,
+        "fields": {
+            "name": "magnemite",
+            "types": "electric-steel",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/81.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 78,
+        "fields": {
+            "name": "farfetchd",
+            "types": "normal-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/83.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 79,
+        "fields": {
+            "name": "doduo",
+            "types": "normal-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/84.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 80,
+        "fields": {
+            "name": "seel",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/86.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 81,
+        "fields": {
+            "name": "grimer",
+            "types": "poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/88.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 82,
+        "fields": {
+            "name": "shellder",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/90.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 83,
+        "fields": {
+            "name": "gastly",
+            "types": "ghost-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/92.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 84,
+        "fields": {
+            "name": "onix",
+            "types": "rock-ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/95.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 85,
+        "fields": {
+            "name": "drowzee",
+            "types": "psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/96.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 86,
+        "fields": {
+            "name": "krabby",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/98.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 87,
+        "fields": {
+            "name": "voltorb",
+            "types": "electric",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/100.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 88,
+        "fields": {
+            "name": "exeggcute",
+            "types": "grass-psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/102.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 89,
+        "fields": {
+            "name": "cubone",
+            "types": "ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/104.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 90,
+        "fields": {
+            "name": "lickitung",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/108.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 91,
+        "fields": {
+            "name": "koffing",
+            "types": "poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/109.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 92,
+        "fields": {
+            "name": "rhyhorn",
+            "types": "ground-rock",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/111.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 93,
+        "fields": {
+            "name": "tangela",
+            "types": "grass",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/114.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 94,
+        "fields": {
+            "name": "kangaskhan",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/115.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 95,
+        "fields": {
+            "name": "horsea",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/116.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 96,
+        "fields": {
+            "name": "goldeen",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/118.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 97,
+        "fields": {
+            "name": "staryu",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/120.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 98,
+        "fields": {
+            "name": "scyther",
+            "types": "bug-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/123.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 99,
+        "fields": {
+            "name": "pinsir",
+            "types": "bug",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/127.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 100,
+        "fields": {
+            "name": "tauros",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/128.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 101,
+        "fields": {
+            "name": "magikarp",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/129.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 102,
+        "fields": {
+            "name": "lapras",
+            "types": "water-ice",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/131.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 103,
+        "fields": {
+            "name": "ditto",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/132.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 104,
+        "fields": {
+            "name": "eevee",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/133.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 105,
+        "fields": {
+            "name": "porygon",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/137.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 106,
+        "fields": {
+            "name": "omanyte",
+            "types": "rock-water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/138.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 107,
+        "fields": {
+            "name": "kabuto",
+            "types": "rock-water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/140.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 108,
+        "fields": {
+            "name": "aerodactyl",
+            "types": "rock-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/142.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 109,
+        "fields": {
+            "name": "articuno",
+            "types": "ice-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/144.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 110,
+        "fields": {
+            "name": "zapdos",
+            "types": "electric-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/145.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 111,
+        "fields": {
+            "name": "moltres",
+            "types": "fire-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/146.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 112,
+        "fields": {
+            "name": "dratini",
+            "types": "dragon",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/147.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 113,
+        "fields": {
+            "name": "mewtwo",
+            "types": "psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 114,
+        "fields": {
+            "name": "rapidash",
+            "types": "fire",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/78.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 115,
+        "fields": {
+            "name": "slowbro",
+            "types": "water-psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/80.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 116,
+        "fields": {
+            "name": "magneton",
+            "types": "electric-steel",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/82.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 117,
+        "fields": {
+            "name": "dodrio",
+            "types": "normal-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/85.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 118,
+        "fields": {
+            "name": "dewgong",
+            "types": "water-ice",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/87.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 119,
+        "fields": {
+            "name": "muk",
+            "types": "poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/89.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 120,
+        "fields": {
+            "name": "cloyster",
+            "types": "water-ice",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/91.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 121,
+        "fields": {
+            "name": "haunter",
+            "types": "ghost-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/93.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 122,
+        "fields": {
+            "name": "gengar",
+            "types": "ghost-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/94.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 123,
+        "fields": {
+            "name": "hypno",
+            "types": "psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/97.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 124,
+        "fields": {
+            "name": "kingler",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/99.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 125,
+        "fields": {
+            "name": "electrode",
+            "types": "electric",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/101.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 126,
+        "fields": {
+            "name": "exeggutor",
+            "types": "grass-psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/103.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 127,
+        "fields": {
+            "name": "marowak",
+            "types": "ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/105.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 128,
+        "fields": {
+            "name": "hitmonlee",
+            "types": "fighting",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/106.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 129,
+        "fields": {
+            "name": "hitmonchan",
+            "types": "fighting",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/107.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 130,
+        "fields": {
+            "name": "weezing",
+            "types": "poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/110.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 131,
+        "fields": {
+            "name": "rhydon",
+            "types": "ground-rock",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/112.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 132,
+        "fields": {
+            "name": "chansey",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/113.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 133,
+        "fields": {
+            "name": "seadra",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/117.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 134,
+        "fields": {
+            "name": "seaking",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/119.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 135,
+        "fields": {
+            "name": "starmie",
+            "types": "water-psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/121.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 136,
+        "fields": {
+            "name": "mr-mime",
+            "types": "psychic-fairy",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/122.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 137,
+        "fields": {
+            "name": "jynx",
+            "types": "ice-psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/124.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 138,
+        "fields": {
+            "name": "electabuzz",
+            "types": "electric",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/125.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 139,
+        "fields": {
+            "name": "magmar",
+            "types": "fire",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/126.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 140,
+        "fields": {
+            "name": "gyarados",
+            "types": "water-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/130.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 141,
+        "fields": {
+            "name": "vaporeon",
+            "types": "water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/134.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 142,
+        "fields": {
+            "name": "jolteon",
+            "types": "electric",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/135.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 143,
+        "fields": {
+            "name": "flareon",
+            "types": "fire",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/136.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 144,
+        "fields": {
+            "name": "omastar",
+            "types": "rock-water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/139.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 145,
+        "fields": {
+            "name": "kabutops",
+            "types": "rock-water",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/141.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 146,
+        "fields": {
+            "name": "snorlax",
+            "types": "normal",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/143.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 147,
+        "fields": {
+            "name": "dragonair",
+            "types": "dragon",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/148.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 148,
+        "fields": {
+            "name": "dragonite",
+            "types": "dragon-flying",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/149.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 149,
+        "fields": {
+            "name": "mew",
+            "types": "psychic",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/151.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 150,
+        "fields": {
+            "name": "ivysaur",
+            "types": "grass-poison",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png"
+        }
+    },
+    {
+        "model": "pokemon.Pokemon",
+        "pk": 151,
+        "fields": {
+            "name": "golem",
+            "types": "rock-ground",
+            "front_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+            "back_image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/76.png"
+        }
+    }
+]

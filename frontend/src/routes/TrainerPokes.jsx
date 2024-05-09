@@ -11,23 +11,19 @@ import { capitalizeFirst } from '../features/Enemy/EnemyData';
 export default function TrainerPokes(){
 
     const token = localStorage.getItem('token')
-    const { trainerPokemon, setTrainerPokemon, selectPokemon, setSelectPokemon, setEnemyDialogue, trainer } = useContext(TrainerContext);
+    const { trainerPokemon, setTrainerPokemon, selectPokemon, setSelectPokemon, setEnemyDialogue } = useContext(TrainerContext);
     const [ filteredList, setFilteredList ] = useState("")
     const [ filteredMap , setFilteredMap ] = useState("")
     
-    console.log(trainer, 'checking context in pokemon page')
-    console.log(trainerPokemon, 'checking trainer pokemon in context')
     const [open, setOpen] = useState(false);
 
     const handleChange = (event) => {
-        console.log(event.target.value, 'WHAT IS THIS')
         if (event.target.value === ""){
             setFilteredList("")
             setFilteredMap("")
         }
         if (event.target.value !== ""){
             setFilteredMap(filteredPokemonTypes(event.target.value))
-            console.log(filteredPokemonTypes(event.target.value), 'CHECKING TYPES IN EVENT')
             setFilteredList(event.target.value)
             }
     };
@@ -75,11 +71,6 @@ export default function TrainerPokes(){
     }
     const typeOptions = Array.from(uniqueTypesList)
 
-    
-    // const filteredPokemonTypes = trainerPokemon.filter((pokemon) => {
-    //     const types = pokemon.types.split(", ")
-    //     return types.includes(filteredList)
-    // })
 
     const handleClose = () => {
       setOpen(false);
@@ -89,12 +80,13 @@ export default function TrainerPokes(){
     setOpen(true);
     };
 
-    
+  
     useEffect(() => {
         const fetchTrainerPokemon = async () => {
         if (token) {
             try {
             const data = await getTrainerPokemon();
+            console.log(data, 'is this us here?')
             setTrainerPokemon(data);
             } catch (error) {
                 console.error('Error fetching trainer Pokemon:', error);
@@ -105,12 +97,9 @@ export default function TrainerPokes(){
 }, [selectPokemon]);
 
 const firstPoke = async () => {
-      
-    console.log(trainerPokemon)
-    if (!trainerPokemon || trainerPokemon.length === 0){
+    if (!selectPokemon){
         const starterPoke = await getFirstPokemon()
         const firstPokeMsg = `You received a ${capitalizeFirst(starterPoke.name)}!`
-        console.log(firstPokeMsg, 'testing message')
         setEnemyDialogue(firstPokeMsg)
         setSelectPokemon(starterPoke)
     }
@@ -166,11 +155,6 @@ useEffect(() => {
               <PokeCard pokemon={pokemon} />
             </Grid> 
           ))}
-          {/* {filteredList !== "" && filteredMap === "" && filteredMap.map(pokemon => (
-            <Grid item xs={3} key={pokemon.id}>
-              <PokeCard pokemon={pokemon} />
-            </Grid> 
-          ))} */}
           {filteredList !== "" && filteredMap !== "" && filteredMap.map(pokemon => (
             <Grid item xs={3} key={pokemon.id}>
               <PokeCard pokemon={pokemon} />

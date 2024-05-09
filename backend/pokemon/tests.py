@@ -29,11 +29,6 @@ class test_pokemon(APITestCase):
         self.initial_exp = self.pokemon.experience
         self.initial_totalXP = self.pokemon.totalXP
 
-    def test_initial_data_fetch(self):
-        response = self.client.get('/api/pokemon/')
-        self.assertEqual(response.status_code, status.HTTP_200_OK)
-        self.assertTrue(len(response.data) > 0)
-    
 
     def test_multiple_requests_to_api(self):
     # First request

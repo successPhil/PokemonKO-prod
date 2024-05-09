@@ -1,0 +1,5438 @@
+[
+    {
+        "model": "moves.Move",
+        "pk": 1,
+        "fields": {
+            "name": "constrict",
+            "type": "grass",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 2,
+        "fields": {
+            "name": "confuse-ray",
+            "type": "poison",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 3,
+        "fields": {
+            "name": "body-slam",
+            "type": "grass",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 4,
+        "fields": {
+            "name": "stomp",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 5,
+        "fields": {
+            "name": "drill-peck",
+            "type": "fire",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 6,
+        "fields": {
+            "name": "screech",
+            "type": "fire",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 7,
+        "fields": {
+            "name": "withdraw",
+            "type": "fire",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 8,
+        "fields": {
+            "name": "peck",
+            "type": "fire",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 9,
+        "fields": {
+            "name": "pay-day",
+            "type": "water",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 10,
+        "fields": {
+            "name": "swift",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 11,
+        "fields": {
+            "name": "rock-throw",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 12,
+        "fields": {
+            "name": "hypnosis",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 13,
+        "fields": {
+            "name": "hyper-fang",
+            "type": "bug",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 14,
+        "fields": {
+            "name": "smog",
+            "type": "bug",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 15,
+        "fields": {
+            "name": "growl",
+            "type": "bug",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 16,
+        "fields": {
+            "name": "bubble-beam",
+            "type": "bug",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 17,
+        "fields": {
+            "name": "submission",
+            "type": "bug",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 18,
+        "fields": {
+            "name": "soft-boiled",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 19,
+        "fields": {
+            "name": "growl",
+            "type": "bug",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 20,
+        "fields": {
+            "name": "self-destruct",
+            "type": "poison",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 21,
+        "fields": {
+            "name": "lovely-kiss",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 22,
+        "fields": {
+            "name": "double-edge",
+            "type": "flying",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 23,
+        "fields": {
+            "name": "fissure",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 24,
+        "fields": {
+            "name": "fury-swipes",
+            "type": "flying",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 25,
+        "fields": {
+            "name": "blizzard",
+            "type": "normal",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 26,
+        "fields": {
+            "name": "fury-attack",
+            "type": "normal",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 27,
+        "fields": {
+            "name": "fissure",
+            "type": "normal",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 28,
+        "fields": {
+            "name": "razor-leaf",
+            "type": "normal",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 29,
+        "fields": {
+            "name": "bite",
+            "type": "normal",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 30,
+        "fields": {
+            "name": "bite",
+            "type": "flying",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 31,
+        "fields": {
+            "name": "smokescreen",
+            "type": "normal",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 32,
+        "fields": {
+            "name": "aurora-beam",
+            "type": "flying",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 33,
+        "fields": {
+            "name": "super-fang",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 34,
+        "fields": {
+            "name": "super-fang",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 35,
+        "fields": {
+            "name": "thunder",
+            "type": "poison",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 36,
+        "fields": {
+            "name": "psywave",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 37,
+        "fields": {
+            "name": "sonic-boom",
+            "type": "ground",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 38,
+        "fields": {
+            "name": "rest",
+            "type": "ground",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 39,
+        "fields": {
+            "name": "horn-attack",
+            "type": "ground",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 40,
+        "fields": {
+            "name": "scratch",
+            "type": "ground",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 41,
+        "fields": {
+            "name": "crabhammer",
+            "type": "poison",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 42,
+        "fields": {
+            "name": "petal-dance",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 43,
+        "fields": {
+            "name": "mist",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 44,
+        "fields": {
+            "name": "sonic-boom",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 45,
+        "fields": {
+            "name": "mega-drain",
+            "type": "poison",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 46,
+        "fields": {
+            "name": "egg-bomb",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 47,
+        "fields": {
+            "name": "take-down",
+            "type": "poison",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 48,
+        "fields": {
+            "name": "thunder-shock",
+            "type": "poison",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 49,
+        "fields": {
+            "name": "light-screen",
+            "type": "fire",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 50,
+        "fields": {
+            "name": "rolling-kick",
+            "type": "fire",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 51,
+        "fields": {
+            "name": "rock-throw",
+            "type": "fire",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 52,
+        "fields": {
+            "name": "solar-beam",
+            "type": "fire",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 53,
+        "fields": {
+            "name": "barrier",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 54,
+        "fields": {
+            "name": "fire-spin",
+            "type": "flying",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 55,
+        "fields": {
+            "name": "spore",
+            "type": "poison",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 56,
+        "fields": {
+            "name": "submission",
+            "type": "flying",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 57,
+        "fields": {
+            "name": "barrier",
+            "type": "grass",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 58,
+        "fields": {
+            "name": "flash",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 59,
+        "fields": {
+            "name": "mimic",
+            "type": "grass",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 60,
+        "fields": {
+            "name": "flamethrower",
+            "type": "poison",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 61,
+        "fields": {
+            "name": "tri-attack",
+            "type": "bug",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 62,
+        "fields": {
+            "name": "withdraw",
+            "type": "grass",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 63,
+        "fields": {
+            "name": "leech-life",
+            "type": "bug",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 64,
+        "fields": {
+            "name": "sky-attack",
+            "type": "grass",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 65,
+        "fields": {
+            "name": "double-kick",
+            "type": "bug",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 66,
+        "fields": {
+            "name": "psybeam",
+            "type": "poison",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 67,
+        "fields": {
+            "name": "confuse-ray",
+            "type": "bug",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 68,
+        "fields": {
+            "name": "thunderbolt",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 69,
+        "fields": {
+            "name": "jump-kick",
+            "type": "ground",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 70,
+        "fields": {
+            "name": "struggle",
+            "type": "ground",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 71,
+        "fields": {
+            "name": "fury-swipes",
+            "type": "ground",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 72,
+        "fields": {
+            "name": "dizzy-punch",
+            "type": "ground",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 73,
+        "fields": {
+            "name": "spore",
+            "type": "normal",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 74,
+        "fields": {
+            "name": "vine-whip",
+            "type": "normal",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 75,
+        "fields": {
+            "name": "fire-spin",
+            "type": "normal",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 76,
+        "fields": {
+            "name": "sky-attack",
+            "type": "normal",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 77,
+        "fields": {
+            "name": "confusion",
+            "type": "water",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 78,
+        "fields": {
+            "name": "amnesia",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 79,
+        "fields": {
+            "name": "roar",
+            "type": "water",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 80,
+        "fields": {
+            "name": "cut",
+            "type": "water",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 81,
+        "fields": {
+            "name": "night-shade",
+            "type": "fighting",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 82,
+        "fields": {
+            "name": "horn-attack",
+            "type": "fighting",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 83,
+        "fields": {
+            "name": "spike-cannon",
+            "type": "fighting",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 84,
+        "fields": {
+            "name": "smog",
+            "type": "fighting",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 85,
+        "fields": {
+            "name": "barrier",
+            "type": "fire",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 86,
+        "fields": {
+            "name": "pound",
+            "type": "fire",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 87,
+        "fields": {
+            "name": "fury-attack",
+            "type": "fire",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 88,
+        "fields": {
+            "name": "constrict",
+            "type": "fire",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 89,
+        "fields": {
+            "name": "recover",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 90,
+        "fields": {
+            "name": "fissure",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 91,
+        "fields": {
+            "name": "sky-attack",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 92,
+        "fields": {
+            "name": "struggle",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 93,
+        "fields": {
+            "name": "growth",
+            "type": "psychic",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 94,
+        "fields": {
+            "name": "barrage",
+            "type": "psychic",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 95,
+        "fields": {
+            "name": "dizzy-punch",
+            "type": "psychic",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 96,
+        "fields": {
+            "name": "horn-drill",
+            "type": "psychic",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 97,
+        "fields": {
+            "name": "rock-slide",
+            "type": "fighting",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 98,
+        "fields": {
+            "name": "poison-powder",
+            "type": "fighting",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 99,
+        "fields": {
+            "name": "dig",
+            "type": "fighting",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 100,
+        "fields": {
+            "name": "reflect",
+            "type": "fighting",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 101,
+        "fields": {
+            "name": "reflect",
+            "type": "grass",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 102,
+        "fields": {
+            "name": "dizzy-punch",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 103,
+        "fields": {
+            "name": "leech-seed",
+            "type": "grass",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 104,
+        "fields": {
+            "name": "gust",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 105,
+        "fields": {
+            "name": "horn-drill",
+            "type": "water",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 106,
+        "fields": {
+            "name": "seismic-toss",
+            "type": "poison",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 107,
+        "fields": {
+            "name": "double-slap",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 108,
+        "fields": {
+            "name": "bind",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 109,
+        "fields": {
+            "name": "recover",
+            "type": "rock",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 110,
+        "fields": {
+            "name": "string-shot",
+            "type": "ground",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 111,
+        "fields": {
+            "name": "crabhammer",
+            "type": "rock",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 112,
+        "fields": {
+            "name": "cut",
+            "type": "ground",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 113,
+        "fields": {
+            "name": "slam",
+            "type": "grass",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 114,
+        "fields": {
+            "name": "slam",
+            "type": "poison",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 115,
+        "fields": {
+            "name": "high-jump-kick",
+            "type": "grass",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 116,
+        "fields": {
+            "name": "withdraw",
+            "type": "poison",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 117,
+        "fields": {
+            "name": "pound",
+            "type": "fire",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 118,
+        "fields": {
+            "name": "poison-powder",
+            "type": "fire",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 119,
+        "fields": {
+            "name": "flash",
+            "type": "fire",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 120,
+        "fields": {
+            "name": "leer",
+            "type": "fire",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 121,
+        "fields": {
+            "name": "bubble-beam",
+            "type": "fire",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 122,
+        "fields": {
+            "name": "agility",
+            "type": "flying",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 123,
+        "fields": {
+            "name": "guillotine",
+            "type": "fire",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 124,
+        "fields": {
+            "name": "aurora-beam",
+            "type": "flying",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 125,
+        "fields": {
+            "name": "vice-grip",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 126,
+        "fields": {
+            "name": "fire-spin",
+            "type": "water",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 127,
+        "fields": {
+            "name": "scratch",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 128,
+        "fields": {
+            "name": "petal-dance",
+            "type": "water",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 129,
+        "fields": {
+            "name": "conversion",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 130,
+        "fields": {
+            "name": "scratch",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 131,
+        "fields": {
+            "name": "mirror-move",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 132,
+        "fields": {
+            "name": "mega-punch",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 133,
+        "fields": {
+            "name": "sand-attack",
+            "type": "bug",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 134,
+        "fields": {
+            "name": "slash",
+            "type": "bug",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 135,
+        "fields": {
+            "name": "rage",
+            "type": "bug",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 136,
+        "fields": {
+            "name": "constrict",
+            "type": "bug",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 137,
+        "fields": {
+            "name": "double-team",
+            "type": "bug",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 138,
+        "fields": {
+            "name": "flamethrower",
+            "type": "flying",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 139,
+        "fields": {
+            "name": "waterfall",
+            "type": "bug",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 140,
+        "fields": {
+            "name": "substitute",
+            "type": "flying",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 141,
+        "fields": {
+            "name": "bone-club",
+            "type": "bug",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 142,
+        "fields": {
+            "name": "fire-blast",
+            "type": "poison",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 143,
+        "fields": {
+            "name": "hyper-beam",
+            "type": "bug",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 144,
+        "fields": {
+            "name": "dizzy-punch",
+            "type": "poison",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 145,
+        "fields": {
+            "name": "sing",
+            "type": "bug",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 146,
+        "fields": {
+            "name": "high-jump-kick",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 147,
+        "fields": {
+            "name": "fury-attack",
+            "type": "bug",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 148,
+        "fields": {
+            "name": "self-destruct",
+            "type": "poison",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 149,
+        "fields": {
+            "name": "bite",
+            "type": "normal",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 150,
+        "fields": {
+            "name": "jump-kick",
+            "type": "flying",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 151,
+        "fields": {
+            "name": "transform",
+            "type": "normal",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 152,
+        "fields": {
+            "name": "metronome",
+            "type": "flying",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 153,
+        "fields": {
+            "name": "leech-seed",
+            "type": "normal",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 154,
+        "fields": {
+            "name": "dragon-rage",
+            "type": "flying",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 155,
+        "fields": {
+            "name": "rock-throw",
+            "type": "normal",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 156,
+        "fields": {
+            "name": "amnesia",
+            "type": "flying",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 157,
+        "fields": {
+            "name": "super-fang",
+            "type": "normal",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 158,
+        "fields": {
+            "name": "lovely-kiss",
+            "type": "normal",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 159,
+        "fields": {
+            "name": "harden",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 160,
+        "fields": {
+            "name": "rock-throw",
+            "type": "normal",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 161,
+        "fields": {
+            "name": "high-jump-kick",
+            "type": "normal",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 162,
+        "fields": {
+            "name": "take-down",
+            "type": "flying",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 163,
+        "fields": {
+            "name": "spike-cannon",
+            "type": "normal",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 164,
+        "fields": {
+            "name": "leech-seed",
+            "type": "flying",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 165,
+        "fields": {
+            "name": "conversion",
+            "type": "poison",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 166,
+        "fields": {
+            "name": "poison-sting",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 167,
+        "fields": {
+            "name": "harden",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 168,
+        "fields": {
+            "name": "haze",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 169,
+        "fields": {
+            "name": "barrage",
+            "type": "electric",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 170,
+        "fields": {
+            "name": "sky-attack",
+            "type": "electric",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 171,
+        "fields": {
+            "name": "submission",
+            "type": "electric",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 172,
+        "fields": {
+            "name": "double-edge",
+            "type": "electric",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 173,
+        "fields": {
+            "name": "egg-bomb",
+            "type": "electric",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 174,
+        "fields": {
+            "name": "withdraw",
+            "type": "electric",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 175,
+        "fields": {
+            "name": "struggle",
+            "type": "electric",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 176,
+        "fields": {
+            "name": "bone-club",
+            "type": "electric",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 177,
+        "fields": {
+            "name": "mirror-move",
+            "type": "ground",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 178,
+        "fields": {
+            "name": "sing",
+            "type": "ground",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 179,
+        "fields": {
+            "name": "earthquake",
+            "type": "ground",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 180,
+        "fields": {
+            "name": "thunder-wave",
+            "type": "ground",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 181,
+        "fields": {
+            "name": "supersonic",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 182,
+        "fields": {
+            "name": "whirlwind",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 183,
+        "fields": {
+            "name": "thunder-punch",
+            "type": "poison",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 184,
+        "fields": {
+            "name": "minimize",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 185,
+        "fields": {
+            "name": "stun-spore",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 186,
+        "fields": {
+            "name": "mega-kick",
+            "type": "ground",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 187,
+        "fields": {
+            "name": "double-edge",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 188,
+        "fields": {
+            "name": "kinesis",
+            "type": "ground",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 189,
+        "fields": {
+            "name": "confusion",
+            "type": "poison",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 190,
+        "fields": {
+            "name": "wrap",
+            "type": "poison",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 191,
+        "fields": {
+            "name": "tackle",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 192,
+        "fields": {
+            "name": "ice-beam",
+            "type": "poison",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 193,
+        "fields": {
+            "name": "slam",
+            "type": "poison",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 194,
+        "fields": {
+            "name": "sonic-boom",
+            "type": "ground",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 195,
+        "fields": {
+            "name": "psybeam",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 196,
+        "fields": {
+            "name": "solar-beam",
+            "type": "ground",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 197,
+        "fields": {
+            "name": "sludge",
+            "type": "fairy",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 198,
+        "fields": {
+            "name": "drill-peck",
+            "type": "fairy",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 199,
+        "fields": {
+            "name": "amnesia",
+            "type": "fairy",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 200,
+        "fields": {
+            "name": "cut",
+            "type": "fairy",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 201,
+        "fields": {
+            "name": "psychic",
+            "type": "fairy",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 202,
+        "fields": {
+            "name": "smokescreen",
+            "type": "fairy",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 203,
+        "fields": {
+            "name": "psybeam",
+            "type": "fairy",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 204,
+        "fields": {
+            "name": "recover",
+            "type": "fairy",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 205,
+        "fields": {
+            "name": "vice-grip",
+            "type": "fire",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 206,
+        "fields": {
+            "name": "tri-attack",
+            "type": "fire",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 207,
+        "fields": {
+            "name": "tackle",
+            "type": "fire",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 208,
+        "fields": {
+            "name": "bubble-beam",
+            "type": "fire",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 209,
+        "fields": {
+            "name": "hyper-fang",
+            "type": "normal",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 210,
+        "fields": {
+            "name": "drill-peck",
+            "type": "fairy",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 211,
+        "fields": {
+            "name": "agility",
+            "type": "normal",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 212,
+        "fields": {
+            "name": "strength",
+            "type": "fairy",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 213,
+        "fields": {
+            "name": "petal-dance",
+            "type": "normal",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 214,
+        "fields": {
+            "name": "mega-drain",
+            "type": "fairy",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 215,
+        "fields": {
+            "name": "bide",
+            "type": "normal",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 216,
+        "fields": {
+            "name": "bubble",
+            "type": "fairy",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 217,
+        "fields": {
+            "name": "swords-dance",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 218,
+        "fields": {
+            "name": "transform",
+            "type": "flying",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 219,
+        "fields": {
+            "name": "self-destruct",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 220,
+        "fields": {
+            "name": "vice-grip",
+            "type": "flying",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 221,
+        "fields": {
+            "name": "high-jump-kick",
+            "type": "grass",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 222,
+        "fields": {
+            "name": "swift",
+            "type": "poison",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 223,
+        "fields": {
+            "name": "meditate",
+            "type": "grass",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 224,
+        "fields": {
+            "name": "lick",
+            "type": "poison",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 225,
+        "fields": {
+            "name": "string-shot",
+            "type": "grass",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 226,
+        "fields": {
+            "name": "struggle",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 227,
+        "fields": {
+            "name": "psybeam",
+            "type": "grass",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 228,
+        "fields": {
+            "name": "poison-sting",
+            "type": "poison",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 229,
+        "fields": {
+            "name": "focus-energy",
+            "type": "bug",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 230,
+        "fields": {
+            "name": "soft-boiled",
+            "type": "grass",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 231,
+        "fields": {
+            "name": "quick-attack",
+            "type": "bug",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 232,
+        "fields": {
+            "name": "scratch",
+            "type": "grass",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 233,
+        "fields": {
+            "name": "dizzy-punch",
+            "type": "bug",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 234,
+        "fields": {
+            "name": "leer",
+            "type": "poison",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 235,
+        "fields": {
+            "name": "crabhammer",
+            "type": "bug",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 236,
+        "fields": {
+            "name": "submission",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 237,
+        "fields": {
+            "name": "thunder-shock",
+            "type": "ground",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 238,
+        "fields": {
+            "name": "bubble",
+            "type": "ground",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 239,
+        "fields": {
+            "name": "crabhammer",
+            "type": "ground",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 240,
+        "fields": {
+            "name": "poison-sting",
+            "type": "ground",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 241,
+        "fields": {
+            "name": "stomp",
+            "type": "normal",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 242,
+        "fields": {
+            "name": "fissure",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 243,
+        "fields": {
+            "name": "roar",
+            "type": "normal",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 244,
+        "fields": {
+            "name": "bite",
+            "type": "normal",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 245,
+        "fields": {
+            "name": "bubble",
+            "type": "water",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 246,
+        "fields": {
+            "name": "confusion",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 247,
+        "fields": {
+            "name": "fury-attack",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 248,
+        "fields": {
+            "name": "flash",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 249,
+        "fields": {
+            "name": "reflect",
+            "type": "fighting",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 250,
+        "fields": {
+            "name": "strength",
+            "type": "fighting",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 251,
+        "fields": {
+            "name": "double-team",
+            "type": "fighting",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 252,
+        "fields": {
+            "name": "leer",
+            "type": "fighting",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 253,
+        "fields": {
+            "name": "leer",
+            "type": "fire",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 254,
+        "fields": {
+            "name": "mega-kick",
+            "type": "fire",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 255,
+        "fields": {
+            "name": "leer",
+            "type": "fire",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 256,
+        "fields": {
+            "name": "thunderbolt",
+            "type": "fire",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 257,
+        "fields": {
+            "name": "thunder-wave",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 258,
+        "fields": {
+            "name": "quick-attack",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 259,
+        "fields": {
+            "name": "bubble-beam",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 260,
+        "fields": {
+            "name": "stomp",
+            "type": "water",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 261,
+        "fields": {
+            "name": "super-fang",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 262,
+        "fields": {
+            "name": "smog",
+            "type": "fighting",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 263,
+        "fields": {
+            "name": "sand-attack",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 264,
+        "fields": {
+            "name": "growth",
+            "type": "fighting",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 265,
+        "fields": {
+            "name": "pay-day",
+            "type": "psychic",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 266,
+        "fields": {
+            "name": "earthquake",
+            "type": "psychic",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 267,
+        "fields": {
+            "name": "glare",
+            "type": "psychic",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 268,
+        "fields": {
+            "name": "karate-chop",
+            "type": "psychic",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 269,
+        "fields": {
+            "name": "sonic-boom",
+            "type": "psychic",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 270,
+        "fields": {
+            "name": "ember",
+            "type": "psychic",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 271,
+        "fields": {
+            "name": "cut",
+            "type": "psychic",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 272,
+        "fields": {
+            "name": "mega-punch",
+            "type": "psychic",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 273,
+        "fields": {
+            "name": "poison-powder",
+            "type": "fighting",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 274,
+        "fields": {
+            "name": "screech",
+            "type": "fighting",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 275,
+        "fields": {
+            "name": "transform",
+            "type": "fighting",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 276,
+        "fields": {
+            "name": "self-destruct",
+            "type": "fighting",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 277,
+        "fields": {
+            "name": "supersonic",
+            "type": "fighting",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 278,
+        "fields": {
+            "name": "skull-bash",
+            "type": "fighting",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 279,
+        "fields": {
+            "name": "horn-drill",
+            "type": "fighting",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 280,
+        "fields": {
+            "name": "screech",
+            "type": "fighting",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 281,
+        "fields": {
+            "name": "psybeam",
+            "type": "grass",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 282,
+        "fields": {
+            "name": "sludge",
+            "type": "poison",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 283,
+        "fields": {
+            "name": "counter",
+            "type": "grass",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 284,
+        "fields": {
+            "name": "growl",
+            "type": "poison",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 285,
+        "fields": {
+            "name": "self-destruct",
+            "type": "grass",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 286,
+        "fields": {
+            "name": "ice-punch",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 287,
+        "fields": {
+            "name": "string-shot",
+            "type": "grass",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 288,
+        "fields": {
+            "name": "double-kick",
+            "type": "poison",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 289,
+        "fields": {
+            "name": "gust",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 290,
+        "fields": {
+            "name": "psychic",
+            "type": "poison",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 291,
+        "fields": {
+            "name": "mist",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 292,
+        "fields": {
+            "name": "rest",
+            "type": "poison",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 293,
+        "fields": {
+            "name": "horn-attack",
+            "type": "rock",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 294,
+        "fields": {
+            "name": "psychic",
+            "type": "ground",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 295,
+        "fields": {
+            "name": "mirror-move",
+            "type": "rock",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 296,
+        "fields": {
+            "name": "sonic-boom",
+            "type": "ground",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 297,
+        "fields": {
+            "name": "rock-throw",
+            "type": "fire",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 298,
+        "fields": {
+            "name": "dragon-rage",
+            "type": "fire",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 299,
+        "fields": {
+            "name": "quick-attack",
+            "type": "fire",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 300,
+        "fields": {
+            "name": "vice-grip",
+            "type": "fire",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 301,
+        "fields": {
+            "name": "comet-punch",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 302,
+        "fields": {
+            "name": "barrier",
+            "type": "psychic",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 303,
+        "fields": {
+            "name": "razor-wind",
+            "type": "water",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 304,
+        "fields": {
+            "name": "tri-attack",
+            "type": "psychic",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 305,
+        "fields": {
+            "name": "leech-seed",
+            "type": "electric",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 306,
+        "fields": {
+            "name": "dig",
+            "type": "steel",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 307,
+        "fields": {
+            "name": "rolling-kick",
+            "type": "electric",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 308,
+        "fields": {
+            "name": "haze",
+            "type": "steel",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 309,
+        "fields": {
+            "name": "glare",
+            "type": "normal",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 310,
+        "fields": {
+            "name": "jump-kick",
+            "type": "flying",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 311,
+        "fields": {
+            "name": "roar",
+            "type": "normal",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 312,
+        "fields": {
+            "name": "dizzy-punch",
+            "type": "flying",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 313,
+        "fields": {
+            "name": "stomp",
+            "type": "normal",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 314,
+        "fields": {
+            "name": "screech",
+            "type": "flying",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 315,
+        "fields": {
+            "name": "waterfall",
+            "type": "normal",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 316,
+        "fields": {
+            "name": "flash",
+            "type": "flying",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 317,
+        "fields": {
+            "name": "bite",
+            "type": "water",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 318,
+        "fields": {
+            "name": "wrap",
+            "type": "water",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 319,
+        "fields": {
+            "name": "night-shade",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 320,
+        "fields": {
+            "name": "body-slam",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 321,
+        "fields": {
+            "name": "harden",
+            "type": "poison",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 322,
+        "fields": {
+            "name": "stomp",
+            "type": "poison",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 323,
+        "fields": {
+            "name": "pound",
+            "type": "poison",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 324,
+        "fields": {
+            "name": "metronome",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 325,
+        "fields": {
+            "name": "self-destruct",
+            "type": "water",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 326,
+        "fields": {
+            "name": "minimize",
+            "type": "water",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 327,
+        "fields": {
+            "name": "leer",
+            "type": "water",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 328,
+        "fields": {
+            "name": "struggle",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 329,
+        "fields": {
+            "name": "flamethrower",
+            "type": "ghost",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 330,
+        "fields": {
+            "name": "vice-grip",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 331,
+        "fields": {
+            "name": "guillotine",
+            "type": "ghost",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 332,
+        "fields": {
+            "name": "razor-leaf",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 333,
+        "fields": {
+            "name": "sharpen",
+            "type": "rock",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 334,
+        "fields": {
+            "name": "substitute",
+            "type": "ground",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 335,
+        "fields": {
+            "name": "lick",
+            "type": "rock",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 336,
+        "fields": {
+            "name": "string-shot",
+            "type": "ground",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 337,
+        "fields": {
+            "name": "withdraw",
+            "type": "psychic",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 338,
+        "fields": {
+            "name": "teleport",
+            "type": "psychic",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 339,
+        "fields": {
+            "name": "spike-cannon",
+            "type": "psychic",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 340,
+        "fields": {
+            "name": "slash",
+            "type": "psychic",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 341,
+        "fields": {
+            "name": "splash",
+            "type": "water",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 342,
+        "fields": {
+            "name": "barrier",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 343,
+        "fields": {
+            "name": "flamethrower",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 344,
+        "fields": {
+            "name": "rock-slide",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 345,
+        "fields": {
+            "name": "self-destruct",
+            "type": "electric",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 346,
+        "fields": {
+            "name": "dragon-rage",
+            "type": "electric",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 347,
+        "fields": {
+            "name": "absorb",
+            "type": "electric",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 348,
+        "fields": {
+            "name": "gust",
+            "type": "electric",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 349,
+        "fields": {
+            "name": "pound",
+            "type": "grass",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 350,
+        "fields": {
+            "name": "clamp",
+            "type": "psychic",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 351,
+        "fields": {
+            "name": "sleep-powder",
+            "type": "grass",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 352,
+        "fields": {
+            "name": "water-gun",
+            "type": "psychic",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 353,
+        "fields": {
+            "name": "dig",
+            "type": "ground",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 354,
+        "fields": {
+            "name": "drill-peck",
+            "type": "ground",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 355,
+        "fields": {
+            "name": "self-destruct",
+            "type": "ground",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 356,
+        "fields": {
+            "name": "explosion",
+            "type": "ground",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 357,
+        "fields": {
+            "name": "struggle",
+            "type": "normal",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 358,
+        "fields": {
+            "name": "hypnosis",
+            "type": "normal",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 359,
+        "fields": {
+            "name": "explosion",
+            "type": "normal",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 360,
+        "fields": {
+            "name": "fissure",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 361,
+        "fields": {
+            "name": "ice-punch",
+            "type": "poison",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 362,
+        "fields": {
+            "name": "bubble",
+            "type": "poison",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 363,
+        "fields": {
+            "name": "razor-wind",
+            "type": "poison",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 364,
+        "fields": {
+            "name": "screech",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 365,
+        "fields": {
+            "name": "hyper-fang",
+            "type": "ground",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 366,
+        "fields": {
+            "name": "poison-gas",
+            "type": "rock",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 367,
+        "fields": {
+            "name": "bite",
+            "type": "ground",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 368,
+        "fields": {
+            "name": "tri-attack",
+            "type": "rock",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 369,
+        "fields": {
+            "name": "psychic",
+            "type": "grass",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 370,
+        "fields": {
+            "name": "earthquake",
+            "type": "grass",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 371,
+        "fields": {
+            "name": "pay-day",
+            "type": "grass",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 372,
+        "fields": {
+            "name": "wrap",
+            "type": "grass",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 373,
+        "fields": {
+            "name": "flamethrower",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 374,
+        "fields": {
+            "name": "dizzy-punch",
+            "type": "normal",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 375,
+        "fields": {
+            "name": "meditate",
+            "type": "normal",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 376,
+        "fields": {
+            "name": "hyper-beam",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 377,
+        "fields": {
+            "name": "thunder-punch",
+            "type": "water",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 378,
+        "fields": {
+            "name": "thunder-punch",
+            "type": "water",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 379,
+        "fields": {
+            "name": "dragon-rage",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 380,
+        "fields": {
+            "name": "mirror-move",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 381,
+        "fields": {
+            "name": "scratch",
+            "type": "water",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 382,
+        "fields": {
+            "name": "tri-attack",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 383,
+        "fields": {
+            "name": "swift",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 384,
+        "fields": {
+            "name": "bonemerang",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 385,
+        "fields": {
+            "name": "crabhammer",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 386,
+        "fields": {
+            "name": "fissure",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 387,
+        "fields": {
+            "name": "wrap",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 388,
+        "fields": {
+            "name": "clamp",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 389,
+        "fields": {
+            "name": "sky-attack",
+            "type": "bug",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 390,
+        "fields": {
+            "name": "ember",
+            "type": "flying",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 391,
+        "fields": {
+            "name": "focus-energy",
+            "type": "bug",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 392,
+        "fields": {
+            "name": "gust",
+            "type": "flying",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 393,
+        "fields": {
+            "name": "hyper-beam",
+            "type": "bug",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 394,
+        "fields": {
+            "name": "bite",
+            "type": "bug",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 395,
+        "fields": {
+            "name": "bubble-beam",
+            "type": "bug",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 396,
+        "fields": {
+            "name": "tackle",
+            "type": "bug",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 397,
+        "fields": {
+            "name": "smokescreen",
+            "type": "normal",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 398,
+        "fields": {
+            "name": "mega-punch",
+            "type": "normal",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 399,
+        "fields": {
+            "name": "whirlwind",
+            "type": "normal",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 400,
+        "fields": {
+            "name": "submission",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 401,
+        "fields": {
+            "name": "withdraw",
+            "type": "water",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 402,
+        "fields": {
+            "name": "sing",
+            "type": "water",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 403,
+        "fields": {
+            "name": "bonemerang",
+            "type": "water",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 404,
+        "fields": {
+            "name": "poison-powder",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 405,
+        "fields": {
+            "name": "rock-slide",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 406,
+        "fields": {
+            "name": "fissure",
+            "type": "ice",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 407,
+        "fields": {
+            "name": "supersonic",
+            "type": "water",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 408,
+        "fields": {
+            "name": "spore",
+            "type": "ice",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 409,
+        "fields": {
+            "name": "stomp",
+            "type": "normal",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 410,
+        "fields": {
+            "name": "sing",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 411,
+        "fields": {
+            "name": "roar",
+            "type": "normal",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 412,
+        "fields": {
+            "name": "ember",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 413,
+        "fields": {
+            "name": "clamp",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 414,
+        "fields": {
+            "name": "mimic",
+            "type": "normal",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 415,
+        "fields": {
+            "name": "splash",
+            "type": "normal",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 416,
+        "fields": {
+            "name": "flash",
+            "type": "normal",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 417,
+        "fields": {
+            "name": "bubble-beam",
+            "type": "normal",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 418,
+        "fields": {
+            "name": "poison-gas",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 419,
+        "fields": {
+            "name": "submission",
+            "type": "normal",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 420,
+        "fields": {
+            "name": "hydro-pump",
+            "type": "normal",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 421,
+        "fields": {
+            "name": "waterfall",
+            "type": "rock",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 422,
+        "fields": {
+            "name": "wing-attack",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 423,
+        "fields": {
+            "name": "leech-seed",
+            "type": "rock",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 424,
+        "fields": {
+            "name": "spore",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 425,
+        "fields": {
+            "name": "sharpen",
+            "type": "rock",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 426,
+        "fields": {
+            "name": "comet-punch",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 427,
+        "fields": {
+            "name": "bonemerang",
+            "type": "rock",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 428,
+        "fields": {
+            "name": "barrier",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 429,
+        "fields": {
+            "name": "supersonic",
+            "type": "rock",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 430,
+        "fields": {
+            "name": "roar",
+            "type": "flying",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 431,
+        "fields": {
+            "name": "poison-powder",
+            "type": "rock",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 432,
+        "fields": {
+            "name": "vine-whip",
+            "type": "flying",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 433,
+        "fields": {
+            "name": "conversion",
+            "type": "ice",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 434,
+        "fields": {
+            "name": "counter",
+            "type": "flying",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 435,
+        "fields": {
+            "name": "agility",
+            "type": "ice",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 436,
+        "fields": {
+            "name": "fury-swipes",
+            "type": "flying",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 437,
+        "fields": {
+            "name": "supersonic",
+            "type": "electric",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 438,
+        "fields": {
+            "name": "vice-grip",
+            "type": "flying",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 439,
+        "fields": {
+            "name": "scratch",
+            "type": "electric",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 440,
+        "fields": {
+            "name": "spore",
+            "type": "flying",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 441,
+        "fields": {
+            "name": "acid",
+            "type": "fire",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 442,
+        "fields": {
+            "name": "pound",
+            "type": "flying",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 443,
+        "fields": {
+            "name": "lovely-kiss",
+            "type": "fire",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 444,
+        "fields": {
+            "name": "sand-attack",
+            "type": "flying",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 445,
+        "fields": {
+            "name": "rage",
+            "type": "dragon",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 446,
+        "fields": {
+            "name": "super-fang",
+            "type": "dragon",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 447,
+        "fields": {
+            "name": "meditate",
+            "type": "dragon",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 448,
+        "fields": {
+            "name": "agility",
+            "type": "dragon",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 449,
+        "fields": {
+            "name": "sleep-powder",
+            "type": "psychic",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 450,
+        "fields": {
+            "name": "gust",
+            "type": "psychic",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 451,
+        "fields": {
+            "name": "fire-blast",
+            "type": "psychic",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 452,
+        "fields": {
+            "name": "ice-beam",
+            "type": "psychic",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 453,
+        "fields": {
+            "name": "minimize",
+            "type": "fire",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 454,
+        "fields": {
+            "name": "acid-armor",
+            "type": "fire",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 455,
+        "fields": {
+            "name": "headbutt",
+            "type": "fire",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 456,
+        "fields": {
+            "name": "headbutt",
+            "type": "fire",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 457,
+        "fields": {
+            "name": "bubble-beam",
+            "type": "water",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 458,
+        "fields": {
+            "name": "dream-eater",
+            "type": "psychic",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 459,
+        "fields": {
+            "name": "dragon-rage",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 460,
+        "fields": {
+            "name": "seismic-toss",
+            "type": "psychic",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 461,
+        "fields": {
+            "name": "high-jump-kick",
+            "type": "electric",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 462,
+        "fields": {
+            "name": "thunder-shock",
+            "type": "steel",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 463,
+        "fields": {
+            "name": "poison-sting",
+            "type": "electric",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 464,
+        "fields": {
+            "name": "constrict",
+            "type": "steel",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 465,
+        "fields": {
+            "name": "high-jump-kick",
+            "type": "normal",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 466,
+        "fields": {
+            "name": "splash",
+            "type": "flying",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 467,
+        "fields": {
+            "name": "rest",
+            "type": "normal",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 468,
+        "fields": {
+            "name": "leech-seed",
+            "type": "flying",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 469,
+        "fields": {
+            "name": "vine-whip",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 470,
+        "fields": {
+            "name": "stun-spore",
+            "type": "ice",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 471,
+        "fields": {
+            "name": "sonic-boom",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 472,
+        "fields": {
+            "name": "fury-swipes",
+            "type": "ice",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 473,
+        "fields": {
+            "name": "vine-whip",
+            "type": "poison",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 474,
+        "fields": {
+            "name": "lick",
+            "type": "poison",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 475,
+        "fields": {
+            "name": "spike-cannon",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 476,
+        "fields": {
+            "name": "substitute",
+            "type": "poison",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 477,
+        "fields": {
+            "name": "fury-swipes",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 478,
+        "fields": {
+            "name": "whirlwind",
+            "type": "ice",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 479,
+        "fields": {
+            "name": "glare",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 480,
+        "fields": {
+            "name": "teleport",
+            "type": "ice",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 481,
+        "fields": {
+            "name": "explosion",
+            "type": "ghost",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 482,
+        "fields": {
+            "name": "splash",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 483,
+        "fields": {
+            "name": "thunder-wave",
+            "type": "ghost",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 484,
+        "fields": {
+            "name": "guillotine",
+            "type": "poison",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 485,
+        "fields": {
+            "name": "bide",
+            "type": "ghost",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 486,
+        "fields": {
+            "name": "tail-whip",
+            "type": "poison",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 487,
+        "fields": {
+            "name": "mist",
+            "type": "ghost",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 488,
+        "fields": {
+            "name": "lick",
+            "type": "poison",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 489,
+        "fields": {
+            "name": "string-shot",
+            "type": "psychic",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 490,
+        "fields": {
+            "name": "blizzard",
+            "type": "psychic",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 491,
+        "fields": {
+            "name": "bite",
+            "type": "psychic",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 492,
+        "fields": {
+            "name": "smokescreen",
+            "type": "psychic",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 493,
+        "fields": {
+            "name": "psybeam",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 494,
+        "fields": {
+            "name": "slash",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 495,
+        "fields": {
+            "name": "fly",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 496,
+        "fields": {
+            "name": "vice-grip",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 497,
+        "fields": {
+            "name": "bubble-beam",
+            "type": "electric",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 498,
+        "fields": {
+            "name": "ice-beam",
+            "type": "electric",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 499,
+        "fields": {
+            "name": "karate-chop",
+            "type": "electric",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 500,
+        "fields": {
+            "name": "smog",
+            "type": "electric",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 501,
+        "fields": {
+            "name": "bone-club",
+            "type": "grass",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 502,
+        "fields": {
+            "name": "thunder-wave",
+            "type": "psychic",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 503,
+        "fields": {
+            "name": "growth",
+            "type": "grass",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 504,
+        "fields": {
+            "name": "aurora-beam",
+            "type": "psychic",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 505,
+        "fields": {
+            "name": "acid-armor",
+            "type": "ground",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 506,
+        "fields": {
+            "name": "smokescreen",
+            "type": "ground",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 507,
+        "fields": {
+            "name": "barrier",
+            "type": "ground",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 508,
+        "fields": {
+            "name": "fissure",
+            "type": "ground",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 509,
+        "fields": {
+            "name": "splash",
+            "type": "fighting",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 510,
+        "fields": {
+            "name": "thunder-shock",
+            "type": "fighting",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 511,
+        "fields": {
+            "name": "cut",
+            "type": "fighting",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 512,
+        "fields": {
+            "name": "petal-dance",
+            "type": "fighting",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 513,
+        "fields": {
+            "name": "headbutt",
+            "type": "fighting",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 514,
+        "fields": {
+            "name": "spike-cannon",
+            "type": "fighting",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 515,
+        "fields": {
+            "name": "toxic",
+            "type": "fighting",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 516,
+        "fields": {
+            "name": "flamethrower",
+            "type": "fighting",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 517,
+        "fields": {
+            "name": "bide",
+            "type": "poison",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 518,
+        "fields": {
+            "name": "teleport",
+            "type": "poison",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 519,
+        "fields": {
+            "name": "supersonic",
+            "type": "poison",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 520,
+        "fields": {
+            "name": "fissure",
+            "type": "poison",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 521,
+        "fields": {
+            "name": "growth",
+            "type": "ground",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 522,
+        "fields": {
+            "name": "teleport",
+            "type": "rock",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 523,
+        "fields": {
+            "name": "thrash",
+            "type": "ground",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 524,
+        "fields": {
+            "name": "string-shot",
+            "type": "rock",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 525,
+        "fields": {
+            "name": "wrap",
+            "type": "normal",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 526,
+        "fields": {
+            "name": "hypnosis",
+            "type": "normal",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 527,
+        "fields": {
+            "name": "bite",
+            "type": "normal",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 528,
+        "fields": {
+            "name": "stomp",
+            "type": "normal",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 529,
+        "fields": {
+            "name": "drill-peck",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 530,
+        "fields": {
+            "name": "slam",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 531,
+        "fields": {
+            "name": "bite",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 532,
+        "fields": {
+            "name": "smokescreen",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 533,
+        "fields": {
+            "name": "smog",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 534,
+        "fields": {
+            "name": "sludge",
+            "type": "water",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 535,
+        "fields": {
+            "name": "dizzy-punch",
+            "type": "water",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 536,
+        "fields": {
+            "name": "spore",
+            "type": "water",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 537,
+        "fields": {
+            "name": "sleep-powder",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 538,
+        "fields": {
+            "name": "supersonic",
+            "type": "psychic",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 539,
+        "fields": {
+            "name": "screech",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 540,
+        "fields": {
+            "name": "high-jump-kick",
+            "type": "psychic",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 541,
+        "fields": {
+            "name": "harden",
+            "type": "psychic",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 542,
+        "fields": {
+            "name": "high-jump-kick",
+            "type": "fairy",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 543,
+        "fields": {
+            "name": "lovely-kiss",
+            "type": "psychic",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 544,
+        "fields": {
+            "name": "mimic",
+            "type": "fairy",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 545,
+        "fields": {
+            "name": "take-down",
+            "type": "ice",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 546,
+        "fields": {
+            "name": "ice-punch",
+            "type": "psychic",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 547,
+        "fields": {
+            "name": "growl",
+            "type": "ice",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 548,
+        "fields": {
+            "name": "night-shade",
+            "type": "psychic",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 549,
+        "fields": {
+            "name": "high-jump-kick",
+            "type": "electric",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 550,
+        "fields": {
+            "name": "take-down",
+            "type": "electric",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 551,
+        "fields": {
+            "name": "confuse-ray",
+            "type": "electric",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 552,
+        "fields": {
+            "name": "take-down",
+            "type": "electric",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 553,
+        "fields": {
+            "name": "splash",
+            "type": "fire",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 554,
+        "fields": {
+            "name": "slam",
+            "type": "fire",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 555,
+        "fields": {
+            "name": "fire-blast",
+            "type": "fire",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 556,
+        "fields": {
+            "name": "light-screen",
+            "type": "fire",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 557,
+        "fields": {
+            "name": "spore",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 558,
+        "fields": {
+            "name": "leech-seed",
+            "type": "flying",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 559,
+        "fields": {
+            "name": "fire-spin",
+            "type": "water",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 560,
+        "fields": {
+            "name": "hyper-fang",
+            "type": "flying",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 561,
+        "fields": {
+            "name": "lick",
+            "type": "water",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 562,
+        "fields": {
+            "name": "super-fang",
+            "type": "water",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 563,
+        "fields": {
+            "name": "rolling-kick",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 564,
+        "fields": {
+            "name": "drill-peck",
+            "type": "water",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 565,
+        "fields": {
+            "name": "fire-punch",
+            "type": "electric",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 566,
+        "fields": {
+            "name": "fire-blast",
+            "type": "electric",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 567,
+        "fields": {
+            "name": "super-fang",
+            "type": "electric",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 568,
+        "fields": {
+            "name": "growth",
+            "type": "electric",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 569,
+        "fields": {
+            "name": "scratch",
+            "type": "fire",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 570,
+        "fields": {
+            "name": "mimic",
+            "type": "fire",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 571,
+        "fields": {
+            "name": "fury-swipes",
+            "type": "fire",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 572,
+        "fields": {
+            "name": "submission",
+            "type": "fire",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 573,
+        "fields": {
+            "name": "water-gun",
+            "type": "rock",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 574,
+        "fields": {
+            "name": "cut",
+            "type": "water",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 575,
+        "fields": {
+            "name": "peck",
+            "type": "rock",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 576,
+        "fields": {
+            "name": "conversion",
+            "type": "water",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 577,
+        "fields": {
+            "name": "confuse-ray",
+            "type": "rock",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 578,
+        "fields": {
+            "name": "thunder-wave",
+            "type": "water",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 579,
+        "fields": {
+            "name": "waterfall",
+            "type": "rock",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 580,
+        "fields": {
+            "name": "slash",
+            "type": "water",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 581,
+        "fields": {
+            "name": "twineedle",
+            "type": "normal",
+            "damage": 4
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 582,
+        "fields": {
+            "name": "double-team",
+            "type": "normal",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 583,
+        "fields": {
+            "name": "bubble",
+            "type": "normal",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 584,
+        "fields": {
+            "name": "lick",
+            "type": "normal",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 585,
+        "fields": {
+            "name": "thunder",
+            "type": "dragon",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 586,
+        "fields": {
+            "name": "ember",
+            "type": "dragon",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 587,
+        "fields": {
+            "name": "high-jump-kick",
+            "type": "dragon",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 588,
+        "fields": {
+            "name": "mega-punch",
+            "type": "dragon",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 589,
+        "fields": {
+            "name": "confusion",
+            "type": "dragon",
+            "damage": 3
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 590,
+        "fields": {
+            "name": "psychic",
+            "type": "flying",
+            "damage": 1
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 591,
+        "fields": {
+            "name": "horn-attack",
+            "type": "dragon",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 592,
+        "fields": {
+            "name": "jump-kick",
+            "type": "flying",
+            "damage": 2
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 593,
+        "fields": {
+            "name": "spike-cannon",
+            "type": "psychic",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 594,
+        "fields": {
+            "name": "sludge",
+            "type": "psychic",
+            "damage": 9
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 595,
+        "fields": {
+            "name": "dragon-rage",
+            "type": "psychic",
+            "damage": 5
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 596,
+        "fields": {
+            "name": "focus-energy",
+            "type": "psychic",
+            "damage": 6
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 597,
+        "fields": {
+            "name": "karate-chop",
+            "type": "grass",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 598,
+        "fields": {
+            "name": "rock-slide",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 599,
+        "fields": {
+            "name": "string-shot",
+            "type": "grass",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 600,
+        "fields": {
+            "name": "night-shade",
+            "type": "poison",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 601,
+        "fields": {
+            "name": "ice-beam",
+            "type": "rock",
+            "damage": 8
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 602,
+        "fields": {
+            "name": "crabhammer",
+            "type": "ground",
+            "damage": 7
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 603,
+        "fields": {
+            "name": "bind",
+            "type": "rock",
+            "damage": 10
+        }
+    },
+    {
+        "model": "moves.Move",
+        "pk": 604,
+        "fields": {
+            "name": "earthquake",
+            "type": "ground",
+            "damage": 9
+        }
+    }
+]
