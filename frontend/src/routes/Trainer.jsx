@@ -71,10 +71,8 @@ export default function Trainer(){
 
     const chooseEnemy = (pokemon) => {
         const chance = randomNumber()
-        console.log(chance)
 
         if (chance > 40){
-            console.log(chance, 'IN CONDITIONAL')
             replenishShop()
         }
         const enemyStr = `A wild ${capitalizeFirst(pokemon.name)} has appeared!`
@@ -91,8 +89,8 @@ export default function Trainer(){
         }
 
     const calculateType = (attackPokemon, attackMove, defensePokemon) => {
-        const defenseTypeList = defensePokemon.types.split(", ")
-        const attackTypeList = attackPokemon.types.split(", ")
+        const defenseTypeList = defensePokemon.types.split("-")
+        const attackTypeList = attackPokemon.types.split("-")
         let pokemonBonus = 1
         let moveBonus = 1
 

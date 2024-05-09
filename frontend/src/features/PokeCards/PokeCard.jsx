@@ -52,7 +52,7 @@ export default function PokeCard({pokemon}) {
           <Grid container>
           <Grid item xs={6}>
           <CardBaloo>Name: {capitalizeFirst(pokemon.name)}</CardBaloo>
-          {pokemon.types.split(', ').map(type => (
+          {pokemon.types.split('-').map(type => (
         <span key={type} className={`pokemon-type-icon ${typeToClassname[type]}`} style={{ marginRight: '8px' }}>
           <span className='icon-background'>Z</span>{typeToIcon[type]}
         </span>

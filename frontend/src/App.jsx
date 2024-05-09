@@ -281,16 +281,9 @@ function App() {
   setEnemyDialogue("")
   }
 
-  try {
-    const token = localStorage.getItem("token");
-    console.log("Token from local storage:", token);
-  } catch (error) {
-    console.error("Error accessing local storage:", error);
-  }
-
   const endTrainerTurn = () => setTrainerTurn(false)
   const endEnemyTurn = () => setTrainerTurn(true)
-  console.log(selectPokemon)
+  // console.log(selectPokemon)
 
   return (
     <>
