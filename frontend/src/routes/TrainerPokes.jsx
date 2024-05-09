@@ -14,6 +14,8 @@ export default function TrainerPokes(){
     const { trainerPokemon, setTrainerPokemon, selectPokemon, setSelectPokemon, setEnemyDialogue } = useContext(TrainerContext);
     const [ filteredList, setFilteredList ] = useState("")
     const [ filteredMap , setFilteredMap ] = useState("")
+
+    console.log(selectPokemon)
     
     const [open, setOpen] = useState(false);
 

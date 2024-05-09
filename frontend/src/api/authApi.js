@@ -1,6 +1,6 @@
 import axios from 'axios'
-// const base_url = import.meta.env.VITE_BASE_URL
-const base_url = '127.0.0.1:8000'
+const base_url = import.meta.env.VITE_BASE_URL
+// const base_url = '127.0.0.1:8000'
 const API_BASE_URL = `http://${base_url}/api`;
 
 export async function signupAxios(context) {
@@ -162,15 +162,7 @@ export async function getFirstPokemon(){
 
         }
       }
-      // const trainerData = {
-      //   trainer_data: {
-      //     pokemon_id: selectPokemon.id,
-      //     current_health: selectPokemon.health,
-      //     experience: experience,
-      //     battle_result: battle_result,
-      //     money: money,
-      //   }
-      // };
+   
 
       const response = await axios.put(`${API_BASE_URL}/trainer/battleResults`, trainerData, {
         headers: {

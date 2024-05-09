@@ -9,11 +9,12 @@ import TrainerContext from "../contexts/TrainerContext"
 import { useContext, useState, useEffect } from "react"
 import { capitalizeFirst } from "../features/Enemy/EnemyData"
 import { updateBattleResults, getEnemyPokemon, replenishShop } from "../api/authApi"
+import { typeMultipliers } from "../constants/typeMultipliers"
 
 
 
 export default function Trainer(){ 
-    const { trainerTurn, endTrainerTurn, endEnemyTurn, enemyPokemon, setEnemyPokemon, selectPokemon, setSelectPokemon, enemyDialogue, setEnemyDialogue, trainerDialogue, setTrainerDialogue,victoryMsg, setVictoryMsg, rewardDialogue, setRewardDialogue, typeMultipliers, setAnimateSelect, setAnimateEnemy,  animateSelectAttack, setAnimateSelectAttack, animateEnemyAttack, setAnimateEnemyAttack, setAnimateColor } = useContext(TrainerContext);
+    const { trainerTurn, endTrainerTurn, endEnemyTurn, enemyPokemon, setEnemyPokemon, selectPokemon, setSelectPokemon, enemyDialogue, setEnemyDialogue, trainerDialogue, setTrainerDialogue,victoryMsg, setVictoryMsg, rewardDialogue, setRewardDialogue, setAnimateSelect, setAnimateEnemy,  animateSelectAttack, setAnimateSelectAttack, animateEnemyAttack, setAnimateEnemyAttack, setAnimateColor } = useContext(TrainerContext);
     const [ openMoves, setOpenMoves ] = useState(false)
     const [ showRewards, setShowRewards ] = useState(false)
 
@@ -249,7 +250,7 @@ export default function Trainer(){
         }
     }, [trainerTurn])
 
-
+  
 
 
     return (
