@@ -25,6 +25,10 @@ const menuItems = [
     {
       label: 'Items',
       path: 'items'
+    },
+    {
+      label: 'Pokedex',
+      path: 'pokedex'
     }
   ];
 

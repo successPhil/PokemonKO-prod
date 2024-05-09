@@ -1,5 +1,7 @@
 version: "3"
 services:
+  apollo-server:
+    build: ./apolloserver
   api:
     build: ./backend
     ports:

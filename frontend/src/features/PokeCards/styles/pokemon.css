@@ -1,0 +1,190 @@
+types-route-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-select-label {
+    position: relative;
+    display: inline-block;
+    font-family: 'Pokemon GB';
+    font-size: .7rem;
+    color: #9AD2CB;
+    margin: 16px 0px;
+}
+
+.pokemon-select-label select {
+    font: 1.3rem 'Pokemon GB';
+    line-height: 1.5;
+    background-color: #84BCDA;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px 30px;
+    margin-top: 8px;
+    width:100%;
+    appearance: none;
+}
+
+
+
+.pokemon-types-container {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:75%;
+    padding: 2em;
+}
+
+
+.pokemon-card-img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 20%;
+}
+
+
+
+
+@keyframes animate-borders {
+    0% {
+      box-shadow: 
+        6px 0 #FADF63,
+        -6px 0 #FADF63,
+        0 6px #FADF63,
+        0px -6px #FADF63,
+        inset 0px 6px  #E980FC,  /* 0% - Start with first color */
+        inset 6px 0px #2CEAA3,
+        inset 0px -6px ,#2CEAA3
+        inset -6px 0px #2CEAA3;
+    }
+    25% {
+        box-shadow: 
+          6px 0 #FADF63,
+          -6px 0 #FADF63,
+          0 6px #FADF63,
+          0px -6px #FADF63,
+          inset 0px 6px   #2CEAA3, /* 0% - Start with first color */
+          inset 6px 0px #E980FC,
+          inset 0px -6px #2CEAA3,
+          inset -6px 0px #2CEAA3;
+      }
+    50% {
+      box-shadow:
+      6px 0 #FADF63,
+      -6px 0 #FADF63,
+      0 6px #FADF63,
+      0px -6px #FADF63,
+        inset 0px 6px  #2CEAA3,  /* 50% - Switch to second color */
+        inset 6px 0px #2CEAA3,
+        inset 0px -6px #E980FC,
+        inset -6px 0px #2CEAA3;
+    }
+    75% {
+        box-shadow: 
+          6px 0 #FADF63,
+          -6px 0 #FADF63,
+          0 6px #FADF63,
+          0px -6px #FADF63,
+          inset 0px 6px   #2CEAA3, /* 0% - Start with first color */
+          inset 6px 0px #2CEAA3,
+          inset 0px -6px #2CEAA3,
+          inset -6px 0px #E980FC;
+      }
+    100% {
+      box-shadow: 
+      6px 0 #FADF63,
+      -6px 0 #FADF63,
+      0 6px #FADF63,
+      0px -6px #FADF63,
+        inset 0px 6px  #E980FC,  /* 100% - Back to first color */
+        inset 6px 0px #2CEAA3,
+        inset 0px -6px #2CEAA3,
+        inset -6px 0px #2CEAA3;
+    }
+  }
+
+  .pokemon-types-details {
+    position: relative;
+    top: 20%;
+  }
+  .pokemon-types-details:first-child {
+    position: relative;
+    top: 32%;
+  }
+
+
+.pokemon-types-card {
+    border: 6px solid #9046CF;
+    box-shadow: 6px 0 #FADF63,
+                -6px 0 #FADF63,
+                0 6px #FADF63,
+                0px -6px #FADF63,
+                inset 0px 6px  #2CEAA3,
+                inset 6px 0px #2CEAA3,
+                inset 0px -6px #2CEAA3,
+                inset -6px 0px #2CEAA3;
+                /* #E980FC */
+    /* animation: animate-borders 0.8s infinite; */
+    background-color: #393E41;
+    border-radius: 4px;
+    height: 275px;
+    width: 275px;
+    font: 0.7em "Pokemon GB", sans-serif;
+    color: #B7F0AD;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+   
+}
+
+.pokemon-types-card:hover {
+    animation: animate-borders .9s infinite;
+  }
+
+
+
+.pokeball {
+    font-family: 'Essentiarum', sans-serif; /* Use the custom font */
+    font-size: 24px;
+    
+     /* Set the desired font size */
+  }
+
+  .top-left {
+    position: relative;
+    bottom: 90%;
+    right: 54%
+}
+.top-right {
+    position: relative;
+    bottom: 98%;
+    left: 54%
+}
+
+.bottom-left {
+    position: relative;
+    bottom: 0%;
+    right: 54%
+}
+
+.bottom-right {
+    position: relative;
+    bottom: 8%;
+    left: 54%;
+}
+
+
+
+
+@media (max-width:768px){
+    .pokemon-types-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,23 @@
+
+type Pokemon {
+    id: Int!
+    name: String!
+    front_default: String!
+    back_default: String!
+    types: String!
+}
+
+
+type PokemonMove {
+    id: Int!
+    name: String!
+    type: String!
+    damage: Int!
+}
+
+type Query {
+    pokemons: [Pokemon!]!
+    shiny: [Pokemon!]!
+    pokemonByType(type: String!): [Pokemon!]!
+    moves: [PokemonMove!]!
+}
