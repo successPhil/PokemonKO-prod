@@ -1,0 +1,43 @@
+
+.player-bar {
+    position: absolute;
+    right: 22px;
+    bottom: 267px;
+    display: flex;
+    align-items:flex-end
+  }
+
+
+  .player-health-bar {
+    position:absolute;
+    right: 80px;
+    bottom:345px;
+    display:flex;
+  }
+  
+  .player-xp-bar {
+    position:absolute;
+    right: 80px;
+    bottom: 300px;
+    display:flex;
+  }
+
+  .player-name {
+    position: absolute;
+    right: 417px;
+    bottom: 440px;
+  }
+  .player-level {
+    position:absolute;
+    right: 417px;
+    bottom:390px;
+  }
+
+
+  .select-image {
+    position:absolute;
+    left: 465px;
+    bottom:300px;
+    height:420px;
+    width:260px
+  }

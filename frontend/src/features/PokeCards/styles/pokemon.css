@@ -38,11 +38,11 @@ types-route-container {
 }
 
 
-.pokemon-card-img {
+.pokedex-card-img {
     height: 200px;
     width: 200px;
     position: relative;
-    top: 20%;
+    top: 15%;
 }
 
 
@@ -55,7 +55,7 @@ types-route-container {
         -6px 0 #FADF63,
         0 6px #FADF63,
         0px -6px #FADF63,
-        inset 0px 6px  #E980FC,  /* 0% - Start with first color */
+        inset 0px 6px  #E980FC, 
         inset 6px 0px #2CEAA3,
         inset 0px -6px ,#2CEAA3
         inset -6px 0px #2CEAA3;
@@ -66,7 +66,7 @@ types-route-container {
           -6px 0 #FADF63,
           0 6px #FADF63,
           0px -6px #FADF63,
-          inset 0px 6px   #2CEAA3, /* 0% - Start with first color */
+          inset 0px 6px   #2CEAA3, 
           inset 6px 0px #E980FC,
           inset 0px -6px #2CEAA3,
           inset -6px 0px #2CEAA3;
@@ -77,7 +77,7 @@ types-route-container {
       -6px 0 #FADF63,
       0 6px #FADF63,
       0px -6px #FADF63,
-        inset 0px 6px  #2CEAA3,  /* 50% - Switch to second color */
+        inset 0px 6px  #2CEAA3, 
         inset 6px 0px #2CEAA3,
         inset 0px -6px #E980FC,
         inset -6px 0px #2CEAA3;
@@ -88,7 +88,7 @@ types-route-container {
           -6px 0 #FADF63,
           0 6px #FADF63,
           0px -6px #FADF63,
-          inset 0px 6px   #2CEAA3, /* 0% - Start with first color */
+          inset 0px 6px   #2CEAA3, 
           inset 6px 0px #2CEAA3,
           inset 0px -6px #2CEAA3,
           inset -6px 0px #E980FC;
@@ -99,20 +99,16 @@ types-route-container {
       -6px 0 #FADF63,
       0 6px #FADF63,
       0px -6px #FADF63,
-        inset 0px 6px  #E980FC,  /* 100% - Back to first color */
+        inset 0px 6px  #E980FC,  
         inset 6px 0px #2CEAA3,
         inset 0px -6px #2CEAA3,
         inset -6px 0px #2CEAA3;
     }
   }
 
-  .pokemon-types-details {
-    position: relative;
-    top: 20%;
-  }
   .pokemon-types-details:first-child {
     position: relative;
-    top: 32%;
+    top: 20%;
   }
 
 
@@ -126,8 +122,6 @@ types-route-container {
                 inset 6px 0px #2CEAA3,
                 inset 0px -6px #2CEAA3,
                 inset -6px 0px #2CEAA3;
-                /* #E980FC */
-    /* animation: animate-borders 0.8s infinite; */
     background-color: #393E41;
     border-radius: 4px;
     height: 275px;
@@ -149,34 +143,34 @@ types-route-container {
 
 
 .pokeball {
-    font-family: 'Essentiarum', sans-serif; /* Use the custom font */
+    font-family: 'Essentiarum', sans-serif; 
     font-size: 24px;
-    
-     /* Set the desired font size */
+    color: transparent;
+      
   }
 
-  .top-left {
+  .pokedex-top-left {
     position: relative;
-    bottom: 90%;
+    bottom: 94%;
     right: 54%
 }
-.top-right {
+.pokedex-top-right {
     position: relative;
-    bottom: 98%;
+    bottom: 102%;
     left: 54%
 }
 
-.bottom-left {
+.pokedex-bottom-left {
     position: relative;
-    bottom: 0%;
+    bottom: 1%;
     right: 54%
 }
 
-.bottom-right {
+.pokedex-bottom-right {
     position: relative;
-    bottom: 8%;
+    bottom: 9%;
     left: 54%;
-}
+} 
 
 
 

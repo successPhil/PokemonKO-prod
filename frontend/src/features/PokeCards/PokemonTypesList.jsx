@@ -4,6 +4,7 @@ import { useState } from "react";
 import './styles/pokemon.css'
 import { pokemonTypes } from "../../constants/pokemonTypes";
 import { typesToClass } from "../../utils/pokemonTypes";
+import Pokeball from "../../styles/Pokeball";
 
 
 
@@ -67,8 +68,23 @@ const PokemonTypesList = () => {
                             )}
                             </div>
 
-                            <img className='pokemon-card-img' src={pokemon.front_default} alt={pokemon.name} />
+                            <img className='pokedex-card-img' src={pokemon.front_default} alt={pokemon.name} />
+
+                                <div className="pokedex-top-left">
+                                    <Pokeball />
+                                </div>
+                                <div className="pokedex-top-right">
+                                    <Pokeball />
+                                </div>
+                                <div className="pokedex-bottom-left">
+                                    <Pokeball />
+                                </div>
+                                <div className="pokedex-bottom-right">
+                                    <Pokeball />
+                                </div>
                             </div>
+
+                            
                     
                            
                        
