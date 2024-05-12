@@ -1,0 +1,22 @@
+.intro-signin-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.1em 0;
+    font-family: 'Baloo 2';
+    font-size: 1.3em;
+}
+
+.intro-signin-btn {
+    color: #cacfcd;
+    background-color: #2f1a4a;
+    width: 160px;
+    height: 40px;
+    text-align:center;
+    padding-top: 0.25em;
+    border-radius: 4px;
+    border: 2px solid black;
+    box-shadow: inset 1px 1px white,
+                inset -1px -1px white;
+
+}

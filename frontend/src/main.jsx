@@ -8,6 +8,7 @@ const base_url = `http://${import.meta.env.VITE_BASE_URL}/pokemon/`
 
 ///// local
 // const base_url = 'http://localhost:80/pokemon/'
+// const base_url = 'http://localhost:4000/pokemon/'
 
 
 const client = new ApolloClient({
