@@ -58,7 +58,7 @@ export default function TrainerPokes(){
     const filteredPokemonTypes = (typeSelected) => {
         const pokemonToFilter = Array.from(trainerPokemon)
         return pokemonToFilter.filter((pokemon) => {
-            const types = pokemon.types.split(", ")
+            const types = pokemon.types.split("-")
             return types.includes(typeSelected)
         })
     }
@@ -67,7 +67,7 @@ export default function TrainerPokes(){
     const uniqueTypesList = new Set();
     if (trainerPokemon){
         trainerPokemon.forEach((pokemon) => {
-            const types = pokemon.types.split(", ")
+            const types = pokemon.types.split("-")
             types.forEach((type) => uniqueTypesList.add(type))
         })
     }
@@ -115,20 +115,20 @@ useEffect(() => {
     return (
         <>
         {trainerPokemon ? (<>
-            <Grid container mt={3} sx={{display: 'flex', justifyContent: 'space-evenly'}}>
-            <Grid item xs={2}>
-                <Button variant="contained" color="primary" onClick={filteredNameAZ} ><span className="item-button-text">Name A-Z</span></Button>
-            </Grid>
-            <Grid item xs={2} >
-                <Button variant="contained" color="primary" onClick={filteredNameZA}><span className="item-button-text">Name Z-A</span></Button>
-            </Grid>
-            <Grid item xs={2}>
-                <Button variant="contained" color="primary" onClick={filteredPowerHigh} ><span className="item-button-text">Highest Power</span></Button>
-            </Grid>
-            <Grid item xs={2} >
-                <Button variant="contained" color="primary" onClick={filteredPowerLow} ><span className="item-button-text">Lowest Power</span></Button>
-            </Grid>
-            <Grid item xs={2}>
+            <Grid container mt={3} justifyContent="space-evenly" alignItems="center" spacing={2}>
+                        <Grid item xs={6} sm={3} md={2} lg={1}>
+                            <Button variant="contained" color="primary" fullWidth onClick={filteredNameAZ} ><span className="item-button-text">Name &#x25B2;</span></Button>
+                        </Grid>
+                        <Grid item xs={6} sm={3} md={2} lg={1}>
+                            <Button variant="contained" color="primary" fullWidth onClick={filteredNameZA}><span className="item-button-text">Name &#x25BC;</span></Button>
+                        </Grid>
+                        <Grid item xs={6} sm={3} md={2} lg={1}>
+                            <Button variant="contained" color="primary" fullWidth onClick={filteredPowerHigh} ><span className="item-button-text">Power &#x25B2;</span></Button>
+                        </Grid>
+                        <Grid item xs={6} sm={3} md={2} lg={1}>
+                            <Button variant="contained" color="primary" fullWidth onClick={filteredPowerLow} ><span className="item-button-text">Power &#x25BC;</span></Button>
+                        </Grid>
+                        <Grid item xs={12} sm={6} md={4} lg={2}>
             <FormControl variant='filled'>
             <InputLabel id="demo-controlled-open-filled-select-label"><span className='pokemon-type-input'>Select Type</span></InputLabel>
             <Select
@@ -153,12 +153,12 @@ useEffect(() => {
         <Container id='centered-container'>
         <Grid container spacing={2}>
           {filteredList === "" && filteredMap === "" && trainerPokemon.map(pokemon => (
-            <Grid item xs={3} key={pokemon.id}>
+            <Grid item xs={12} sm={6} md={3} key={pokemon.id}>
               <PokeCard pokemon={pokemon} />
             </Grid> 
           ))}
           {filteredList !== "" && filteredMap !== "" && filteredMap.map(pokemon => (
-            <Grid item xs={3} key={pokemon.id}>
+            <Grid item xs={12} sm={6} md={3} key={pokemon.id}>
               <PokeCard pokemon={pokemon} />
             </Grid> 
           ))}

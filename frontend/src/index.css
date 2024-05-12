@@ -65,11 +65,6 @@
   font-size: 1.1rem;
 }
 
-#custom-popover {
-  background-color: #cacfcd;  /* Change to the desired color */
-  border-radius: 15px;     /* Adjust the border radius */
-  /* Add other custom styles as needed */
-}
 
 
 #centered-container {
@@ -80,10 +75,6 @@
 .icon-background {
   color: #DDDBCB
 }
-/* 
-div:hover > .bar {
-  visibility: visible !important;
-} */
 
 .grass {
     color: #4caf50; /* Green */

@@ -29,11 +29,12 @@ export default function PopoverPopupState({moves}) {
               vertical: 'top',
               horizontal: 'center',
             }}
+            
           >
             <Container sx={{backgroundColor: '#707078'}}>
             <Grid container spacing={2}>
   {moves.map((move) => (
-    <Grid item xs={3} key={move.id}>
+    <Grid item xs={1} md={3} key={move.id}>
       <MovesCard move={move}/>
     </Grid>
     

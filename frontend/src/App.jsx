@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Login from "./routes/Login"
 import Trainer from './routes/Trainer'
 import Pokedex from "./routes/Pokedex"
+import Intro from './routes/Intro'
 import ResponsiveAppBar from "./features/AppBar/AppBar"
 import TrainerPokes from "./routes/TrainerPokes"
 import Shop from "./routes/Shop"
@@ -157,7 +158,8 @@ function App() {
       <Router>
       <ResponsiveAppBar handleLogout={handleLogout} />
         <Routes>
-          <Route path="/" element={<Login checked={checked} handleOnClick={handleOnClick} handleInputChange={handleInputChange} formData={formData} handleToken={handleToken} token={userToken} signUp={signUp} handleSignUp={handleSignUp}/>} />
+          <Route path="/" element={<Intro />} />
+          <Route path="/login" element={<Login checked={checked} handleOnClick={handleOnClick} handleInputChange={handleInputChange} formData={formData} handleToken={handleToken} token={userToken} signUp={signUp} handleSignUp={handleSignUp}/>} />
           <Route path="pokemon" element={<TrainerPokes />} />
           <Route path="battle" element={<Trainer /> } /> 
           <Route path="shop" element={<Shop />} />

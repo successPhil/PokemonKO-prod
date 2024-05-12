@@ -1,0 +1,40 @@
+.home-container {
+    min-height: 100vh;
+    padding: 1rem 0;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    width: 630px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.top-image-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bot-image-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-pokes {
+    height: 225px;
+}
+
+@media (max-width: 768px) {
+    .intro-container {
+        width: 90%;
+        border: 3px solid black;
+        border-radius: 4px;
+    }
+    .intro-pokes {
+        height: 180px;
+    }
+}
+
+
