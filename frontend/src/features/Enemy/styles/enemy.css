@@ -1,0 +1,48 @@
+
+.enemy-bar {
+    position: absolute;
+    display:flex;
+    top: 195px;
+    left: 20px;
+    flex-direction: column-reverse;
+  }
+  .enemy-health-bar {
+    position: absolute;
+    left: 61px;
+    top: 275px;
+    display:flex;
+  }
+  .enemy-level {
+    position:absolute;
+    left:145px;
+    top:235px
+  }
+
+  .enemy-name {
+    position: absolute;
+    left:61px;
+    top:190px;
+  }
+
+  .enemy-image {
+    position:absolute;
+    right: 230px;
+    top:75px;
+    height:420px;
+    width:260px
+  }
+
+  .reward-box-container {
+    position: absolute;
+  bottom: 500px; /* Adjust as needed for desired distance from the bottom */
+  left: 700px; /* Adjust as needed for desired distance from the left */
+    width: 40%; /* Adjust the desired width */
+    height: 260px; /* Adjust the desired height */
+  }
+
+  .reward-box-content {
+    display:flex;
+    align-items:center;
+    font-family: 'Pokemon GB', sans-serif; /* Use the custom font */
+    font-size: 1.2rem;
+  }

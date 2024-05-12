@@ -1,6 +1,7 @@
 import { signupAxios, loginAxios } from "../api/authApi";
 import SignIn from "../features/Login/SignIn";
 import { Navigate } from 'react-router-dom';
+import '../features/Login/styles/login.css'
 
 
 export default function Login({handleInputChange, handleToken, handleOnClick, checked, token, signUp, handleSignUp, formData }) {

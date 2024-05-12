@@ -4,19 +4,18 @@ import { trainerRun } from "../../api/authApi";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import TrainerContext from "../../contexts/TrainerContext";
+import './styles/gameMenu.css'
 
-export default function GameMenu({moves, openMoves, toggleMenu}) {
+export default function GameMenu({ openMoves, toggleMenu}) {
   const { setEnemyPokemon } = useContext(TrainerContext)
 
   const navigate = useNavigate()
 
   const handleFightClick = () => {
-    console.log('click')
     toggleMenu(openMoves)
   }
 
   const navToItems = () => {
-    console.log('clicked')
     return navigate("/items")
   }
 

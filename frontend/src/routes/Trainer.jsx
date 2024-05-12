@@ -11,6 +11,8 @@ import { capitalizeFirst } from "../features/Enemy/EnemyData"
 import { updateBattleResults, getEnemyPokemon, replenishShop } from "../api/authApi"
 import { typeMultipliers } from "../constants/typeMultipliers"
 
+import '../features/Enemy/styles/enemy.css'
+import '../features/Player/styles/player.css'
 
 
 export default function Trainer(){ 

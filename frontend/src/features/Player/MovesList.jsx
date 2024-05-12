@@ -1,5 +1,6 @@
 import Pokeball from "../../styles/Pokeball";
 import MovesListItem from "./MovesListItem";
+import './styles/movesMenu.css'
 export default function MovesList({moves, endTrainerTurn, trainerTurn, toggleMenu, openMoves, selectPokemon, trainerDialogue, setTrainerDialogue, enemyPokemon, playerAttack}) {
 
     return (<div className="gameboy-moves-container">

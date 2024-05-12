@@ -1,5 +1,6 @@
 import Pokeball from "../../styles/Pokeball";
 import TypingEffect from "../../styles/Typewriter";
+import './styles/gameboyDialogue.css'
 
 export default function GameDialogue({text}) {
 
