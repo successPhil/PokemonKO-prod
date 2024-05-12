@@ -15,7 +15,6 @@ export default function TrainerPokes(){
     const [ filteredList, setFilteredList ] = useState("")
     const [ filteredMap , setFilteredMap ] = useState("")
 
-    console.log(selectPokemon)
     
     const [open, setOpen] = useState(false);
 
@@ -150,10 +149,10 @@ useEffect(() => {
                     </FormControl>
             </Grid>
         </Grid>
-        <Container id='centered-container'>
+        <Container>
         <Grid container spacing={2}>
           {filteredList === "" && filteredMap === "" && trainerPokemon.map(pokemon => (
-            <Grid item xs={12} sm={6} md={3} key={pokemon.id}>
+            <Grid item xs={12} md={4} key={pokemon.id}>
               <PokeCard pokemon={pokemon} />
             </Grid> 
           ))}

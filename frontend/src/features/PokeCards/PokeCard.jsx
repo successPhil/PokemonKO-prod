@@ -7,11 +7,11 @@ import CardBaloo from '../../styles/CardBaloo';
 import TooltipBaloo from '../../styles/TooltipBaloo'
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
-import PopoverPopupState from './MovesPop';
 import TrainerContext from '../../contexts/TrainerContext';
 import { useContext } from 'react';
 import { getTrainerPokemon } from '../../api/authApi';
 import { capitalizeFirst } from '../Enemy/EnemyData';
+import BasicModal from './MovesModal';
 
 
 import { typeToClassname } from '../../constants/typeToClassname';
@@ -75,9 +75,13 @@ export default function PokeCard({pokemon}) {
         <CardActions sx={{mt: 9, mr: 1}}>
         <Grid container justifyContent="space-between" sx={{ p: 3 }}>
   <Grid item xs={3}>
-    <PopoverPopupState  moves={pokemon.moves} />
+
+
+    <BasicModal pokemonMoves={pokemon.moves}/>
+
+
   </Grid>
-  <Grid item xs={3}>
+  <Grid item xs={4}>
   <Tooltip 
   title={<TooltipBaloo style={{ color: '#cacfcd'}}>Select the pokemon you would like to use for battle</TooltipBaloo>} 
   arrow 
