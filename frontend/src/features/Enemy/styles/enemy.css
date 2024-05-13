@@ -26,8 +26,8 @@
 
   .enemy-image {
     position:absolute;
-    right: 230px;
-    top:75px;
+    right: 10%;
+    top:5%;
     height:420px;
     width:260px
   }

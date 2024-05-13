@@ -15,10 +15,14 @@ import '../features/Enemy/styles/enemy.css'
 import '../features/Player/styles/player.css'
 
 
+import { useMediaQuery } from "@mui/material"
+
 export default function Trainer(){ 
     const { trainerTurn, endTrainerTurn, endEnemyTurn, enemyPokemon, setEnemyPokemon, selectPokemon, setSelectPokemon, enemyDialogue, setEnemyDialogue, trainerDialogue, setTrainerDialogue,victoryMsg, setVictoryMsg, rewardDialogue, setRewardDialogue, setAnimateSelect, setAnimateEnemy,  animateSelectAttack, setAnimateSelectAttack, animateEnemyAttack, setAnimateEnemyAttack, setAnimateColor } = useContext(TrainerContext);
     const [ openMoves, setOpenMoves ] = useState(false)
     const [ showRewards, setShowRewards ] = useState(false)
+
+    const isMobile = useMediaQuery('(max-width: 768px)');
 
     const clearEnemy = (resultMessage) => {
         setEnemyPokemon(null)
@@ -253,39 +257,37 @@ export default function Trainer(){
     }, [trainerTurn])
 
   
-
-
     return (
         <>
-        {showRewards && 
+        {!isMobile && showRewards && 
         <div onClick={hideRewards}>
           <RewardBox text={rewardDialogue}/>
           </div>
         }
       
-        {!enemyPokemon && 
+        {!isMobile &&  !enemyPokemon && 
         <div onClick={fetchEnemy}>
         <GetEnemyButton getEnemy={true}/>
         </div>
         }
         
-        {selectPokemon && (
+        {!isMobile && selectPokemon && (
         <PlayerData
             selectPokemon={selectPokemon}
         />
         
         )}
-        {enemyPokemon && (
+        {!isMobile && enemyPokemon && (
         <EnemyData
             enemyPokemon={enemyPokemon}
         />
         )}
-        {!enemyPokemon && trainerTurn && <GameDialogue text={victoryMsg} />}
-        {trainerTurn && enemyPokemon && <GameDialogue text={enemyDialogue} />}
-        {trainerTurn && !enemyPokemon && <GameDialogue text={enemyDialogue} />}
-        {!trainerTurn && <GameDialogue text={trainerDialogue} />}
-        {selectPokemon && <GameMenu moves={selectPokemon.moves} toggleMenu={toggleMenu} openMoves={openMoves} />}
-        {selectPokemon && openMoves && (
+        {!enemyPokemon && trainerTurn && !isMobile && <GameDialogue text={victoryMsg} />}
+        {trainerTurn && enemyPokemon && !isMobile &&  <GameDialogue text={enemyDialogue} />}
+        {trainerTurn && !enemyPokemon && !isMobile &&  <GameDialogue text={enemyDialogue} />}
+        {!trainerTurn && !isMobile && <GameDialogue  text={trainerDialogue} />}
+        {selectPokemon && !isMobile &&<GameMenu moves={selectPokemon.moves} toggleMenu={toggleMenu} openMoves={openMoves} />}
+        {selectPokemon && openMoves && !isMobile &&  (
         <MovesList
             moves={selectPokemon.moves}
             endTrainerTurn={endTrainerTurn}
@@ -299,6 +301,9 @@ export default function Trainer(){
             playerAttack={playerAttack}
         />
         )}
+
+
+
     </>
     );
 }

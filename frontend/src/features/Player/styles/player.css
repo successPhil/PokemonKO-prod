@@ -36,8 +36,8 @@
 
   .select-image {
     position:absolute;
-    left: 465px;
-    bottom:300px;
+    left: 10%;
+    bottom:10%;
     height:420px;
     width:260px
   }
