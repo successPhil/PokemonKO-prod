@@ -152,24 +152,24 @@ types-route-container {
 
   .pokedex-top-left {
     position: relative;
-    bottom: 94%;
+    bottom: 90%;
     right: 54%
 }
 .pokedex-top-right {
     position: relative;
-    bottom: 102%;
+    bottom: 97%;
     left: 54%
 }
 
 .pokedex-bottom-left {
     position: relative;
-    bottom: 1%;
+    top: 3%;
     right: 54%
 }
 
 .pokedex-bottom-right {
     position: relative;
-    bottom: 9%;
+    bottom: 4%;
     left: 54%;
 } 
 

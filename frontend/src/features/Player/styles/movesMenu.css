@@ -72,3 +72,31 @@
     bottom: -22px;
     right: -14px;
   }
+
+
+
+  .mobile-gameboy-moves-container {
+    position:absolute;
+    top:150px;
+    left:6px;
+    height:535px;
+    width:475px;
+    background-color: #cacfcd;
+    border: 2px solid #000;
+    border-radius: 3px;
+    margin: 20px;
+    border: 2px solid white;
+    border-width: 6px;
+    box-shadow: 0 4px 0 4px black,
+              inset 0 6px 0 6px black,
+              0 0 0 6px black,
+              inset 0 0 0 8px black;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:6px;
+  }
+
+  .mobile-gameboy-move-container {
+    width: 100%; /* Adjust the desired width */
+    height: 108px; /* Adjust the desired height *//* Add margin bottom */; /* Add margin left */
+  }

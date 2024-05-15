@@ -11,22 +11,21 @@ export function capitalizeFirst(name){
 
 }
 
-export default function EnemyData() {
+export default function MobileEnemy() {
     const { enemyPokemon, animateEnemyAttack } = useContext(TrainerContext)
 
     if (enemyPokemon){
-        return (
-        <div>
-        <EnemyImage enemyImage={enemyPokemon.front_image_url}/>
+        return (<div className="mobile-enemy">
+        <EnemyImage enemyImage={enemyPokemon.front_image_url} isMobile={true}/>
         {animateEnemyAttack && <EnemyAttack />}
-        <PlayerBar/> 
-        <div className="enemy-name">
+        <PlayerBar isMobile={true} /> 
+        <div className="mobile-enemy-name">
             <GameText>{capitalizeFirst(enemyPokemon.name)}</GameText>
         </div>
-        <div className="enemy-level">
+        <div className="mobile-enemy-level">
             <GameText>LVL:{enemyPokemon.level}</GameText>
         </div>
-        <div className="enemy-health-bar">
+        <div className="mobile-enemy-health-bar">
         <GameText>HP:</GameText>
         <ProgressBar value={enemyPokemon.health} maxValue={enemyPokemon.max_health} barColor={'#DA2C38'} />
         </div>

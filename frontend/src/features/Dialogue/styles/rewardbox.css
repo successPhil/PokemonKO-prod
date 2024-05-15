@@ -1,0 +1,30 @@
+.reward-box-container {
+    position: absolute;
+  bottom: 500px; /* Adjust as needed for desired distance from the bottom */
+  left: 700px; /* Adjust as needed for desired distance from the left */
+    width: 40%; /* Adjust the desired width */
+    height: 260px; /* Adjust the desired height */
+  }
+
+  .reward-box-content {
+    display:flex;
+    align-items:center;
+    font-family: 'Pokemon GB', sans-serif; /* Use the custom font */
+    font-size: 1.2rem;
+  }
+
+  .mobile-reward-box-container {
+    position: absolute;
+    z-index: 1;
+    top: 110px; /* Adjust as needed for desired distance from the bottom */
+    left: 100px; /* Adjust as needed for desired distance from the left */
+    width: 75%; /* Adjust the desired width */
+    height: 360px; /* Adjust the desired height */
+  }
+
+  .mobile-reward-box-content {
+    display:flex;
+    align-items:center;
+    font-family: 'Pokemon GB', sans-serif; /* Use the custom font */
+    font-size: 1.2rem;
+  }

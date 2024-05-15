@@ -1,9 +1,10 @@
-export default function GetEnemyButton () {
+export default function GetEnemyButton ({isMobile}) {
+    const mobileView = isMobile ? "mobile-" : ""
     return (
         <>
-        <div className='get-enemy-container'>
-            <div className='gameboy-menu-box'>
-                <div className='get-enemy-content'>Fight!</div>
+        <div className={`${mobileView}get-enemy-container`}>
+            <div className={`${mobileView}gameboy-menu-box`}>
+                <div className={`${mobileView}get-enemy-content`}>Fight!</div>
       </div>
     </div>
         </>
