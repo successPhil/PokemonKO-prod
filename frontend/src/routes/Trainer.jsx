@@ -13,14 +13,20 @@ import { typeMultipliers } from "../constants/typeMultipliers"
 
 import '../features/Enemy/styles/enemy.css'
 import '../features/Player/styles/player.css'
+import '../features/Dialogue/styles/rewardbox.css'
 
 
 import { useMediaQuery } from "@mui/material"
+import MobileEnemy from "../features/Enemy/MobileEnemy"
+import MobilePlayer from "../features/Player/MobilePlayer"
+
+import { useNavigate } from "react-router-dom"
 
 export default function Trainer(){ 
     const { trainerTurn, endTrainerTurn, endEnemyTurn, enemyPokemon, setEnemyPokemon, selectPokemon, setSelectPokemon, enemyDialogue, setEnemyDialogue, trainerDialogue, setTrainerDialogue,victoryMsg, setVictoryMsg, rewardDialogue, setRewardDialogue, setAnimateSelect, setAnimateEnemy,  animateSelectAttack, setAnimateSelectAttack, animateEnemyAttack, setAnimateEnemyAttack, setAnimateColor } = useContext(TrainerContext);
     const [ openMoves, setOpenMoves ] = useState(false)
     const [ showRewards, setShowRewards ] = useState(false)
+    const navigate = useNavigate()
 
     const isMobile = useMediaQuery('(max-width: 768px)');
 
@@ -215,7 +221,7 @@ export default function Trainer(){
         } else {
             damage = baseDamage - baseDefense
         }
-        console.log(damage)
+       
         let bonusStr = ""
         if (bonus > 1){
             bonusStr = "It's super effective!!!"
@@ -245,6 +251,15 @@ export default function Trainer(){
     }
 
     useEffect(() => {
+        if (!selectPokemon) {
+            setTimeout(() => {
+                navigate('/pokemon')
+
+            }, 5000)
+        }
+    }, [selectPokemon])
+
+    useEffect(() => {
         if (!trainerTurn ) {
             const timeout = setTimeout(() => {
                 if (enemyPokemon && selectPokemon){
@@ -264,29 +279,59 @@ export default function Trainer(){
           <RewardBox text={rewardDialogue}/>
           </div>
         }
-      
+
+        {isMobile && showRewards && 
+        <div onClick={hideRewards}>
+          <RewardBox isMobile={true} text={rewardDialogue}/>
+          </div>
+        }
+
         {!isMobile &&  !enemyPokemon && 
         <div onClick={fetchEnemy}>
-        <GetEnemyButton getEnemy={true}/>
+        <GetEnemyButton/>
+        </div>
+        }
+      
+        {isMobile &&  !enemyPokemon && 
+        <div onClick={fetchEnemy}>
+        <GetEnemyButton isMobile={true}/>
         </div>
         }
         
         {!isMobile && selectPokemon && (
         <PlayerData
-            selectPokemon={selectPokemon}
         />
         
         )}
         {!isMobile && enemyPokemon && (
         <EnemyData
-            enemyPokemon={enemyPokemon}
         />
         )}
+
+{isMobile && enemyPokemon && (
+        <MobileEnemy/>
+        )}
+{isMobile && selectPokemon && (
+    <MobilePlayer/>
+)}
         {!enemyPokemon && trainerTurn && !isMobile && <GameDialogue text={victoryMsg} />}
         {trainerTurn && enemyPokemon && !isMobile &&  <GameDialogue text={enemyDialogue} />}
         {trainerTurn && !enemyPokemon && !isMobile &&  <GameDialogue text={enemyDialogue} />}
         {!trainerTurn && !isMobile && <GameDialogue  text={trainerDialogue} />}
+
+        {!enemyPokemon && trainerTurn && isMobile && <GameDialogue text={victoryMsg} isMobile={true} />}
+        {trainerTurn && enemyPokemon && isMobile &&  <GameDialogue text={enemyDialogue} isMobile={true} />}
+        {trainerTurn && !enemyPokemon && isMobile &&  <GameDialogue text={enemyDialogue} isMobile={true} />}
+        {!trainerTurn && isMobile && <GameDialogue text={trainerDialogue} isMobile={true} />}
+
+
+
+
+
         {selectPokemon && !isMobile &&<GameMenu moves={selectPokemon.moves} toggleMenu={toggleMenu} openMoves={openMoves} />}
+
+        {selectPokemon && isMobile &&<GameMenu moves={selectPokemon.moves} toggleMenu={toggleMenu} openMoves={openMoves} isMobile={true} />}
+
         {selectPokemon && openMoves && !isMobile &&  (
         <MovesList
             moves={selectPokemon.moves}
@@ -302,7 +347,21 @@ export default function Trainer(){
         />
         )}
 
-
+        {selectPokemon && openMoves && isMobile &&  (
+        <MovesList
+            isMobile={true}
+            moves={selectPokemon.moves}
+            endTrainerTurn={endTrainerTurn}
+            trainerTurn={trainerTurn}
+            toggleMenu={toggleMenu}
+            openMoves={openMoves}
+            selectPokemon={selectPokemon}
+            trainerDialogue={trainerDialogue}
+            setTrainerDialogue={setTrainerDialogue}
+            enemyPokemon={enemyPokemon}
+            playerAttack={playerAttack}
+        />
+        )}
 
     </>
     );

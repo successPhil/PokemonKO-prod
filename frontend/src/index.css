@@ -145,8 +145,19 @@
     height: 12px; /* Adjust the height as needed */
     background-color: #000; /* Adjust the color as needed */
   }
+  .mobile-horizontal-bar {
+    width: 550px; /* Adjust the width as needed */
+    height: 12px; /* Adjust the height as needed */
+    background-color: #000; /* Adjust the color as needed */
+  }
   
   .vertical-bar {
+    width: 10px; /* Adjust the width as needed */
+    height: 125px; /* Adjust the height as needed */
+    background-color: #000; /* Adjust the color as needed */
+  }
+  
+  .mobile-vertical-bar {
     width: 10px; /* Adjust the width as needed */
     height: 125px; /* Adjust the height as needed */
     background-color: #000; /* Adjust the color as needed */

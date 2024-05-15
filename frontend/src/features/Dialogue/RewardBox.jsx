@@ -1,10 +1,11 @@
 import TypingEffect from "../../styles/Typewriter"
-export default function RewardBox({text}) {
+export default function RewardBox({text , isMobile}) {
+    const mobileView = isMobile ? "mobile-" : ""
     return(
         <>
-        <div className='reward-box-container'>
-            <div className='gameboy-menu-box'>
-                <div className='reward-box-content'> {text && <TypingEffect text={text} /> }</div>
+        <div className={`${mobileView}reward-box-container`}>
+            <div className={`${mobileView}gameboy-menu-box`}>
+                <div className={`${mobileView}reward-box-content`}> {text && <TypingEffect text={text} /> }</div>
       </div>
     </div>
       

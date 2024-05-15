@@ -6,8 +6,9 @@ import { useContext } from "react";
 import TrainerContext from "../../contexts/TrainerContext";
 import './styles/gameMenu.css'
 
-export default function GameMenu({ openMoves, toggleMenu}) {
+export default function GameMenu({ openMoves, toggleMenu, isMobile}) {
   const { setEnemyPokemon } = useContext(TrainerContext)
+  const mobileView = isMobile ? "mobile-" : ""
 
   const navigate = useNavigate()
 
@@ -26,9 +27,9 @@ export default function GameMenu({ openMoves, toggleMenu}) {
   }
 
   return (
-    <div className='gameboy-menu-container'>
-      <div className='gameboy-menu-box'>
-        <div className='menu-content'>
+    <div className={`${mobileView}gameboy-menu-container`}>
+      <div className={`${mobileView}gameboy-menu-box`}>
+        <div className={`${mobileView}menu-content`}>
         <div className="button-row">
         <MenuButton label="FIGHT" onClick={(handleFightClick)}  />
       <MenuButton label="POKE"  />

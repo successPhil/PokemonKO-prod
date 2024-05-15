@@ -6,12 +6,25 @@
     display: flex;
     align-items:flex-end
   }
+.mobile-player-bar {
+    position: absolute;
+    right: 22px;
+    top: 600px;
+    display: flex;
+    align-items:flex-end
+  }
 
 
   .player-health-bar {
     position:absolute;
     right: 80px;
     bottom:345px;
+    display:flex;
+  }
+  .mobile-player-health-bar {
+    position:absolute;
+    right: 80px;
+    top:630px;
     display:flex;
   }
   
@@ -21,16 +34,33 @@
     bottom: 300px;
     display:flex;
   }
+  
+  .mobile-player-xp-bar {
+    position:absolute;
+    right: 80px;
+    top: 670px;
+    display:flex;
+  }
 
   .player-name {
     position: absolute;
     right: 417px;
     bottom: 440px;
   }
+  .mobile-player-name {
+    position: absolute;
+    left: 30px;
+    top: 540px;
+  }
   .player-level {
     position:absolute;
     right: 417px;
     bottom:390px;
+  }
+  .mobile-player-level {
+    position:absolute;
+    left: 30px;
+    top:580px;
   }
 
 
