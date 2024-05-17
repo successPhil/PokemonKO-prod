@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
 
-const base_url = `http://${import.meta.env.VITE_BASE_URL}/pokemon/`
+const base_url = `https://${import.meta.env.VITE_BASE_URL}/pokemon/`
 
 ///// local
 // const base_url = 'http://localhost:80/pokemon/'
