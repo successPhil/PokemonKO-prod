@@ -10,7 +10,7 @@ export DB_HOST=db
 export DB_PORT=5432
 
 # Start containers
-COMPOSE_DOCKER_CLI_BUILD=0 DOCKER_BUILDKIT=0 docker compose -f docker-compose.yml up -d --build
+COMPOSE_DOCKER_CLI_BUILD=0 DOCKER_BUILDKIT=0 docker compose -f docker-compose.dev.yml up -d --build
 
 # Ensure the postgres container is ready before running migrations
 sleep 10
