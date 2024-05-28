@@ -1,14 +1,11 @@
-import MovesCard from '../../src/features/PokeCards/MovesCard'
-import MovesPop from '../../src/features/PokeCards/MovesPop'
+import BasicModal from '../../src/features/PokeCards/MovesModal'
 import PokeCard from '../../src/features/PokeCards/PokeCard'
 
 import { expect, test } from 'vitest'
 
 test("PokeCards features render without crashing", ()=>{
-    const movesCard = <MovesCard/>
+    const movesCard = <BasicModal/>
     expect(movesCard).toMatchSnapshot()
-    const movesPop = <MovesPop />
-    expect(movesPop).toMatchSnapshot()
     const pokeCard = <PokeCard />
     expect(pokeCard).toMatchSnapshot()
 })

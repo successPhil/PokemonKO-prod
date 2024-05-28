@@ -6,7 +6,7 @@ export DOCKERHUB_UNAME=successphil
 # These environment variables come from command line arguments.
 # They are consumed by the docker-compose file.
 export SECRET_KEY=$SECRET_KEY
-export DEBUG=$DEBUG
+export PRODUCTION=$PRODUCTION
 export POSTGRES_DB=$POSTGRES_DB
 export POSTGRES_USER=$POSTGRES_USER
 export POSTGRES_PASSWORD=$POSTGRES_PASSWORD
