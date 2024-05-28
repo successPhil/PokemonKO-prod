@@ -86,4 +86,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Stop Containers
-      run: docker-compose -f docker-compose.yml down
+      run: docker-compose -f docker-compose.dev.yml down
