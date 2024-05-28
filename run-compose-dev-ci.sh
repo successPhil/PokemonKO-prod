@@ -15,8 +15,7 @@ COMPOSE_DOCKER_CLI_BUILD=0 DOCKER_BUILDKIT=0 docker compose -f docker-compose.de
 # Ensure the postgres container is ready before running migrations
 sleep 10
 
-# Run migrations and load initial data
-docker exec $(docker ps -q -f name=pokemonko_api) python /src/manage.py makemigrations
-docker exec $(docker ps -q -f name=pokemonko_api) python /src/manage.py migrate
-docker exec $(docker ps -q -f name=pokemonko_api) python /src/manage.py loaddata pokemon_data
-docker exec $(docker ps -q -f name=pokemonko_api) python /src/manage.py loaddata moves_data
+docker exec pokemonko-prod-api-1 python /src/manage.py makemigrations 
+docker exec pokemonko-prod-api-1  python /src/manage.py migrate
+docker exec pokemonko-prod-api-1 python /src/manage.py loaddata pokemon_data
+docker exec pokemonko-prod-api-1 python /src/manage.py loaddata moves_data
