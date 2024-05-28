@@ -4,9 +4,11 @@ import App from './App.jsx'
 import './index.css'
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
 
-///// local
-const base_url = 'http://localhost:4000/pokemon/'
-// const base_url = 'http://localhost:80/pokemon/'
+///// local machine
+// const base_url = 'http://localhost:4000/pokemon/'
+
+///// local containerized
+const base_url = 'http://localhost:80/pokemon/'
 
 
 // Prod
