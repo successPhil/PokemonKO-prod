@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Login from "./routes/Login"
+import PrivateRoute from "./routes/PrivateRoute"
 import Trainer from './routes/Trainer'
 import Pokedex from "./routes/Pokedex"
 import Intro from './routes/Intro'
@@ -160,11 +161,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Intro />} />
           <Route path="/login" element={<Login checked={checked} handleOnClick={handleOnClick} handleInputChange={handleInputChange} formData={formData} handleToken={handleToken} token={userToken} signUp={signUp} handleSignUp={handleSignUp}/>} />
+          <Route element={<PrivateRoute/>}>
           <Route path="pokemon" element={<TrainerPokes />} />
           <Route path="battle" element={<Trainer /> } /> 
           <Route path="shop" element={<Shop />} />
           <Route path="items" element={<Items />} />
           <Route path="pokedex" element={<Pokedex />} />
+          </Route>
         </Routes>
       </Router>
       </ThemeProvider>
