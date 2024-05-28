@@ -1,6 +1,7 @@
 import axios from 'axios'
 // Local
-const base_url = '127.0.0.1:8000'
+// const base_url = '127.0.0.1:8000'
+const base_url = '127.0.0.1:80'
 const API_BASE_URL = `http://${base_url}/api`;
 
 // Prod

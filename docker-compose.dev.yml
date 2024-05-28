@@ -7,17 +7,17 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - SECRET_KEY=$SECRET_KEY
-      - DEBUG=$DEBUG
-      - POSTGRES_DB=$DB_NAME
-      - POSTGRES_USER=$DB_USER
-      - POSTGRES_PASSWORD=$DB_PASS
+      - POSTGRES_DB=$POSTGRES_DB
+      - POSTGRES_USER=$POSTGRES_USER
+      - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
+      - DB_HOST=$DB_HOST
+      - DB_PORT=$DB_PORT
     depends_on:
       - db
   nginx:
     build: 
       context: .
-      dockerfile: ./webserver/Dockerfile
+      dockerfile: ./local-webserver/Dockerfile
     restart: always
     ports:
       - "80:80"
@@ -26,9 +26,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_DB=$DB_NAME
-      - POSTGRES_USER=$DB_USER
-      - POSTGRES_PASSWORD=$DB_PASS
+      - POSTGRES_DB=$POSTGRES_DB
+      - POSTGRES_USER=$POSTGRES_USER
+      - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
 
 volumes:
   postgres_data:

@@ -104,8 +104,8 @@ DATABASES = {
 "NAME": os.getenv("POSTGRES_DB"), 
 "USER": os.getenv("POSTGRES_USER"),
 "PASSWORD": os.getenv("POSTGRES_PASSWORD"),
-"HOST": "db" if PRODUCTION else "localhost",
-"PORT": 5432 if PRODUCTION else 5454,
+"HOST": os.getenv("DB_HOST", 'localhost'),
+"PORT": os.getenv("DB_PORT", 5454),
     }
 }
 

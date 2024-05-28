@@ -10,11 +10,12 @@ services:
   api:
     image: $DOCKERHUB_UNAME/pokemonko_api-prod:$NEW_VERSION 
     environment:
-      - SECRET_KEY=$SECRET_KEY
       - PRODUCTION=$PRODUCTION
       - POSTGRES_DB=$POSTGRES_DB
       - POSTGRES_USER=$POSTGRES_USER
       - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
+      - DB_HOST=$DB_HOST
+      - DB_PORT=$DB_PORT
     depends_on:
       - db
   nginx:
