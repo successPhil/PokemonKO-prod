@@ -1,13 +1,13 @@
 import axios from 'axios'
 // Local
 // const base_url = '127.0.0.1:8000'
-const base_url = '127.0.0.1:80'
-const API_BASE_URL = `http://${base_url}/api`;
+// const base_url = '127.0.0.1:80'
+// const API_BASE_URL = `http://${base_url}/api`;
 
 // Prod
 
-// const base_url = import.meta.env.VITE_BASE_URL
-// const API_BASE_URL = `https://${base_url}/api`;
+const base_url = import.meta.env.VITE_BASE_URL
+const API_BASE_URL = `http://${base_url}/api`;
 
 export async function signupAxios(context) {
   try {

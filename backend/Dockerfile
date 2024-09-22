@@ -17,6 +17,8 @@ RUN pip install -r requirements.txt
 # ENV DB_USER=postgres
 # ENV DB_PASS=postgres
 
+
+
 COPY . .
 
 CMD gunicorn --bind 0.0.0.0:8000 --workers 3 old_poke.wsgi:application
