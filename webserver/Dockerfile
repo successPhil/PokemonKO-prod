@@ -4,7 +4,7 @@
 # You could also skip this part and just run "npm run build" and copy over the output manually like some kind of barbarian
 ###########################
 
-FROM node:lts-alpine as builder
+FROM node:lts-alpine AS builder
 
 WORKDIR /frontend
 
@@ -33,5 +33,5 @@ RUN npm run build
 FROM nginx:alpine
 
 COPY ./webserver/default.conf /etc/nginx/conf.d/default.conf
-COPY ./webserver/letsencrypt /etc/letsencrypt
+# COPY ./webserver/letsencrypt /etc/letsencrypt # HTTPS only
 COPY --from=builder /frontend/dist /usr/share/nginx/html
